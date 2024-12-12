@@ -155,7 +155,7 @@ body {
 .referal-sections .section-8-wrapper {
     padding-bottom: 0px;
 }
-.affiliate-video {
+/* .affiliate-video {
     background: linear-gradient(180deg, #2B7FFC 0%, #60EFFF 135.95%);
     width: 100%;
     height: 550px;
@@ -198,6 +198,28 @@ body {
 .affiliate-container .section-4-title {
     margin-top: 12rem;
 }
+.affiliate-text {
+    min-height: 70px;
+}
+.affiliate-text p {
+    min-height: 70px;
+    font-weight: 300 !important;
+    margin-top: 0px !important;
+}
+.affiliate-rewards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 4%;
+    margin-top: 35px;
+}
+.affiliate-rewards .affiliate-button {
+    width: 100% !important;
+}
+.affiliate-container .affiliate-button {
+    padding-left: 40px;
+    padding-right: 40px;
+} */
 .section-4-title h1 {
     font-size: 38.98px;
     font-weight: 600;
@@ -227,14 +249,7 @@ body {
     letter-spacing: -0.02em;
     color: var(--white);
 }
-.affiliate-text {
-    min-height: 70px;
-}
-.affiliate-text p {
-    min-height: 70px;
-    font-weight: 300 !important;
-    margin-top: 0px !important;
-}
+
 .support-grow p {
     font-size: 20px;
     font-weight: 400;
@@ -246,13 +261,7 @@ body {
 .support-grow img {
     width: 70%;
 }
-.affiliate-rewards {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    gap: 4%;
-    margin-top: 35px;
-}
+
 .margin-affiliate {
     margin-top: 12% !important;
 }
@@ -292,13 +301,7 @@ body {
     opacity: 66%;
     padding: 20px 0px 25px 0px;
 }
-.affiliate-rewards .affiliate-button {
-    width: 100% !important;
-}
-.affiliate-container .affiliate-button {
-    padding-left: 40px;
-    padding-right: 40px;
-}
+
 .rewards-img {
     margin-top: 35px;
     position: relative;
@@ -349,14 +352,7 @@ body {
     .referal-sections .venue-text {
         margin-top: 20px;
     }
-    .affiliate-video video {
-        height: inherit !important;
-        aspect-ratio: 1 / 0.7 !important;
-    }
-    .affiliate-video {
-        height: 210px;
-        border-radius: 8px;
-    }
+ 
     .section-4-title h1 { 
         font-size: 24.9px;
         font-weight: 700;
@@ -379,13 +375,13 @@ body {
         align-items: center;
         justify-content: center;
     }
-    .affiliate-video video {
+    /* .affiliate-video video {
         top: 40px;
         width: calc(100% - 30px) !important;
     }
     .affiliate-video img:nth-child(1){
         bottom: -13px;
-    }
+    } */
     .support-grow h2 {
         font-size: 24px;
     }
@@ -393,10 +389,10 @@ body {
         font-size: 13px;
         text-align: center;
     }
-    .affiliate-rewards {
+    /* .affiliate-rewards {
         flex-direction: column;
         gap: 30px;
-    }
+    } */
     .section-earn-rewards {
         margin-top: 40px;
     }
@@ -429,7 +425,7 @@ body {
         letter-spacing: -0.03em;
         text-align: center;
     }
-    .affiliate-container .title-break span {
+    /* .affiliate-container .title-break span {
         font-size: 30px !important;
         font-weight: 800 !important;
         line-height: 30px !important;
@@ -439,7 +435,7 @@ body {
     
     .affiliate-container .section-4-title {
         margin-top: 5rem;
-    }
+    } */
     .reward-text b {
         font-size: 24.9px;
         font-weight: 600;
@@ -448,7 +444,7 @@ body {
         text-align: left;
     }
 }
-@media (max-width: 810px) {
+/* @media (max-width: 810px) {
    .affiliate-container .title-break span {
         font-size: 30px !important;
         font-weight: 800;
@@ -456,7 +452,7 @@ body {
         letter-spacing: -0.03em;
         text-align: center;
     }
-}
+} */
 @media (min-width: 769px) and (max-width: 1080px) {
     .section-4-card-group {
         display: grid;
@@ -470,9 +466,9 @@ body {
     .section-4-card {
         width: 330px;
     }
-    .affiliate-rewards {
+    /* .affiliate-rewards {
         flex-direction: column;
-    }
+    } */
     .reward-text {
         width: 100%;
         padding: 20px;
@@ -487,9 +483,9 @@ body {
         letter-spacing: -0.03em;
         text-align: left;
     }
-    .affiliate-rewards .affiliate-button {
+    /* .affiliate-rewards .affiliate-button {
         width: auto;
-    }
+    } */
     .rewards-img img {
         width: 700px;
         height: 600px;
@@ -501,12 +497,12 @@ body {
     .image-square {
         left: 15%;
     }
-    .affiliate-video {
+    /* .affiliate-video {
         margin-left: 3%;
         margin-right: 3%;
         width: auto;
         height: 366px;
-    }
+    } */
     .rewards-img {
         display: none;
     }
@@ -516,7 +512,7 @@ body {
     .rewards-img2 img {
         width: 100%;
     }
-    .affiliate-video video {
+    /* .affiliate-video video {
         height: 383px !important
-    }
+    } */
 }

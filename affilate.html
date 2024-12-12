@@ -10,6 +10,7 @@
       <link href="assets/css/style.css" rel="stylesheet">
       <link href="assets/css/animate.css" rel="stylesheet">
       <link href="assets/css/referal.css" rel="stylesheet">
+      <link href="assets/css/affilate.css" rel="stylesheet">
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
       <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -17,10 +18,10 @@
    </head>
    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
    <body class="affiliate-body">
-      <div id="loader">
+      <!-- <div id="loader">
          <div id="progress-bar"></div>
          <img src="/assets/image/loader-overtv.png" alt="Loading..." />
-     </div>
+     </div> -->
       <!-- ======= Header ======= -->
       <header id="header">
          <div class="container">
@@ -113,14 +114,13 @@
       <!-- End Header -->
       <div class="wrapper">
       <div class="container affiliate-container">
-         <div class="title wow fadeInUp" data-wow-delay="0.1s">
+         <div class="title wow fadeInUp title_part" data-wow-delay="0.1s">
             <h1 class="title-break">
-               <b data-i18n="turn_referrals">Turn Referrals</b> <span data-i18n="into_revenue">into Revenue</span>
+               <b data-i18n="turn_referrals">Turn Referrals</b><span data-i18n="into_revenue">into Revenue</span>
             </h1>
             <div class="title-under affiliate-text">
-               <p data-i18n="business_network_description">Turn your business network into a source of income. As
-                  our distribution partner, you’ll profit
-                  every time a new venue joins through your connection
+               <p data-i18n="business_network_description">
+                  Turn your business network into a source of income. As our distribution partner, you’ll profit every time a new venue joins through your connection
                </p>
             </div>
             <div class="invite-button">
@@ -135,12 +135,12 @@
          </div>
          <div class="section-4" id="section-4">
             <div class="section-4-title wow fadeInUp">
-               <button class="btn-outline mb-1" data-i18n="Benefits">Benefits</button>
-               <h1 data-i18n="start_earning_title">Start Earning Today as an Distribution Partner</h1>
-               <p data-i18n="earning_resources_description">Everything you need to succeed with resources and
+               <button class="btn-outline  benefits" data-i18n="Benefits">Benefits</button>
+               <h1 class="start_earning_title" data-i18n="start_earning_title">Start Earning Today as an Distribution Partner</h1>
+               <p class="earning_resources_description" data-i18n="earning_resources_description">Everything you need to succeed with resources and
                   expert materials to connect with new venues, ensuring steady and growing earnings.
                </p>
-               <button class="affiliate-button" data-i18n="invite_friend">Invite a Friend</button>
+               <button class="affiliate-button invite_friend" data-i18n="invite_friend">Invite a Friend</button>
             </div>
             <div class="section-4-card-group">
                <div class="section-4-card wow fadeInUp">
@@ -233,20 +233,20 @@
             <p data-i18n="full_support_description">Our dedicated team is focused on helping you grow and reach your
                 biggest goals, quickly and efficiently</p>
             </div> -->
-         <div class="affiliate-rewards margin-affiliate">
+         <div class="affiliate-rewards">
             <div class="reward-text wow fadeInUp" data-wow-delay="0.1s">
-               <h2 >
-                  <b data-i18n="revenue_share_title">Earn
+               <h2 class="revenue_share_title" data-i18n="revenue_share_title">
+                  Earn
                   rewards by
                   Revenue
-                  Share</b>
+                  Share
                </h2>
                <p data-i18n="revenue_share_description">Earn a guaranteed 5% on every ad displayed at any venue you
                   connect. The more screens, the more ads, the more you earn
                </p>
-               <button class="affiliate-button"><strong data-i18n="get_started_button">Get started</strong><a data-i18n="its_free"></a> </button>
+               <button class="affiliate-button get_started_button"><strong data-i18n="get_started_button">Get started</strong><a data-i18n="its_free"> - it's free</a> </button>
             </div>
-            <div class="rewards-img wow fadeInUp" data-wow-delay="0.1s">
+            <div class="rewards-img wow fadeInUp eran_rewards_image"  data-wow-delay="0.1s">
                <img src="assets/image/reward-section.png" alt="">
                <div class="image-square">
                </div>
@@ -600,7 +600,7 @@
          <div class="flip-on-mobile">
             <div class="section-8">
                <div class="faq-btn">
-                  <button class="scale wow fadeInUp" data-i18n="faq_button">All You Need to Know</button>
+                  <button class="scale wow fadeInUp faq_button" data-i18n="faq_button">All You Need to Know</button>
                </div>
                <div class="faq-title">
                   <h1 data-i18n="faqs_title">FAQs</h1>
