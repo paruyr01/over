@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-  body.advertise-page {
+  
+body.advertise-page {
 	margin: 0;
 	padding: 0;
-	font-family: "Poppins", sans-serif;
+	font-family: "Poppins";
 	background: #131313;
 	background-image: url('/assets/image/advertiser-bg.png') !important; 
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	height: 100%;
-	background-position: center 106px; 
     overflow-x: hidden;
   }
 :root {
@@ -35,26 +35,28 @@
 }
 
 .ads-accordion-item {
-    /* background: linear-gradient(360deg, #2B7FFC 0%, #60EFFF 135.95%); */
     margin-bottom: 10px;
     border-radius: 20px;
-    padding: 15px 10px 15px 10px;
+    padding: 12px 20px ;
 }
 .active {
     background: #232323;
+    width: 100%;
+    min-width: 617px;
+    height: 180px;
 }
 .custon-icon {
     font-size: 20px;
     color: var(--white);
 }
 .ads-accordion-header {
-    /* background-color: #f1f1f1; */
-    padding: 0 15px;
+    padding: 15px;
     cursor: pointer;
     font-weight: bold;
     display: flex;
-    gap: 10px;
+    gap: 25px;
     align-items: center;
+    margin-top: 7px;
 }
 
 .ads-accordion-content {
@@ -66,15 +68,15 @@
 
 .ads-accordion-content p {
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 25.04px;
     text-align: left;
     color: #ffffff;
-    padding-left: 43px;
+    padding-left: 45px;
 }
 
 .active .ads-accordion-content {
-    padding: 10px 15px 40px 15px;
+    padding: 0px 15px 21px 15px;
     max-height: 200px; 
 }
 .ads-accordion-header p {
@@ -85,9 +87,9 @@
     text-align: left;
 }
 .hero-video video{
-    max-width: 726px;
-    height: 450px !important;
-    border: 8px solid #020202;
+    max-width: 706px;
+    height: 426px !important;
+    border: 10px solid #020202;
     object-fit: cover;
     background-color: black;
 }
@@ -100,57 +102,61 @@
 }
 .hero-video img {
     position: absolute;
-    bottom: -60px;
+    bottom: -65px;
     z-index: 9;
     left: -46px;
-    width: 170px;
-    height: 170px;
+    width: 198px;
+    height: 197px;
 }
 .hero-text span {
-    font-size: 44px;
+    font-size: 46.74px;
     font-weight: 700;
     display: block;
-    min-width: 500px;
+    min-width: 525px;
     line-height: 46.74px;
     letter-spacing: -0.03em;
     text-align: left;
-    background: linear-gradient(0deg, #146EF5 0%, #60EFFF 70.76%);
+    background: linear-gradient(0deg, #007BFF 0%, #019AFC 70.76%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .hero-text button {
-    padding:  10px 15px 10px 15px;
-    background: linear-gradient(360deg, #2B7FFC 0%, #60EFFF 135.95%);
+    width: 100%;
+    max-width: 173.59px;
+    height: 41px;
+    /* padding:  10px 15px 10px 15px; */
+    background: linear-gradient(360deg, #0079FF 0%, #019FFC 135.95%);
     color: var(--white);
     border: 0px;
-    border-radius: 4px;
+    border-radius: 12.2px;
     font-size: 13.96px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 20.94px;
+    letter-spacing: 0.5px;
 }
 .hero-text p {
     color: var(--white);
     font-size: 13.9px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 19.85px;
 }
 .hero-container {
     display: flex;
-    margin-top: 8%;
-    gap: 25px;
+    margin-top: 10%;
     align-items: center ;
 }
 .hero-text h1 {
-    font-size: 44px;
+    font-size: 46.74px;
     font-weight: 700;
-    line-height: 46.74px;
+    line-height: 100%;
     text-align: left;
-    color: var(--white);
+    color: #EEEEEE;
+    letter-spacing: -0.03em;
 }
 .ad-section-6 {
     display: flex;
     margin-top: 20%;
-    gap: 40px;
+    gap: 57px;
 }
 .hero-video {
     position: relative;
@@ -171,6 +177,11 @@
     padding-top: 5%;
     width: 50%;
 }
+.wrapper .container {
+    width: 100%;
+    max-width: 982px;
+    margin: 0 auto;
+}
 .wrapper .container .ads-title h1{
     font-size: 45px;
     font-weight: 700;
@@ -181,6 +192,9 @@
 }
 .insights-section {
     display: flex;
+    width: 100%;
+    max-width: 982px;
+    margin: 0 auto;
 }
 .overtv-finance {
     position: absolute;
@@ -201,23 +215,32 @@
 .ads-section-2 {
     margin-top: 150px;
 }
+.Campaign-section {
+    width: 100%;
+    max-width: 982px;
+    margin: 0 auto;
+}
 .Campaign-section h1{
     color: var(--white);
     font-size: 40px;
     font-weight: 600;
     line-height: 54.15px;
+    padding-top: 40px;
+    letter-spacing: -0.02em;
 }
 .ads-title-under p {
     font-weight: 400;
 }
 .Campaign-section p {
+    width: 100%;
     font-size: 18px;
-    font-weight: 200;
-    line-height: 31.68px;
+    font-weight: 300;
+    line-height: 31.7px;
     text-align: left;
-    color: #FFFFFF99; 
-    max-width: 83%;
+    color: #FFFFFF99;
+    max-width: 754px;
     margin-top: 10px;
+    letter-spacing: 0.1px;
 }
 .ads-title-under p {
     color: var(--grey-text);
@@ -229,8 +252,7 @@
 }
 .image-insight {
     position: absolute;
-    right: -10%;
-    height: 640px;
+    top: 1050px;
 }
 .image-insight-container {
     display: flex;
@@ -241,7 +263,8 @@
     margin-top: 5rem;
 }
 .ad-section-6-ads-left {
-    width: 50%;
+    width: 100%;
+    max-width: 501px;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -282,7 +305,7 @@
     filter: brightness(0) invert(1);
 }
 .accordion-box {
-    margin-top: 40px;
+    margin-top: 50px;
 }
 .Campaign-section button {
     margin-top: 26px;
@@ -290,23 +313,27 @@
 .section-realtime {
     padding: 10px 0 10px 0;
     width: 100%;
+    max-width: 982px;
     display: flex;
     align-items: end;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 .ad-section-6-ads-right {
     width: 50%;
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .ad-section-6-ads-left h1,
 .ad-section-6-ads-right h1
 {
     font-size: 40.29px;
     font-weight: 600;
-    line-height: 44px;
+    line-height: 50.4px;
     max-width: 400px;
     color: var(--white);
+    letter-spacing: -0.02em;
 }
 .ad-section-6-ads-left p, .ad-section-6-ads-right p {
     font-size: 15.11px;
@@ -314,6 +341,7 @@
     line-height: 23.5px;
     color: #d0d0d0;
     padding-top: 10px;
+    padding-bottom: 30px;
     max-width: 389px;
 }
 .campaign-margin {
@@ -323,25 +351,30 @@
     display: none;
 }
 .realtime-6-ads-left {
-    width: 42%;
+    width: 35%;
     color: #fff;
+}
+.footer-border {
+    margin-left: 0px!important;
 }
 .realtime-6-ads-left h1 {
     padding-top: 6rem;
-    font-size: 43px;
+    font-size: 43.23px;
     color: var(--white);
     font-weight: 600;
     line-height: 54px;
+    letter-spacing: -0.02px;
 }
 .realtime-6-ads-left p {
-    font-size: 16px;
+    font-size: 16.21px;
     font-weight: 300;
-    line-height: 24px;
+    line-height: 25.2px;
     max-width: 330px;
     color: #d0d0d0;
 }
 .realtime-6-ads-right {
-    width: 65%;
+    width: 100%;
+    max-width: 624px;
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -352,6 +385,39 @@
     flex-direction: column;
     align-items: end;
     margin-top: 20px;
+}
+.ad-section-6 {
+    width: 100%;
+    max-width: 982px;
+    margin: 0 auto;
+}
+.section-7 {
+    width: 100%;
+    max-width: 982px;
+    margin: 0 auto;
+}
+.site-btn2 {
+    width: 100%;
+    max-width: 186.67px;
+    height: 42.33px;
+    border-radius: 3.6px;
+    background: linear-gradient(360deg, #027AFF 0%, #10A3FB 70.76%);
+    border: none;
+    color: white;
+    font-size: 14.41px;
+    font-weight: 600;
+    line-height: 13.5px;
+    margin-top: 10px;
+}
+.scale2{
+    width: 100%;
+    max-width: 207px;
+    height: 35px;
+    color: #0886FB;
+    border: 1px solid #0886FB;
+    background: none;
+    border-radius: 5.68px;
+    font-size: 16.36px;
 }
 @media (max-width: 810px){
     .wrapper .container .ads-title span{
@@ -449,12 +515,12 @@
 }
 @media screen and (min-width: 1420px) {
     body.advertise-page {
-        background-size: 120% 100% !important;
+        background-size: 100% 100% !important;
     }
 }
 @media screen and (min-width: 1200px) {
     body.advertise-page {
-        background-size: 120% 100% !important;
+        background-size: 101% 115% !important;
     }
 }
 @media (max-width: 768px){
