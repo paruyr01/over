@@ -1,0 +1,949 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body.venue-body {
+    background: #131313 !important;
+    color: #666666;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center -230px;
+}
+:root {
+	--white: #ffffff;
+    --dark-grey: #9b9b9b;
+    --venu-card: #1A1A1A;
+}
+.overtv-advertise {
+	position: absolute;
+    top: 230px;
+	width: 15%;
+    right: -1%;
+    z-index: 9;
+}
+.hero-video video{
+    width: 100%;
+    max-width: 100%;
+    height: 450px !important;
+    border: 8px solid #020202;
+    object-fit: cover;
+    background-color: black;
+}
+/* .venue-section {
+    margin-right: 0px !important;
+} */
+.hero-video video {
+    height: inherit !important;
+    aspect-ratio: 0 / 0.43 !important;
+}
+.venue-text {
+    line-height: 47px;
+    position: relative;
+    width: 50%;
+}
+.venue-hero-img {
+    width: 60%;
+}
+.venue-video img:nth-child(1) {
+    height: 100%;
+    width: 100%;
+    margin-left: 20%;
+}
+.venue-text button {
+    padding:  10px 15px 10px 15px;
+    background: linear-gradient(360deg, #2B7FFC 0%, #60EFFF 135.95%);
+    color: var(--white);
+    border: 0px;
+    border-radius: 4px;
+}
+.venue-text p {
+    color: var(--white);
+}
+.venue-container {
+    display: flex;
+    margin-top: 8%;
+    align-items: center ;
+}
+.venue-text h1 {
+    font-size: 46.09px;
+    font-weight: 600;
+    line-height: 56.79px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: var(--white);
+}
+.venue-text{ 
+    width: 55%;
+}
+.card-ipad-container, .ipad-card {
+    display: none;
+}
+.hero-video {
+    position: relative;
+    width: 60%;
+}
+.control-section p {
+    color: var(--white);
+    padding-top: 10px;
+}
+.control-section h2 {
+    color: var(--white);
+}
+.ads-title {
+    padding-top: 5%;
+    width: 50%;
+}
+.wrapper .container .ads-title h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: start;
+    color: #ffffff;
+    margin: 0; 
+}
+.venue-body .section-subscription {
+    margin-top: 3.5%;
+}
+.overtv-finance {
+    position: absolute;
+    right: 67%;
+    top: 220px;
+    bottom: -28px;
+    z-index: 2;
+    border-radius: 10px;
+    width: 210px;
+    height: 200px;
+}
+.ads-title-under{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+.ads-section-2 {
+    margin-top: 120px;
+}
+.Campaign-section h1{
+    color: var(--white);
+    font-size: 38px;
+    font-weight: 600;
+}
+.ads-title-under p {
+    font-weight: 400;
+}
+.Campaign-section p, 
+.ads-title-under p {
+    color: var(--white);
+    font-size: 14px;
+}
+.venue-container-mobile {
+    display: none;
+}
+.image-insight {
+    height: 465px;
+    width: 465px;
+}
+.hero-list li{
+    font-size: 20.52px;
+    font-weight: 200;
+    line-height: 31.92px;
+    display: flex;
+    width: 100%;
+    color: var(--white);
+}
+.listing {
+    margin-top: 1.5rem;
+    display: -webkit-box;
+    margin-bottom: 1.5rem;
+}
+.hero-listing {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 50%;
+    color: var(--white);
+    border: 2px solid #444444;
+}
+.image-insight-container {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    left: 9%;
+}
+.campaign-manage {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.section-6-ads-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    color: #fff;
+}
+.section-realtime {
+    padding: 10px 0 10px 0;
+    width: 100%;
+    display: flex;
+}
+.section-6-ads-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.venue-h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section-6-ads-left h1,
+.section-6-ads-right h1
+{
+    font-size: 42px;
+    color: var(--white);
+    font-weight: 600;
+}
+.section-6-ads-left p, .section-6-ads-right p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 450px;
+    color: #d0d0d0;
+}
+.campaign-margin {
+    margin-top: 2rem;
+}
+.hide-for-desktop {
+    display: none;
+}
+.realtime-6-ads-left {
+    width: 35%;
+    flex-direction: column;
+    justify-content: left;
+    color: #fff;
+}
+.realtime-6-ads-left h1 {
+    padding-top: 6rem;
+    font-size: 38px;
+    color: var(--white);
+    font-weight: 600;
+}
+.realtime-6-ads-left p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #d0d0d0;
+}
+.venue-section-2 {
+    margin-top: 4rem;
+    color: var(--white);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.venue-card {
+    background-color: var(--venu-card);
+    border: 1px solid #444444;
+    border-radius: 26px;
+    color: #CCCCCC;
+    padding: 30px;
+    max-width: 355px;
+    margin-top: 1rem;
+    text-align: start;
+}
+.venue-card h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+.venue-card p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 1rem;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.venue-card-img {
+    display: flex;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.card-container-2 {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.flex-card {
+    background-color: var(--venu-card);
+    border: 1px solid #444444;
+    border-radius: 26px;
+    display: flex;
+    color: #CCCCCC;
+    padding: 10px 0px 10px 30px;
+    align-items: center;
+    margin-top: 3rem;
+    text-align: start;
+}
+.venue-section-2 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: var(--dark-grey);
+}
+.venue-card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 0px;
+    text-align: start;
+    color: #7A7A7A;
+}
+.flex-card-tex p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: start;
+    color: #7A7A7A;
+
+}
+.realtime-6-ads-right {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 20px;
+}
+.insight-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 20px;
+}
+/* For screens between 1000px and 1319px in width */
+@media only screen and (min-width: 1000px) and (max-width: 1319px) {
+    .venue-video img:nth-child(1) {
+        top: 200px;
+        right: 0;
+        position: absolute;
+        width: 645px;
+        height: 621.73px;
+    }
+    .venue-section-2 {
+        margin-top: 13rem;
+    }
+}
+
+/* For screens between 1320px and 1439px in width */
+@media (min-width: 1320px) and (max-width: 1439px) {
+    .venue-video img:nth-child(1) {
+        top: 200px;
+        left: 500px;
+        position: absolute;
+        width: 852px;
+        height: 514px;
+    }
+    .venue-section-2 {
+        margin-top: 8rem;
+    }
+    .venue-body {
+        overflow-x: hidden;
+    }
+}
+
+/* For screens between 1440px and 1919px in width */
+@media (min-width: 1440px) and (max-width: 1919px) {
+    .venue-video img:nth-child(1) {
+        top: 200px;
+        right: 0;
+        position: absolute;
+        width: 600px;
+        height: 560px;
+    }
+    .venue-section-2 {
+        margin-top: 10rem;
+    }
+    .venue-body {
+        overflow-x: hidden;
+    }
+}
+/* .flex-card {
+    display: none;
+} */
+/* For screens 1920px wide or greater */
+@media (min-width: 1920px) and (max-height: 1420px) {
+    .venue-video img:nth-child(1) {
+        top: 200px;
+        right: 0;
+        position: absolute;
+        width: 834.48px;
+        height: 621.73px;
+    }
+    .venue-section-2 {
+        margin-top: 15rem;
+    }
+}
+
+@media (max-width: 810px){
+    .wrapper .container .ads-title span{
+		font-size: 28px;
+		font-weight: 700;
+		text-align: center;
+		line-height: 38.83px;
+		background: linear-gradient(0deg, #146EF5 0%, #60EFFF 70.76%);
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+    .venue-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .venue-text {
+        width: 100%;
+        left: 0px;
+    }
+    .hero-video { 
+        width: 100%;
+        padding-top: 7%;
+    }
+    .ads-title {
+        width: 100%;
+    }
+    .hero-video video { 
+        position: relative;
+        width: 85%;
+        left: 16%;
+    }
+	.overtv-advertise {
+        top: 250px;
+		right: 4%;
+    }
+    .venue-video img:nth-child(1) {
+        width: 100%;
+        margin-left: 0px;
+        height: 100%;
+    }
+    .work-title img {
+        width: 5%;
+    }
+    .work-title h2 {
+        color: var(--white);
+    }
+    .work-section p {
+        color: var(--white);
+        padding-left: 40px;
+    }
+	.section-advertiser-1-title video {
+        height: inherit !important;
+        aspect-ratio: 0 / 0.43 !important;
+        width: calc(100% - 135px) !important;
+    }
+    .hide-for-desktop {
+        display: block;
+    }
+	.mobile-insight {
+		margin-top: 3rem;
+	}
+    .section-advertiser-1-title {
+        padding-top: 25px;
+    }
+    .wrapper .container .ads-title h1{
+		font-size: 28px;
+		font-weight: 700;
+		line-height: 38.83px;
+		color: #fff;
+        padding: 0px;
+        text-align: center;
+	}
+    .section-advertiser-1-title img:nth-child(2){
+		position: absolute;
+        top: 270px;
+        left: 1%;
+        width: 230px;
+        height: 220px;
+	}
+	.image-insight {
+		margin-left: 0px;
+	}
+    .ads-title-under {
+        flex-direction: column;
+    }
+    .hide-for-mobile {
+        display: none;
+    }
+	.hide {
+		display: none !important;
+	}
+    .wrapper .container .title .ads-title-under{
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+	}
+    .d-sm-col {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px){
+	.section-advertiser-1-title img:nth-child(2) {
+		position: absolute;
+        left: 1%;
+        width: 110px;
+        height: 110px;
+    }
+    .p-15x {
+        padding: 10px;
+    }
+    .work-title h2 {
+        color: var(--white);
+    }
+    .section-7 h1 {
+        text-align: center;
+    }
+    .pl-2 {
+        padding-left: 20px;
+    }
+    .venue-text { 
+        left: 0px;
+        line-height: 27px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .sm-block p {
+        padding-top: 10px;
+    }
+    .sm-block {
+        display: block !important;
+    }
+    .hero-list li{
+        max-width: calc(100% - 60px);
+        text-align: start;
+    }
+    .venue-text h1 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .venue-text {
+        text-align: start;
+    }
+    .hero-listing {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .venue-video img:nth-child(1) {
+        width: 100%;
+        margin-left: 0px;
+        height: 100%;
+    }
+    .hero-video video {
+        width: 90%;
+        left: 12%;
+        position: relative;
+    }
+    .venue-container, .card-container, .card-container-2 {
+        display: none;
+    }
+    .flex-card img {
+        width: 94px;
+    }
+    .venue-section-2 {
+        margin-top: 2rem;
+    }
+    .venue-section-2 h1{
+        font-size: 22.82px;
+        font-weight: 700;
+        line-height: 26.02px;
+        text-align: center;
+
+    }
+    .venue-margin {
+        margin-bottom: 10px;
+    }
+    .venue-section-2 p{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18.5px;
+        text-align: start;
+        color: #ffffff;
+    }
+    .ipad-card {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .venue-card {
+        max-width: 49%;
+        padding: 15px;
+        margin-top: 1rem;
+        border-radius: 8px;
+    }
+    .footer-subscription {
+        margin-top: 10%;
+    }
+    .hero-list li {
+        font-size: 13.87px;
+        font-weight: 400;
+        line-height: 18.5px;
+        text-align: left;
+
+    }
+    .venue-card h2 {
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+    .venue-card-img {
+        height: 113px;
+    }
+    .venue-card-img img {
+        width: 100%;
+        height: 100%;
+    }
+    .flex-card {
+        display: flex;
+        justify-content: space-between;
+    }
+    .flex-card h2 {
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 18px;
+        text-align: left;
+    }
+    .flex-card p {
+        font-size: 8px;
+        margin-top: 10px;
+    }
+    .flex-card-tex {
+        max-width: 160px;
+    }
+    .mobile-text {
+        color: #D8D8D899 !important;
+        text-align: center !important;
+    }
+    .flex-card {
+        border-radius: 3.38px;
+    }
+    .profit-card-p {
+        font-size: 9px !important;
+        font-weight: 400 !important;
+        line-height: 11.5px !important;
+        text-align: left !important;
+        color: #FFFFFFCC !important;
+    }
+    .flex-card-img-card {
+        width: 130px;
+    }
+    .venue-container-mobile {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        color: var(--white);
+    }
+    .venue-container-mobile h1 {
+        font-size: 33.56px;
+        font-weight: 600;
+        line-height: 38.04px;
+        letter-spacing: -0.02em;
+    }
+    .venue-text, .hero-video {
+        width: 100%;
+    }
+    .control-section {
+        margin-top: 3rem;
+    }
+    .section-8 h1 { 
+        font-size: 21px;
+    }
+    .work-section p {
+        color: var(--white);
+        padding-left: 35px;
+    }
+	.Campaign-section h1 {
+		font-size: 25px;
+        text-align: center;
+	}
+    .ads-section-2 { 
+        margin-top: 48px;
+    }
+    .Campaign-section {
+        padding: 0px 10px 0px 10px;
+    }
+    .Campaign-section p {
+        text-align: center;
+	}
+	.overtv-advertise {
+		top: 155px;
+		width: 65px;
+	}
+    .hide-mb {
+        display: none;
+    }
+  }
+@media (max-width: 500px) {
+	.section-advertiser-1-title video {
+		height: inherit !important;
+		aspect-ratio: 1 / 0.7 !important;
+		width: calc(100% - 40px) !important;
+	}
+	.section-advertiser-1-title img:nth-child(2) {
+        top: 180px;
+		width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .venue-section {
+        margin-right: 0px !important;
+    }
+}
+@media (min-width: 760px) and (max-width: 1080px) {
+    .venue-text {
+        width: 100%;
+        left: 0px;
+    }
+    .hide-for-desktop {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-ipad-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .venue-container, .card-container , .card-container-2 {
+        display: none;
+    }
+    .work-section {
+        padding-top: 10px;
+    }
+    .work-title h2 {
+        color: var(--white);
+    }
+    .work-section p {
+        color: var(--white);
+        padding-left: 42px;
+    }
+    .control-section {
+        display: none;
+    }
+    .work-title img {
+        width: 6%;
+    }
+    .insights-section {
+        display: none !important;
+    }
+    .hero-video {
+        width: 100%;
+        width: 100%;
+        display: flex;
+        padding-top: 25px;
+        justify-content: end;
+    }
+    .wrapper { 
+        padding: 30px;
+    }
+    .image-insight-container { 
+        left: 5%;
+    }
+    .venue-container-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+    .venue-section-2 h1 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 42.02px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .mobile-text {
+        max-width: 85%;
+    }
+    .venue-section-2 p {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 18.5px;
+    }
+    .card-ipad-container {
+        display: none !important;
+    }
+    .venue-container-mobile h1{
+        color: var(--white);
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 68px;
+        letter-spacing: -0.02em;
+    }
+    .flex-card {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .ipad-card {
+        display: flex;
+        justify-content: space-between;
+        /* gap: 20px; */
+        width: 100%;
+        margin-top: 4%;
+    }
+    .profit-card-p {
+        font-size: 16.02px !important;
+        font-weight: 400;
+        line-height: 24.03px !important;
+        text-align: left;
+        margin-top: 10px;
+    }
+    .flex-card h2 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 38px;
+        text-align: left;
+    }
+    .flex-card-tex {
+        max-width: 60%;
+    }
+    .venue-card { 
+        width: 50%;
+    }
+    .section-6-ads-right img, .realtime-6-ads-right img {
+        width: 100%;
+    }
+    .flex-card {
+        width: 100%;
+        height: 202px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .flex-card-img-card {
+        width: 165px;
+    }
+    .flex-card img {
+        width: 163px;
+    }
+    .mac-ads {
+        gap: 25px;
+    }
+    .section-6-ads-left h1, .section-6-ads-right h1 {
+        font-size: 36px;
+    }
+    .section-6-ads-left img {
+        width: 100%;
+    }
+    .venue-video img:nth-child(1) {
+        margin-top: 2rem;
+        border-radius: 12.02px;
+        margin-left: 0px;
+    }
+    .hero-video video { 
+        width: 78%;
+    }
+}
+@media (min-width: 769px) and (max-width: 1080px) {
+    .venue-text {
+        width: 100%;
+        left: 0px;
+    }
+    .hide-for-desktop {
+        display: flex;
+        flex-direction: column;
+    }
+    .card-ipad-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .venue-container, .card-container , .card-container-2 {
+        display: none;
+    }
+    .work-section {
+        padding-top: 10px;
+    }
+    .work-title h2 {
+        color: var(--white);
+    }
+    .work-section p {
+        color: var(--white);
+        padding-left: 42px;
+    }
+    .control-section {
+        display: none;
+    }
+    .work-title img {
+        width: 6%;
+    }
+    .insights-section {
+        display: none !important;
+    }
+    .hero-video {
+        width: 100%;
+        width: 100%;
+        display: flex;
+        padding-top: 25px;
+        justify-content: end;
+    }
+    .wrapper { 
+        padding: 30px;
+    }
+    .image-insight-container { 
+        left: 5%;
+    }
+    .venue-container-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+    .venue-container-mobile h1{
+        color: var(--white);
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 68px;
+        letter-spacing: -0.02em;
+    }
+    .flex-card {
+        width: 100%;
+        height: 140px;
+        justify-content: space-between;
+    }
+    .ipad-card {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        width: 100%;
+    }
+    .venue-card { 
+        width: 50%;
+    }
+    .section-6-ads-right img, .realtime-6-ads-right img {
+        width: 100%;
+    }
+    .mac-ads {
+        gap: 25px;
+    }
+    .section-6-ads-left h1, .section-6-ads-right h1 {
+        font-size: 36px;
+    }
+    .section-6-ads-left img {
+        width: 100%;
+    }
+    .venue-video img:nth-child(1) {
+        margin-top: 2rem;
+        border-radius: 12.02px;
+        margin-left: 0px;
+    }
+    .hero-video video { 
+        width: 78%;
+    }
+}

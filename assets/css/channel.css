@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body.channel {
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins", sans-serif;
+	background: #131313;
+	background-image: url('/assets/image/Channels-bg.png') !important;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 100%;
+	background-position: center 10px; 
+    overflow-x: hidden;
+  }
+  .hero-channel {
+    height: 574px;
+  }
+  .bg-video {
+    position: absolute;
+    top: 106px;
+    left: 0;
+    width: 100%;
+    height: 574px;
+    object-fit: cover;
+    z-index: -1; 
+    opacity: 0.2;
+}
+:root {
+	--white: #ffffff;
+    --link-color: #0886FB;
+    --light-card: #161616;
+    --light-dark: #1D1D1D;
+    --grey-text: #C4C3C3;
+}
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 500px;
+}
+.hero-content h1 {
+    font-size: 67.59px;
+    font-weight: 800;
+    line-height: 77.59px;
+
+}
+.video-content {
+    background: var(--light-dark);
+    border-radius: 10px;
+    display: flex;
+    padding: 45px;
+    align-items: center;
+    margin-top: 40px;
+}
+.blue-circle {
+    background: linear-gradient(180deg, #00A3FB 0%, #0077FF 100%);
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.blue-wd-5 {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.mobile-service-section {
+    display: none;
+}
+.service-section {
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.content-service {
+    background-color: var(--light-dark);
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.service-icon {
+    width: 45px;
+    height: 75px;
+    margin-top: 20px;
+}
+.sevice-text {
+    padding: 15px;
+}
+.service-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.service-img img {
+    width: 100%;
+    max-height: 250px;
+}
+.moretv-section {
+    margin-top: 80px
+}
+.moretv-section h3 {
+    color: rgba(255, 255, 255, 0.88);
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.88px;
+}
+.card-text-tv h2 {
+    color: var(--grey-text);
+    font-size: 14.45px;
+    font-weight: 600;
+    line-height: 14.93px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.card-text-tv h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.88);
+    line-height: 16.34px;
+    text-align: left;
+    margin-bottom: 6px;
+    padding-top: 8px;
+}
+.mb-button {
+    display: none;
+}
+.moretv-card {
+    width: 214px;
+    overflow: hidden;
+}
+.channel .section-subscription {
+    margin-top: 25px;
+}
+.moretv-content {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 15px; 
+    margin-bottom: 20px;
+}
+.group-2 {
+    margin-top: 40px !important;
+}
+.card-text-tv p {
+    font-size: 13.96px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+.sevice-text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.7px;
+    text-align: center;
+    color: var(--grey-text)
+}
+.addition-content, .content-inner {
+    width: 50%;
+}
+.addition-content {
+    text-align: left;
+}
+.hero-content span {
+    font-size: 67.59px;
+    font-weight: 800;
+    line-height: 67.59px;
+    text-align: center;
+    background: linear-gradient(0deg, #146EF5 0%, #60EFFF 70.76%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content-card {
+    background-color: var(--light-card);
+    box-shadow: 0px 7.13px 7.13px 0px #00000040;
+    border: 0.64px solid;
+    border-image-source: linear-gradient(270deg, #161616 0%, rgba(52, 52, 52, 0.49) 100%);
+    padding: 24px 20px 20px 20px;
+    border-radius: 5px;
+}
+.content-card h1 {
+    color: var(--grey-text);
+    font-size: 26px;
+    text-align: start;
+    padding-bottom: 10px;
+}
+.content-card video {
+    border-radius: 10px;
+}
+button {
+    padding:  10px 15px 10px 15px;
+    background: linear-gradient(360deg, #2B7FFC 0%, #60EFFF 135.95%);
+    color: var(--white);
+    border: 0px;
+    border-radius: 4px;
+}
+.hero-content button {
+    margin-top: 2rem;
+}
+h1, p {
+    color: var(--white);
+}
+.hero-content p {
+    max-width: 770px;
+    color: var(--white);
+    opacity: 60%;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28.37px;
+    padding-top: 10px;
+}
+.video-content h2 {
+    font-family: Inter;
+    font-size: 20.99px;
+    font-weight: 700;
+    line-height: 20.28px;
+    text-align: left;
+    color: #C4C3C3;
+    padding-bottom: 15px;
+}
+.hero-content img {
+    margin-bottom: 45px;
+}
+.video-section p {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 31.44px;
+    color: var(--grey-text);
+    padding-top: 10px;
+
+}
+.video-section h1 {
+    font-size: 36.43px;
+    font-weight: 600;
+    line-height: 43.71px;
+}
+.video-content h1 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    max-width: 76%;
+    text-align: left;
+}
+.sevice-text h1 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 33.64px;
+
+}
+.sevice-text p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17.7px;
+    color: var(--grey-text);
+}
+.video-content p {
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 24.78px;
+    color: var(--white);
+    max-width: 86%;
+    padding-top: 20px;
+}
+.video-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+@media (max-width: 768px){
+    .hero-content img {
+        margin-bottom: 15px;
+    }
+    .hero-channel {
+        height: 255px;
+    }
+    .hero-content {
+        min-height: 290px;
+    }
+    .hero-content h1 {
+        font-size: 25.95px;
+        font-weight: 800;
+        line-height: 25.95px;
+    }
+    .bg-video {
+        top: 106px;
+        height: 290px
+    }
+    .hero-content span {
+        font-family: Poppins;
+        font-size: 25.95px;
+        font-weight: 800;
+        line-height: 25.95px;
+    }
+    .hero-content p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+    body {
+        background-image: url('/assets/image/ipad-bg.png') !important;
+        background-position: center 450px !important; 
+    }
+    .text-center h1 {
+        font-size: 21.42px;
+        font-weight: 600;
+        line-height: 25.71px;
+        max-width: 250px;
+    }
+    .text-center p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18.49px;
+        max-width: 300px;
+    }
+    .center-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .blue-wd-5 {
+        width: 21px;
+        height: 21px;
+        margin-bottom: 7px;
+    }
+    .blue-wd-5 img {
+        width: 8px;
+    }
+    .content-card h1 {
+        font-size: 8px;
+    }
+    .addition-content {
+        padding: 10px
+    }
+    .content-card {
+        height: 140px;
+        padding: 10px 5px 5px 5px;
+    }
+    .hide-mobile {
+        display: none;
+    }
+    .mb-button {
+        display: flex;
+        justify-content: center;
+    }
+    .mobile-service-section {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+    }
+    .moretv-card {
+        width: 161px;
+    }
+    .sevice-text h1 {
+        font-size: 10px;
+        margin-bottom: 0px;
+        line-height: 16px;
+    }
+    .sevice-text p {
+        font-size: 8.5px;
+        font-weight: 400;
+        line-height: 11px;
+        text-align: center;
+    }
+    .content-service {
+        width: 50%;
+    }
+    .service-icon {
+        width: 19px;
+        height: 19px;
+    }
+    .video-content {
+        padding: 0px;
+        min-height: 150px;
+    }
+    .addition-content h1 {
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        text-align: left;
+        line-height: 15px;
+    }
+    .addition-content p {
+        margin-top: 5px;
+    }
+    .sevice-text {
+        padding-top: 8px;
+    }
+    .video-content h2 {
+        font-size: 7.24px;
+        font-weight: 700;
+        line-height: 6.99px;
+        text-align: left;
+    }
+    .addition-content p {
+        font-size: 8.5px;
+        font-weight: 400;
+        line-height: 11px;
+        padding-top: 0px;
+    }
+    .section-subscription {
+        display: none;
+    }
+    .card-text-tv h2 {
+        margin-bottom: 5px;
+        font-size: 10px;
+        line-height: 10.44px;
+        text-align: left;
+
+    }
+    .card-text-tv h4 {
+        font-size: 12.19px;
+        font-weight: 700;
+        line-height: 11.06px;
+        margin-bottom: 6px;
+    }
+    .card-text-tv p {
+        font-size: 6px;
+        line-height: 7px;
+        text-align: left;
+        margin-bottom: 6px;
+    }
+    .moretv-section {
+        margin-top: 40px;
+    }
+}
+@media (min-width: 760px) and (max-width: 1080px) {
+    .video-content h1 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 34px;
+    }
+    .content-card video {
+        height: 104px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1080px) {
+    .hero-channel {
+        height: 380px;
+    }
+    .hero-content {
+        min-height: 380px;
+    }
+    .mx-wd {
+        max-width: 500px;
+    }
+    .hero-content img {
+        margin-bottom: 20px;
+    }
+    .service-icon {
+        height: 85px;
+    }
+    .moretv-card { 
+        max-width: 180px;
+    }
+    .text-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-content h1 {
+        font-size: 39.75px;
+        font-weight: 800;
+        line-height: 39.75px;
+    }
+    .hero-content span {
+        font-size: 39.75px;
+        font-weight: 800;
+        line-height: 39.75px;
+    }
+    .hero-content p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.68px;
+        max-width: 500px;
+    }
+    .video-section h1 {
+        font-size: 21.42px;
+        font-weight: 600;
+        line-height: 25.71px;
+    }
+    .video-content h1{
+        font-size: 31.23px;
+        font-weight: 600;
+        line-height: 34px;
+    }
+    .sevice-text h1 {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 19.78px;
+
+    }
+    .sevice-text p {
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 10.41px;
+    }
+    .sevice-text h1 {
+        margin-bottom: 0px;
+    }
+    .video-section p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.49px;
+    }
+    .bg-video {
+        top: 106px;
+        height: 380px
+    }
+    body {
+        background-image: url('/assets/image/ipad-bg.png') !important;
+        background-position: center 157px !important; 
+    }
+}
