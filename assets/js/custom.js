@@ -8,7 +8,7 @@ wow = new WOW({
 wow.init();
 
 $(window).on('load', function() {
-
+     
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         if (scroll >= 200) {
