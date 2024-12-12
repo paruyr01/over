@@ -1,23 +1,22 @@
 function loadLanguage(langCode) {
-    let langFile = '/assets/languages/lang-en.json'; 
+    let langFile = '/assets/languages/lang-en.json';
     document.body.classList.remove('br-lang', 'es-lang');
     if (langCode === 'BR') {
         langFile = '/assets/languages/lang-pt.json';
         document.body.classList.add('br-lang');
     } else if (langCode === 'ES') {
-        langFile = '/assets/languages/lang-es.json'; 
+        langFile = '/assets/languages/lang-es.json';
         document.body.classList.add('es-lang');
     }
     fetch(langFile)
         .then(response => response.json())
         .then(data => {
-            applyTranslations(data); 
+            applyTranslations(data);
         })
         .catch(error => {
             console.error("Error loading language file:", error);
         });
 }
-
 function applyTranslations(translations) {
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
@@ -34,10 +33,11 @@ function applyTranslations(translations) {
 }
 function getCountryCode() {
 
+
     /* TEMP */
     const lang = localStorage.getItem('__lang') || 'EN';
-    loadLanguage(lang);return;
     localStorage.setItem('__lang', lang)
+    loadLanguage(lang);return;
     /* TEMP */
 
 
@@ -50,8 +50,7 @@ function getCountryCode() {
         })
         .catch(error => {
             console.error("Error fetching geolocation data:", error);
-            loadLanguage('EN'); 
+            loadLanguage('EN');
         });
 }
-
 getCountryCode();
