@@ -517,10 +517,27 @@ body.advertise-page {
     body.advertise-page {
         background-size: 100% 100% !important;
     }
+
 }
 @media screen and (min-width: 1200px) {
     body.advertise-page {
         background-size: 101% 115% !important;
+    }
+    .hero-video .video{
+        max-width: 706px;
+    }
+    .image-insight{
+        top: 250px;
+        right: -380px;
+    }
+    .ads-section-2{
+        position: relative;
+    }
+    .ad-section-6{
+        margin-top: 100px;
+    }
+    body .wrapper{
+        overflow: hidden;
     }
 }
 @media (max-width: 768px){
@@ -717,6 +734,9 @@ body.advertise-page {
     .hide-mb {
         display: none;
     }
+    .hero-video  video {
+        right: -20%;
+    }
   }
 @media (max-width: 500px) {
 	.section-advertiser-1-title video {
@@ -730,11 +750,34 @@ body.advertise-page {
         height: 100px;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .ads-accordion .ads-accordion-item.active{
+        min-width: unset;
+    }
+    .section-7 {
+        margin-left: 27px !important;
+    }
+    .section-7 .section-7-card-group{
+        gap: 18px;
+    }
+    .ad-section-6 {
+        display: flex;
+        flex-direction: column;
+    }
+    .ad-section-6-ads-right {
+
+    }
+}
 @media (min-width: 760px) and (max-width: 1080px) { 
     .advertise-page .container {
         width: 780px !important;
     }
-     
+    .wrapper .container{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
     .Campaign-section {
         display: flex !important;
     }
@@ -907,14 +950,27 @@ body.advertise-page {
     .hero-video video { 
         width: 616px;
         height: 381px !important;
-        right: -11%;
+        right: -20%;
     }
     .ads-section-2{
         margin-top: 100px;
     }
+    .ads-section-2 .Campaign-section{
+        flex-direction: column;
+    }
+    .ads-section-2 .image-insight-container .image-insight{
+        margin-top: 160px;
+        right: 0;
+    }
+    .ads-accordion .ads-accordion-item.active{
+        min-width: 406px;
+    }
     .hero-container {
         display: flex;
         flex-direction: column;
+    }
+    .section-7-card-group .section-7-card{
+        max-width: 231px;
     }
     body { 
         background-image: url('/assets/image/advertiser-ipad.png') !important; 
