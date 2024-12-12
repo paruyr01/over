@@ -310,16 +310,9 @@ button{
   }
   #header{
 	position: relative;
+	  padding-top: 15px;
   }
-  #header::before{
-	height: 10px;
-	background: rgb(97,239,255);
-background: radial-gradient(circle, rgba(97,239,255,1) 0%, rgba(26,121,246,1) 100%);
-width: 100%;
-content: '';
-display: block;
-margin-bottom: 30px;
-  }
+
   #header .btn{
 	padding-bottom: 0 !important;
   }
