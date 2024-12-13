@@ -622,6 +622,9 @@ body.advertise-page {
         background-position: center 60px !important;
         overflow-x: hidden;
     }
+    .wrapper{
+        padding: 0px 15px;
+    }
     .sm-block {
         display: block !important;
     }
@@ -632,6 +635,34 @@ body.advertise-page {
         letter-spacing: -0.03em;
         text-align: left;
         min-width: unset
+    }
+    .advertise-page .wrapper .hero-section .border-shape.shape4{
+        left: 0px;
+        height: 280px;
+        width: 380px;
+    }
+    .hero-video video{
+        border-right: 0;
+        left: 15% !important;
+    }
+    .ad-section-6-ads-right {
+        width: 100%;
+    }
+        .mobile-ad-image img{
+        position: relative;
+        left: 8%;
+    }
+    .hero-video .border-shape.shape5{
+        top: -120px;
+        left: -50px;
+    }
+    .hero-video img{
+        left: 7%;
+    }
+    .hero-text button{
+        width: 93px;
+        height: 21px;
+        border-radius: 4px;
     }
     .hero-text h1 {
         font-size: 22.69px;
@@ -654,6 +685,10 @@ body.advertise-page {
         display: flex;
         flex-direction: column;
         margin-top: 14%;
+        width: unset !important;
+    }
+    .insights-section .accordion-box{
+        display: flex;
     }
     .schedule-section h2 , .Targeting-section h2{
         font-size: 24px;
