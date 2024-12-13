@@ -227,6 +227,11 @@ body.advertise-page {
     left: -135%;
     height: 400px;
 }
+.section-8 .faq-btn button:first-child{
+    min-width: 201px;
+    padding: 0px 19px;
+    white-space: nowrap;
+}
 .section-8 .section-8-wrapper .border-shape.triangle{
     right: -156%;
     top: 20px;
