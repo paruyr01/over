@@ -7,7 +7,7 @@ body.advertise-page {
 	padding: 0;
 	font-family: "Poppins";
 	background: #131313;
-	background-image: url('/assets/image/advertiser-bg.png') !important;
+	/*background-image: url('/assets/image/advertiser-bg.png') !important;*/
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	height: 100%;
@@ -26,6 +26,11 @@ body.advertise-page {
     width: 15%;
     right: -1%;
     z-index: 9;
+}
+.advertise-page .wrapper .hero-section .border-shape.shape4{
+    left: 100px;
+    max-width: 1121px;
+    height: 676px;
 }
 
 .ads-accordion {
@@ -194,8 +199,40 @@ body.advertise-page {
     display: flex;
     width: 100%;
     max-width: 982px;
-    margin: 0 auto;
+
 }
+.ads-section-2 .border-shape.shape3{
+    margin-top: 550px;
+    left: -145%;
+}
+.image-insight-container .border-shape.shape2{
+    height: 732px;
+    right: -85%;
+    margin-top: 200px;
+    z-index: -1;
+}
+.ad-section-6 .ad-section-6-ads-left .border-shape.shape3{
+    left: -57%;
+    height: 540px;
+    margin-top: 211px;
+    z-index: -1;
+}
+.section-realtime .realtime-6-ads-right .border-shape.shape2{
+    right: -88%;
+    height: 760px;
+    margin-top: 50px;
+}
+.section-8 .faq-title .border-shape.shape3{
+    top: 100px;
+    left: -135%;
+    height: 400px;
+}
+.section-8 .section-8-wrapper .border-shape.triangle{
+    right: -156%;
+    top: 20px;
+    transform: rotate(45deg);
+}
+
 .overtv-finance {
     position: absolute;
     right: 67%;
@@ -395,6 +432,10 @@ body.advertise-page {
     width: 100%;
     max-width: 982px;
     margin: 0 auto;
+    padding: 0px 12px;
+}
+.realtime-6-ads-left > .site-btn{
+    border-radius: 3px;
 }
 .site-btn2 {
     width: 100%;
@@ -1165,7 +1206,7 @@ body.advertise-page {
 }
 
 .header-title button {
-    width: 100%;
+    width: auto;
     max-width: 367px;
     height: 41px;
     color: var(--white);
