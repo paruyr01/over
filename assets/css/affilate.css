@@ -395,6 +395,20 @@
 }
 
 @media (min-width: 769px) and (max-width: 1080px) {
+    .affiliate-body .rewards-img2 img {
+        border-radius: 12px;
+
+        max-width: 700px;
+        max-height: 700px;
+    }
+    .affiliate-container .section-7 h1 {
+        text-align: start;
+    }
+
+    .affiliate-body .section-4-slider {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
     .affiliate-body .wrapper .container .title p {
         width: 100%;
         max-width: 558.98px;
@@ -527,6 +541,14 @@
         height: 256px!important;
         max-width: 221.8px;
     }
+
+    .affiliate-body .wrapper .container > .section-7 {
+        margin-top: 40px;
+    }
+
+    .wrapper .affiliate-container .affiliate-rewards {
+        margin-top: 30px;
+    }
 }
 
 @media (max-width: 810px) {
@@ -543,6 +565,9 @@
 }
 
 @media (max-width: 768px){
+    /* .affiliate-container .section-7 h1 {
+        text-align: start;
+    } */
     .des-top {
         display: none!important;
     }
@@ -550,14 +575,20 @@
         display: block!important;
     }
     .affiliate-body .section-4-slider {
-        margin-top: 50px;
+        margin-top: 25px;
         margin-bottom: 20px;
+    }
+
+    .affiliate-body  .text-slider2 {
+        margin-top: 0px;
     }
 
     .affiliate-container .section-7 h1 {
         font-size: 20px;
         line-height: 22.3px;
         max-width: 254px;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .btn-outline.benefits{
@@ -567,6 +598,10 @@
         border-radius: 3.54px;
         font-size: 10.18px;
         line-height: 13.5px;
+    }
+
+    .section-7 .btn-outline.benefits{
+        margin: 0 auto;
     }
 
     .affiliate-body .wrapper .container > .section-7 {
@@ -725,6 +760,7 @@
 
     .affiliate-container .section-7-card-group {
         gap: 10px;
+        margin-top: 10px;
     }
     .affiliate-container .section-7-card-content {
         padding-top: 20px;
