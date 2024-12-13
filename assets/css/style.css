@@ -7,10 +7,10 @@ body:not(.home-page){
 	font-family: "Poppins", sans-serif;
 	background: #161616;
 	background-image: url('/assets/image/ovetv-bg.png');
-	background-size: 100% 100%;
+	background-size: 1900px 3672.73px;
 	background-repeat: no-repeat;
 	height: 100%;
-	background-position: center -190px;
+	background-position: center -55px;
 	overflow-x: hidden;
   }
 * {
@@ -80,7 +80,7 @@ body.home-page{
 	margin-bottom: 1rem;
 }
 .mt-2 {
-	margin-top: 1.5rem;
+	margin-top: 2rem;
 }
 .my-2 {
 	margin-top: 2rem;
@@ -135,8 +135,7 @@ button{
 	max-width: 1320px;
 }
 .container{
-	padding-left: 15px!important;
-	padding-right: 15px!important;
+
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -146,7 +145,7 @@ button{
 	 flex-direction: column;
   }
   .wrapper .container > div {
-	max-width: 956px;
+	max-width: 1025px;
 	align-self: center;
 	width: 100%;
   }
@@ -640,6 +639,8 @@ button{
 /* header ending */
 .wrapper{
 	width: 100%;
+	/* max-width: 1440px; */
+	margin: 0 auto;
 	height: 100%;
   }
 
@@ -1562,16 +1563,17 @@ button{
 		color: #fff;
 	}
 	.scale {
-		width: fit-content;
-		/* height: 37px; */
+		width: 100%;
+		max-width: 122.47px;
+		height: 28.9px;
 		border: 1px solid #0886FB;
 		background-color: #131313;
 		color: #0886FB;
 		border-radius: 5px;
-		margin-bottom: 20px;
-		font-size: 17px;
+		font-size: 13.52px;
 		font-weight: 400;
-		padding: 7px 20px;
+		line-height: 17.9px;
+		letter-spacing: -0.14px;
 	}
 	.success-message {
 		display: flex;
@@ -1637,6 +1639,7 @@ button{
 	}
 	.wrapper .container > .section-7 {
 		margin-top: 76px;
+		margin-left: 45px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -1851,8 +1854,11 @@ button{
 		background-color: #161616;
 	}
 	.accordion-item {
-		background: linear-gradient(180deg, #00A3FB 0%, #0077FF 80%);
-		padding: 16px 31px 16px 34px;
+		width: 100%;
+		max-width: 916px;
+		margin: 0 auto;
+		background: #019CFC;
+		padding: 10px 20px 10px 25px;
 		border-radius: 15px;
 	}
 	.accordion-item > button {
@@ -1865,7 +1871,7 @@ button{
 		padding: 10px 0;
 	}
 	.accordion-item > button[aria-expanded="true"] .icon::after {
-		width: 3px;
+		width: 0;
 	}
 	.section-8 p {
 		max-width: 547px;
@@ -1902,12 +1908,10 @@ button{
 		/* background: #146EF5; */
 	}
 	.section-8-wrapper{
-		padding-top: 31px;
-		padding-bottom: 60px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		margin-left: 10px;
 		width: 100%;
-		/*max-width: 916px;*/
-		/* padding-left: 10%;
-		padding-right: 10%; */
 	}
 	.section-8-wrapper h1{
 		font-size: 45.27px;
@@ -1926,9 +1930,11 @@ button{
 	  } */
 
 	  .accordion button {
+		position: relative;
+		display: flex;
 		text-align: left;
 		width: 100%;
-		padding: 0;
+		padding: 8px 0;
 		color: #EFEFEB;
 		border: none;
 		background: none;
@@ -1937,8 +1943,7 @@ button{
 	  .accordion-item span {
 		font-size: 19px;
 		font-weight: 400;
-		line-height: 32px;
-		letter-spacing: -0.75px;
+		line-height: 44.13px;
 	  }
 	  .accordion button:hover,
 	  .accordion button:focus {
@@ -1951,27 +1956,30 @@ button{
 	  }
 
 	  .accordion button .icon {
-		display: block;
+		display: inline-block;
+		position: absolute;
+		top: 14px;
+		right: 0;
 		width: 40px;
 		height: 40px;
-		position: relative;
-		top: 0;
-		display: flex;
-		align-items: center;
 	  }
 	  .site-btn {
-		background: linear-gradient(360deg, #2B7FFC 0%, #60EFFF 135.95%);
+		width: 100%;
+		max-width: 173.59px;
+		height: 41px;
+		/* padding: 10px 15px 10px 15px; */
+		background: linear-gradient(360deg, #0079FF 0%, #019FFC 135.95%);
 		color: var(--white);
-		padding: 10px 20px 10px 20px;
 		border: 0px;
-		border-radius: 3.4px;
+		border-radius: 12.2px;
 		font-size: 13.96px;
-		font-weight: 700;
+		font-weight: 600;
 		line-height: 20.94px;
+		letter-spacing: 0.5px;
 	  }
 	  .accordion {
 		display: flex;
-		gap: 6px;
+		gap: 10px;
 		flex-direction: column;
 	  }
 	  .footer-bod-div {
@@ -1987,29 +1995,29 @@ button{
 	  }
 	  .accordion button .icon::before {
 		display: block;
-		content: '';
-		width: 23px;
-		height: 2.5px;
-		background: currentColor;
 		position: absolute;
-		top: 19px;
-		border-radius: 8px;
+		content: '';
+		top: 14px;
+		left: 0px;
+		width: 21px;
+		height: 2px;
+		background: currentColor;
 	  }
 	  .accordion button .icon::after {
 		display: block;
 		position: absolute;
 		content: '';
-		width: 2.5px;
-		height: 23px;
+		top: 5px;
+		left: 9px;
+		width: 2px;
+		height: 21px;
 		background: currentColor;
-      right: 27px;
-		border-radius: 8px;
 	  }
 
 	  .accordion button[aria-expanded='true'] .icon {
-		 transform: rotate(45deg);
-		 right: 5px;
-		 top: 10px;
+		 transform: rotate(0deg);
+		 right: 0;
+		 top: 14px;
 	  }
 	  .accordion button[aria-expanded='true'] + .accordion-content {
 		opacity: 1;
@@ -2219,10 +2227,10 @@ button{
 		.image-insight {
 			width: 784px;
 			height: 784px;
-			right: -5%;
+			right: -15px;
 		}
 		.ad-section-6 {
-			margin-top: 35%;
+			margin-top: 26%;
 		}
 	}
 	.header-title h4 {
@@ -2707,7 +2715,10 @@ display: none;
 	}
   }
 
-  @media (max-width: 810px){
+  @media (max-width: 846px){
+	.wrapper .container > div{
+		max-width: 339px;
+	}
 	.wrapper .container{
 		padding: 0;
 	}
