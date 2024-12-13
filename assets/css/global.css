@@ -27,6 +27,7 @@
     transform: skew(-10deg);
     position: absolute;
 }
+
 .b2{
     border-width: 2px;
 }
@@ -50,6 +51,9 @@
 
 .shape3 {
     border-left: none;
+}
+.shape4 {
+    border-top: none;
 }
 
 .w-10 {
