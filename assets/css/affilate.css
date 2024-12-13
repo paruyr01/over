@@ -14,13 +14,12 @@
 .affiliate-container  .affiliate-button{
     font-size: 18px;
     line-height: 24px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 .affiliate-container  .affiliate-button.invite_friend{
-    font-size: 12px;
-    padding-left: 33px;
-    padding-right: 33px;
+    width: 100%;
+    max-width: 146px;
+    height: 31px;
+    font-size: 11.69px;
     line-height: 9px;
     border-radius: 7px;
 }
@@ -80,7 +79,7 @@
 .affiliate-video {
     background: linear-gradient(180deg, #2B7FFC 0%, #60EFFF 135.95%);
     width: 100%;
-    height: 550px;
+    height: 582px;
     border-radius: 25px;
     position: relative;
     margin-top: 45px;
@@ -107,18 +106,28 @@
 }
 
 .affiliate-video img:nth-child(1) {
+    width: 100%;
+    max-width: 207px;
+    height: 206px;
     position: absolute;
     bottom: -28px;
-    right: 2%;
+    right: 4%;
     z-index: 9;
 }
 .title .affiliate-button {
+    width: 100%;
+    max-width: 224px;
+    font-size: 18.42px;
+    font-weight: 500;
     margin-top: 14px;
     padding-left: 40px;
     padding-right: 40px;
 }
+.section-4-title p {
+    padding: 0px 0 20px 0;
+}
 .affiliate-container .section-4-title {
-    margin-top: 270px;
+    margin-top: 215px;
 }
 .affiliate-text {
     min-height: 70px;
@@ -188,6 +197,10 @@
 .affiliate-container .scale.wow.faq_button{
     font-size: 16.36px;
     line-height: 21.6px;
+}
+
+.affiliate-rewards {
+    max-width: 920px;
 }
 
 .affiliate-container .section-7 h1 {
