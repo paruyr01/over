@@ -383,7 +383,7 @@ button{
 
   .log-sign {
 	display: flex;
-	justify-content: center;
+	justify-content: end;
 	align-items: center;
 	/* flex: 1; */
 	width: 33%;
@@ -1610,6 +1610,12 @@ button{
 		line-height: 17.9px;
 		letter-spacing: -0.14px;
 	}
+
+	button.scale {
+		width: unset;
+		max-width: unset;
+		padding: 0 10px;
+	}
 	.success-message {
 		display: flex;
 		align-items: center;
@@ -1677,6 +1683,7 @@ button{
 		width: 100%;
 		display: flex;
 		flex-direction: column;
+		align-items: start;
 		max-width: 914px;
 	}
 	.section-7 .border-shape.shape2{
@@ -2260,7 +2267,7 @@ button{
 		.image-insight {
 			width: 784px;
 			height: 784px;
-			right: -15px;
+			right: -600px;
 		}
 		.ad-section-6 {
 			margin-top: 26%;
@@ -2800,6 +2807,7 @@ display: none;
 	}
 	.section-subscription {
 		text-align: center;
+		height: unset;
 	}
 	.section-subs {
 		display: block;
@@ -3198,6 +3206,7 @@ display: none;
 		flex-direction: column;
 		color: #fff;
 		text-align: start;
+		align-self: start;
 	}
 	.section-10-header-title .d-flex{
 		flex-wrap: wrap;
@@ -3826,7 +3835,6 @@ display: none;
 		font-weight: 600;
 	}
 	.logo-container {
-		margin-top: 8px;
 		margin-left: 7px;
 	}
   }
@@ -4334,7 +4342,6 @@ display: none;
 		border-top: 0px;
 	}
 	.logo-container {
-		margin-top: 8px;
 		margin-left: 7px;
 	}
 	.mb-button {
@@ -4898,7 +4905,6 @@ display: none;
 		border-top: 0px;
 	}
 	.logo-container {
-		margin-top: 8px;
 		margin-left: 7px;
 	}
 	.mb-button {
@@ -5127,6 +5133,14 @@ display: none;
 	  }
   }
 
+
+@media (max-width: 846px) {
+	header .container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
 @media(max-width: 769px) {
 	.section-3-card-group {
 		row-gap: 0 !important;
@@ -5135,5 +5149,42 @@ display: none;
 	.home-page .section-1, .home-page .section-2, .home-page .section-7, .home-page .section-8 {
 		padding-left: 10px;
 		padding-right: 10px;
+	}
+}
+
+.container.footer-container {
+	max-width: 100%;
+}
+
+@media (min-width: 846px) and (max-width: 1080px) {
+	header#header .container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media (min-width: 1080px) and (max-width: 1250px) {
+	header#header .container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media (max-width: 1080px) {
+	.nav-btn .nav-links ul {
+		width: 100%;
+	}
+
+	.nav-btn .nav-links ul li {
+		padding: 0;
+	}
+
+	.nav-btn .nav-links ul li a {
+		padding: 1.2rem 2rem;
+	}
+
+	#check:checked ~ .nav-btn .login-button {
+		line-height: 8px;
+		border-radius: 16px;
 	}
 }
