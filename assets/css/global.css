@@ -56,6 +56,12 @@
     border-top: none;
 }
 
+.shape5 {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
 .w-10 {
     width: 10px;
 }

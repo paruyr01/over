@@ -48,14 +48,14 @@ body.advertise-page {
     background: #232323;
     width: 100%;
     min-width: 617px;
-    height: 180px;
+    height: 118px;
 }
 .custon-icon {
     font-size: 20px;
     color: var(--white);
 }
 .ads-accordion-header {
-    padding: 15px;
+    padding: 0px 15px;
     cursor: pointer;
     font-weight: bold;
     display: flex;
@@ -221,6 +221,7 @@ body.advertise-page {
     right: -88%;
     height: 760px;
     margin-top: 50px;
+    z-index: -1;
 }
 .section-8 .faq-title .border-shape.shape3{
     top: 100px;
@@ -416,6 +417,7 @@ body.advertise-page {
     flex-direction: column;
     align-items: end;
     margin-top: 20px;
+    position: relative;
 }
 .insight-container {
     display: flex;
@@ -575,7 +577,7 @@ body.advertise-page {
         position: relative;
     }
     .ad-section-6{
-        margin-top: 100px;
+        margin-top: 300px;
     }
     body .wrapper{
         overflow: hidden;
@@ -616,7 +618,7 @@ body.advertise-page {
 
     }
     body {
-        background-image: url('/assets/image/advertiser-iPhone-bg.png') !important;
+        /*background-image: url('/assets/image/advertiser-iPhone-bg.png') !important;*/
         background-position: center 60px !important;
         overflow-x: hidden;
     }
@@ -629,7 +631,7 @@ body.advertise-page {
         line-height: 27.23px;
         letter-spacing: -0.03em;
         text-align: left;
-
+        min-width: unset
     }
     .hero-text h1 {
         font-size: 22.69px;
@@ -794,7 +796,7 @@ body.advertise-page {
 
 @media only screen and (max-width: 600px) {
     .ads-accordion .ads-accordion-item.active{
-        min-width: unset;
+        min-width: 339px;
     }
     .section-7 {
         margin-left: 27px !important;
@@ -811,6 +813,11 @@ body.advertise-page {
     }
 }
 @media (min-width: 760px) and (max-width: 1080px) {
+    .advertise-page .wrapper .hero-section .border-shape.shape4{
+        left: 22px;
+        max-width: 800px;
+        height: 400px;
+    }
     .advertise-page .container {
         width: 780px !important;
     }
@@ -828,8 +835,29 @@ body.advertise-page {
     .ad-section-6 ,.hide-mb {
         display: flex;
     }
+    .ad-section-6-ads-right > h1 {
+        white-space:  nowrap;
+    }
+    .ad-section-6 .ad-section-6-ads-left .border-shape.shape3{
+        left: -96%;
+        height: 1000px;
+        margin-top: -380px;
+        z-index: -1;
+        transform: skew(-8deg);
+    }
+    .image-insight-container .border-shape.shape2 {
+        height: 632px;
+        right: -75%;
+    }
+    .section-realtime .realtime-6-ads-right .border-shape.shape2{
+        right: -117%;
+        border-top-left-radius: 50px;
+    }
     .image-insight {
         display:  flex !important;
+    }
+   .wrapper .container.footer-container{
+        background: transparent;
     }
     .ads-accordion {
         margin: 0px;
@@ -991,7 +1019,6 @@ body.advertise-page {
     .hero-video video {
         width: 616px;
         height: 381px !important;
-        right: -20%;
     }
     .ads-section-2{
         margin-top: 100px;
@@ -1014,7 +1041,7 @@ body.advertise-page {
         max-width: 231px;
     }
     body {
-        background-image: url('/assets/image/advertiser-ipad.png') !important;
+        /*background-image: url('/assets/image/advertiser-ipad.png') !important;*/
         background-position: center 45px !important;
     }
 }
@@ -1147,7 +1174,7 @@ body.advertise-page {
     .hero-video img {
         width: 129px;
         bottom: -45px;
-        left: 19%;
+        left: 14%;
         height: 129px;
     }
     .Campaign-section p {
@@ -1175,9 +1202,14 @@ body.advertise-page {
         height: 100%;
     }
     .hero-video video {
-        width: 616px;
+        width: 100%;
+        right: -100px;
         height: 381px !important;
         position: absolute;
+    }
+    .hero-video .border-shape.shape5{
+        top: -252px;
+        transform: translate(-50%);
     }
     .ads-section-2{
         margin-top: 100px;
@@ -1187,7 +1219,7 @@ body.advertise-page {
         flex-direction: column;
     }
     body {
-        background-image: url('/assets/image/advertiser-ipad.png') !important;
+        /*background-image: url('/assets/image/advertiser-ipad.png') !important;*/
         background-position: center 45px !important;
     }
 }
