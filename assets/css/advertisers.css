@@ -778,6 +778,16 @@ body.advertise-page {
     .ads-section-2 {
         margin-top: 48px;
     }
+    .mobile-ad-image img{
+        left: 3%;
+    }
+
+    .section-7-card-group .section-7-card{
+        min-width: 186px !important;
+    }
+    .hero-video video{
+        left: 10% !important;
+    }
     .work-title h2 {
         font-size: 20px;
         font-weight: 600;
@@ -833,7 +843,7 @@ body.advertise-page {
         min-width: 339px;
     }
     .section-7 {
-        margin-left: 27px !important;
+        /*margin-left: 27px !important;*/
     }
     .section-7 .section-7-card-group{
         gap: 18px;
