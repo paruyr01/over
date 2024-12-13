@@ -17,6 +17,11 @@
     top: 0;
 }
 
+.my-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .absolute-bottom-0 {
     position: absolute;
     bottom: 0;
@@ -53,6 +58,12 @@
     border-left: none;
 }
 .shape4 {
+    border-top: none;
+}
+
+.shape5 {
+    border-left: none;
+    border-right: none;
     border-top: none;
 }
 
