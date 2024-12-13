@@ -203,6 +203,7 @@ body {
     font-weight: 600;
     line-height: 46.77px;
     max-width: 600px;
+    letter-spacing: -0.02em;
 }
 .section-4-title p { 
     font-size: 18px;
@@ -294,10 +295,6 @@ body {
 }
 .affiliate-rewards .affiliate-button {
     width: 100% !important;
-}
-.affiliate-container .affiliate-button {
-    padding-left: 40px;
-    padding-right: 40px;
 }
 .rewards-img {
     margin-top: 35px;

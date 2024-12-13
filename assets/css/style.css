@@ -202,14 +202,17 @@ button{
     font-size: 20px;
 }
 .btn-outline {
-	padding: 5px 16px 5px 16px;
+	width: 100%;
+    max-width: 98px;
+    height: 33px;
+    padding: 5px 16px 5px 16px;
     border: 0.94px solid #0886FB;
     color: var(--link-color);
     background: transparent;
     border-radius: 4px;
-    font-size: 13.52px;
-	 line-height: 18px;
-	 font-weight: 300;
+    font-size: 15.67px;
+    line-height: 18px;
+    font-weight: 300;
 }
 .btn-outline-lg {
 	padding: 9px 21px;
@@ -661,13 +664,17 @@ button{
 		font-weight: 800;
 		padding-bottom: 3px;
   }
+  .affiliate-video {
+	width: 100%!important;
+	max-width: 1113px!important;
+  }
   .wrapper .container .title span {
 	font-size: 73.64px;
 	font-weight: 600;
 	line-height: 73.64px;
 	letter-spacing: -0.03em;
 	  text-align: center;
-	  background: linear-gradient(0deg, #0077FF 0%, #00A3FB 100%);
+	  background: linear-gradient(0deg, #3CA1FD 0%, #5FEBFF 100%);
 	  background-clip: text;
 	  -webkit-text-fill-color: transparent;
 	  font-weight: 800;
