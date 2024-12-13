@@ -701,7 +701,7 @@ button{
 	line-height: 73.64px;
 	letter-spacing: -0.03em;
 	  text-align: center;
-	  background: linear-gradient(0deg, #3CA1FD 0%, #5FEBFF 100%);
+	  background: #0886fb;
 	  background-clip: text;
 	  -webkit-text-fill-color: transparent;
 	  font-weight: 800;
