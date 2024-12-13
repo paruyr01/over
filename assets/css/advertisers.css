@@ -12,18 +12,18 @@ body.advertise-page {
 	background-repeat: no-repeat;
 	height: 100%;
     overflow-x: hidden;
-}
+  }
 :root {
-    --white: #ffffff;
+	--white: #ffffff;
     --link-color: #0886FB;
     --light-card: #161616;
     --light-dark: #1D1D1D;
     --grey-text: #C4C3C3;
 }
 .overtv-advertise {
-    position: absolute;
+	position: absolute;
     top: 230px;
-    width: 15%;
+	width: 15%;
     right: -1%;
     z-index: 9;
 }
@@ -40,7 +40,6 @@ body.advertise-page {
 }
 
 .ads-accordion-item {
-    margin-bottom: 10px;
     border-radius: 20px;
     padding: 12px 20px ;
 }
