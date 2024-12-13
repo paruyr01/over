@@ -28,6 +28,30 @@ body.home-page{
     --grey-text: #C4C3C3;
 	--dark-grey: #9b9b9b;
 }
+
+@media (max-width: 576px) {
+	.hidden-sm {
+		display: none !important;
+	}
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+	.hidden-md {
+		display: none !important;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+	.hidden-lg {
+		display: none !important;
+	}
+}
+
+@media (min-width: 1025px) {
+	.hidden-xl {
+		display: none !important;
+	}
+}
 .d-flex{
 	display: flex;
 	}

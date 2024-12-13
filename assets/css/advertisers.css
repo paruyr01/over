@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-  
+
 body.advertise-page {
 	margin: 0;
 	padding: 0;
@@ -47,14 +47,14 @@ body.advertise-page {
     background: #232323;
     width: 100%;
     min-width: 617px;
-    height: 180px;
+    height: 118px;
 }
 .custon-icon {
     font-size: 20px;
     color: var(--white);
 }
 .ads-accordion-header {
-    padding: 15px;
+    padding: 0px 15px;
     cursor: pointer;
     font-weight: bold;
     display: flex;
@@ -81,7 +81,7 @@ body.advertise-page {
 
 .active .ads-accordion-content {
     padding: 0px 15px 21px 15px;
-    max-height: 200px; 
+    max-height: 200px;
 }
 .ads-accordion-header p {
     color: var(--white);
@@ -192,7 +192,7 @@ body.advertise-page {
     line-height: 50px;
     text-align: start;
     color: #ffffff;
-    margin: 0; 
+    margin: 0;
 }
 .insights-section {
     display: flex;
@@ -220,6 +220,7 @@ body.advertise-page {
     right: -88%;
     height: 760px;
     margin-top: 50px;
+    z-index: -1;
 }
 .section-8 .faq-title .border-shape.shape3{
     top: 100px;
@@ -415,6 +416,7 @@ body.advertise-page {
     flex-direction: column;
     align-items: end;
     margin-top: 20px;
+    position: relative;
 }
 .insight-container {
     display: flex;
@@ -479,13 +481,13 @@ body.advertise-page {
         width: 100%;
         left: 0px;
     }
-    .hero-video { 
+    .hero-video {
         width: 100%;
     }
     .ads-title {
         width: 100%;
     }
-  
+
 	.overtv-advertise {
         top: 250px;
 		right: 4%;
@@ -563,6 +565,22 @@ body.advertise-page {
     body.advertise-page {
         background-size: 101% 115% !important;
     }
+    .hero-video .video{
+        max-width: 706px;
+    }
+    .image-insight{
+        top: 250px;
+        right: -380px;
+    }
+    .ads-section-2{
+        position: relative;
+    }
+    .ad-section-6{
+        margin-top: 300px;
+    }
+    body .wrapper{
+        overflow: hidden;
+    }
 }
 @media (max-width: 768px){
 	.section-advertiser-1-title img:nth-child(2) {
@@ -583,7 +601,7 @@ body.advertise-page {
     .pl-2 {
         padding-left: 20px;
     }
-    .hero-text { 
+    .hero-text {
         left: 0px;
         line-height: 27px;
         text-align: start;
@@ -598,10 +616,13 @@ body.advertise-page {
         line-height: 13.15px;
 
     }
-    body { 
-        background-image: url('/assets/image/advertiser-iPhone-bg.png') !important; 
-        background-position: center 60px !important; 
+    body {
+        /*background-image: url('/assets/image/advertiser-iPhone-bg.png') !important;*/
+        background-position: center 60px !important;
         overflow-x: hidden;
+    }
+    .wrapper{
+        padding: 0px 15px;
     }
     .sm-block {
         display: block !important;
@@ -612,7 +633,35 @@ body.advertise-page {
         line-height: 27.23px;
         letter-spacing: -0.03em;
         text-align: left;
-
+        min-width: unset
+    }
+    .advertise-page .wrapper .hero-section .border-shape.shape4{
+        left: 0px;
+        height: 280px;
+        width: 380px;
+    }
+    .hero-video video{
+        border-right: 0;
+        left: 15% !important;
+    }
+    .ad-section-6-ads-right {
+        width: 100%;
+    }
+        .mobile-ad-image img{
+        position: relative;
+        left: 8%;
+    }
+    .hero-video .border-shape.shape5{
+        top: -120px;
+        left: -50px;
+    }
+    .hero-video img{
+        left: 7%;
+    }
+    .hero-text button{
+        width: 93px;
+        height: 21px;
+        border-radius: 4px;
     }
     .hero-text h1 {
         font-size: 22.69px;
@@ -635,6 +684,10 @@ body.advertise-page {
         display: flex;
         flex-direction: column;
         margin-top: 14%;
+        width: unset !important;
+    }
+    .insights-section .accordion-box{
+        display: flex;
     }
     .schedule-section h2 , .Targeting-section h2{
         font-size: 24px;
@@ -656,7 +709,7 @@ body.advertise-page {
         line-height: 18px;
 
     }
-    .hero-video img { 
+    .hero-video img {
         width: 72px;
         height: 72px;
         bottom: -13px;
@@ -686,7 +739,7 @@ body.advertise-page {
     .control-section {
         margin-top: 3rem;
     }
-    .section-8 h1 { 
+    .section-8 h1 {
         font-size: 21px;
     }
     .Campaign-section h1:nth-of-type(1) {
@@ -722,7 +775,7 @@ body.advertise-page {
 		font-size: 25px;
         text-align: center;
 	}
-    .ads-section-2 { 
+    .ads-section-2 {
         margin-top: 48px;
     }
     .work-title h2 {
@@ -758,7 +811,10 @@ body.advertise-page {
     .hide-mb {
         display: none;
     }
-  }
+    .hero-video  video {
+        right: -20%;
+    }
+}
 @media (max-width: 500px) {
 	.section-advertiser-1-title video {
 		height: inherit !important;
@@ -771,11 +827,39 @@ body.advertise-page {
         height: 100px;
     }
 }
-@media (min-width: 760px) and (max-width: 1080px) { 
+
+@media only screen and (max-width: 600px) {
+    .ads-accordion .ads-accordion-item.active{
+        min-width: 339px;
+    }
+    .section-7 {
+        margin-left: 27px !important;
+    }
+    .section-7 .section-7-card-group{
+        gap: 18px;
+    }
+    .ad-section-6 {
+        display: flex;
+        flex-direction: column;
+    }
+    .ad-section-6-ads-right {
+
+    }
+}
+@media (min-width: 760px) and (max-width: 1080px) {
+    .advertise-page .wrapper .hero-section .border-shape.shape4{
+        left: 22px;
+        max-width: 800px;
+        height: 400px;
+    }
     .advertise-page .container {
         width: 780px !important;
     }
-     
+    .wrapper .container{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
     .Campaign-section {
         display: flex !important;
     }
@@ -785,8 +869,29 @@ body.advertise-page {
     .ad-section-6 ,.hide-mb {
         display: flex;
     }
+    .ad-section-6-ads-right > h1 {
+        white-space:  nowrap;
+    }
+    .ad-section-6 .ad-section-6-ads-left .border-shape.shape3{
+        left: -96%;
+        height: 1000px;
+        margin-top: -380px;
+        z-index: -1;
+        transform: skew(-8deg);
+    }
+    .image-insight-container .border-shape.shape2 {
+        height: 632px;
+        right: -75%;
+    }
+    .section-realtime .realtime-6-ads-right .border-shape.shape2{
+        right: -117%;
+        border-top-left-radius: 50px;
+    }
     .image-insight {
         display:  flex !important;
+    }
+   .wrapper .container.footer-container{
+        background: transparent;
     }
     .ads-accordion {
         margin: 0px;
@@ -870,14 +975,14 @@ body.advertise-page {
         height: 408px;
         right: 0;
     }
-    .hero-text span { 
+    .hero-text span {
         font-size: 47.45px;
         font-weight: 700;
         line-height: 56.94px;
 
 
     }
-    .hero-text h1 { 
+    .hero-text h1 {
         font-size: 47.45px;
         font-weight: 700;
         line-height: 56.94px;
@@ -888,10 +993,10 @@ body.advertise-page {
         line-height: 27.49px;
 
     }
-    .wrapper { 
+    .wrapper {
         /* padding: 30px; */
     }
-    .image-insight-container { 
+    .image-insight-container {
         left: 5%;
     }
     .ad-section-6-ads-right img, .realtime-6-ads-right img {
@@ -945,21 +1050,33 @@ body.advertise-page {
     .realtime-6-ads-right img {
         height: 100%;
     }
-    .hero-video video { 
+    .hero-video video {
         width: 616px;
         height: 381px !important;
-        right: -11%;
     }
     .ads-section-2{
         margin-top: 100px;
+    }
+    .ads-section-2 .Campaign-section{
+        flex-direction: column;
+    }
+    .ads-section-2 .image-insight-container .image-insight{
+        margin-top: 160px;
+        right: 0;
+    }
+    .ads-accordion .ads-accordion-item.active{
+        min-width: 406px;
     }
     .hero-container {
         display: flex;
         flex-direction: column;
     }
-    body { 
-        background-image: url('/assets/image/advertiser-ipad.png') !important; 
-        background-position: center 45px !important; 
+    .section-7-card-group .section-7-card{
+        max-width: 231px;
+    }
+    body {
+        /*background-image: url('/assets/image/advertiser-ipad.png') !important;*/
+        background-position: center 45px !important;
     }
 }
 @media (min-width: 770px) and (max-width: 1080px) {
@@ -1033,14 +1150,14 @@ body.advertise-page {
     .hero-section {
         width: 733px !important;
     }
-    .hero-text span { 
+    .hero-text span {
         font-size: 47.45px;
         font-weight: 700;
         line-height: 56.94px;
 
 
     }
-    .hero-text h1 { 
+    .hero-text h1 {
         font-size: 47.45px;
         font-weight: 700;
         line-height: 56.94px;
@@ -1051,10 +1168,10 @@ body.advertise-page {
         line-height: 27.49px;
 
     }
-    .wrapper { 
+    .wrapper {
         /* padding: 30px; */
     }
-    .image-insight-container { 
+    .image-insight-container {
         left: 5%;
     }
     .ad-section-6-ads-right img, .realtime-6-ads-right img {
@@ -1091,7 +1208,7 @@ body.advertise-page {
     .hero-video img {
         width: 129px;
         bottom: -45px;
-        left: 19%;
+        left: 14%;
         height: 129px;
     }
     .Campaign-section p {
@@ -1118,10 +1235,15 @@ body.advertise-page {
     .realtime-6-ads-right img {
         height: 100%;
     }
-    .hero-video video { 
-        width: 616px;
+    .hero-video video {
+        width: 100%;
+        right: -100px;
         height: 381px !important;
         position: absolute;
+    }
+    .hero-video .border-shape.shape5{
+        top: -252px;
+        transform: translate(-50%);
     }
     .ads-section-2{
         margin-top: 100px;
@@ -1130,9 +1252,9 @@ body.advertise-page {
         display: flex;
         flex-direction: column;
     }
-    body { 
-        background-image: url('/assets/image/advertiser-ipad.png') !important; 
-        background-position: center 45px !important; 
+    body {
+        /*background-image: url('/assets/image/advertiser-ipad.png') !important;*/
+        background-position: center 45px !important;
     }
 }
 
