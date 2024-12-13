@@ -1892,8 +1892,9 @@ button{
 
 	}
 	.section-8{
-		margin-top: 65px;
 		width: 100%;
+		max-width: 916px;
+		margin: 65px auto 0;
 		/* margin-left: 3%; */
 		display: flex;
 		flex-direction: column;
@@ -1905,7 +1906,7 @@ button{
 		padding-top: 31px;
 		padding-bottom: 60px;
 		width: 100%;
-		max-width: 916px;
+		/*max-width: 916px;*/
 		/* padding-left: 10%;
 		padding-right: 10%; */
 	}
