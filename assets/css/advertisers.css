@@ -27,10 +27,18 @@ body.advertise-page {
     right: -1%;
     z-index: 9;
 }
-.advertise-page .wrapper .hero-section .border-shape.shape4{
+.advertise-page .wrapper .hero-section .border-shape.shape4:not(.background-blue){
     left: 100px;
     max-width: 1121px;
-    height: 676px;
+    height: 594px;
+}
+.advertise-page .wrapper .hero-section .background-blue {
+    height: 50px;
+    width: 500px;
+    background-color: #1b89e7;
+    bottom: -201px;
+    left: 63%;
+    clip-path: polygon(5% 0, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .ads-accordion {
@@ -40,14 +48,18 @@ body.advertise-page {
 }
 
 .ads-accordion-item {
-    border-radius: 20px;
-    padding: 12px 20px ;
+    border-radius: 10px;
+    padding: 20px 10px 5px 0px;
 }
+
 .active {
     background: #232323;
     width: 100%;
     min-width: 617px;
-    height: 118px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .custon-icon {
     font-size: 20px;
@@ -80,7 +92,7 @@ body.advertise-page {
 }
 
 .active .ads-accordion-content {
-    padding: 0px 15px 21px 15px;
+    padding: 0px 15px 5px 15px;
     max-height: 200px;
 }
 .ads-accordion-header p {
@@ -120,7 +132,7 @@ body.advertise-page {
     line-height: 46.74px;
     letter-spacing: -0.03em;
     text-align: left;
-    background: linear-gradient(0deg, #007BFF 0%, #019AFC 70.76%);
+    background: linear-gradient(0deg, #0066ff 0%, #019AFC 70.76%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -140,7 +152,7 @@ body.advertise-page {
 }
 .hero-text p {
     color: var(--white);
-    font-size: 13.9px;
+    font-size: 12.21px;
     font-weight: 600;
     line-height: 19.85px;
 }
@@ -226,6 +238,12 @@ body.advertise-page {
     top: 100px;
     left: -135%;
     height: 400px;
+}
+.section-8 .faq-btn button:first-child{
+    min-width: 207px;
+    height: 34px;
+    padding: 0px 19px;
+    white-space: nowrap;
 }
 .section-8 .section-8-wrapper .border-shape.triangle{
     right: -156%;
@@ -436,7 +454,8 @@ body.advertise-page {
     padding: 0px 12px;
 }
 .realtime-6-ads-left > .site-btn{
-    border-radius: 3px;
+    border-radius: 5px;
+    min-width: 187px;
 }
 .site-btn2 {
     width: 100%;
@@ -570,7 +589,7 @@ body.advertise-page {
     }
     .image-insight{
         top: 250px;
-        right: -380px;
+        right: -468px;
     }
     .ads-section-2{
         position: relative;
@@ -611,7 +630,7 @@ body.advertise-page {
         padding-top: 10px;
     }
     .hero-text p {
-        font-size: 12px;
+        font-size: 8.77px;
         font-weight: 700;
         line-height: 13.15px;
 
@@ -620,6 +639,10 @@ body.advertise-page {
         /*background-image: url('/assets/image/advertiser-iPhone-bg.png') !important;*/
         background-position: center 60px !important;
         overflow-x: hidden;
+    }
+    .scale{
+        height: 16.9px !important;
+        font-size: 10.58px !important;
     }
     .wrapper{
         padding: 0px 15px;
@@ -659,17 +682,30 @@ body.advertise-page {
         left: 7%;
     }
     .hero-text button{
-        width: 93px;
+        width: 100px;
         height: 21px;
         border-radius: 4px;
     }
+    .hero-container .spaces{
+        margin: 10px 0;
+        gap: 10px
+    }
+    .ads-accordion-header {
+        gap: 18px;
+    }
+    .ads-accordion-content p{
+        margin-top: 5px;
+    }
+    .custon-icon{
+        font-size: 10px;
+    }
     .hero-text h1 {
-        font-size: 22.69px;
+        font-size: 19.24px;
         font-weight: 700;
-        line-height: 27.23px;
+        line-height: 24.23px;
         letter-spacing: -0.03em;
         text-align: left;
-        max-width: 70%;
+        max-width: 75%;
     }
     .hero-text button {
         font-size: 7.18px;
@@ -683,7 +719,6 @@ body.advertise-page {
     .insights-section {
         display: flex;
         flex-direction: column;
-        margin-top: 14%;
         width: unset !important;
     }
     .insights-section .accordion-box{
@@ -737,7 +772,7 @@ body.advertise-page {
         width: 100%;
     }
     .control-section {
-        margin-top: 3rem;
+        margin-top: 30.11px;
     }
     .section-8 h1 {
         font-size: 21px;
@@ -765,11 +800,15 @@ body.advertise-page {
         line-height: 21.77px;
     }
     .ads-accordion-content p {
-        font-size: 8.79px;
+        font-size: 8.60px;
         font-weight: 400;
         line-height: 13.18px;
         padding-left: 28px;
 
+    }
+    .hero-text span {
+        background: linear-gradient(0deg, #2B7FFC 0%, #60EFFF 100%);
+        background-clip: text;
     }
 	.Campaign-section h1 {
 		font-size: 25px;
@@ -777,6 +816,16 @@ body.advertise-page {
 	}
     .ads-section-2 {
         margin-top: 48px;
+    }
+    .mobile-ad-image img{
+        left: 3%;
+    }
+
+    .section-7-card-group .section-7-card{
+        min-width: 186px !important;
+    }
+    .hero-video video{
+        left: 10% !important;
     }
     .work-title h2 {
         font-size: 20px;
@@ -831,9 +880,10 @@ body.advertise-page {
 @media only screen and (max-width: 600px) {
     .ads-accordion .ads-accordion-item.active{
         min-width: 339px;
+        max-height: 108px;
     }
     .section-7 {
-        margin-left: 27px !important;
+        /*margin-left: 27px !important;*/
     }
     .section-7 .section-7-card-group{
         gap: 18px;

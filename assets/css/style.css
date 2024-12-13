@@ -1915,7 +1915,11 @@ button{
 		padding: 10px 0;
 	}
 	.accordion-item > button[aria-expanded="true"] .icon::after {
-		width: 0;
+		width: 1px;
+		top: -12px;
+	}
+	.accordion-item > button[aria-expanded="true"] .icon::after , .accordion-item > button[aria-expanded="true"] .icon::before {
+		transform: rotate(135deg)
 	}
 	.section-8 p {
 		max-width: 547px;
@@ -1952,7 +1956,7 @@ button{
 		/* background: #146EF5; */
 	}
 	.section-8-wrapper{
-		padding-top: 50px;
+		padding-top: 31px;
 		padding-bottom: 50px;
 		width: 100%;
 	}
@@ -3658,7 +3662,8 @@ display: none;
 		line-height: 15px;
 		text-align: left;
 		color: #EFEFEB;
-		padding-bottom: 17px;
+		padding-bottom: 10px;
+		padding-right: 40px;
 	}
 	.section-8 h1 {
 		font-size: 20px;
@@ -3817,6 +3822,12 @@ display: none;
 		font-weight: 600;
 		line-height: 18.68px;
 		text-align: center;
+	}
+	.footer-subscription .mb-button{
+		width: 100%;
+	}
+	  .footer-subscription .mb-button > button{
+		width: 100%;
 	}
 	.section-10-header {
 		border-top: 0px;
