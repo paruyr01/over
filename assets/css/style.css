@@ -2723,9 +2723,9 @@ display: none;
   }
 
   @media (max-width: 846px){
-	.wrapper .container > div{
+	/* .wrapper .container > div{
 		max-width: 339px;
-	}
+	} */
 	.wrapper .container{
 		padding: 0;
 	}
