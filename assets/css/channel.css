@@ -21,7 +21,7 @@ body.channel {
   }
   .bg-video {
     position: absolute;
-    top: 106px;
+    top: 80px;
     left: 0;
     width: 100%;
     height: 574px;
@@ -97,7 +97,7 @@ body.channel {
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-radius: 9.89px;
+    border-radius: 5px;
     flex-direction: column;
 }
 
@@ -121,7 +121,6 @@ body.channel {
     width: 100%;
     max-width: 1025px;
     margin-top: 52px;
-    margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -159,6 +158,13 @@ body.channel {
 .moretv-card img{
     border-radius: 10px!important;
 }
+.btn-outline {
+    width: 100%!important;
+    max-width: 186px!important;
+    height: 25.74px!important;
+    font-size: 13.52px!important;
+    padding: 0!important;
+}
 .moretv-content {
     width: 100%;
     margin-top: 15px;
@@ -194,7 +200,7 @@ body.channel {
     text-align: left;
 }
 .left_image_1 {
-    border-radius: 8.4px 0 8.4px 8.4px!important;
+    border-radius: 5px !important;
 }
 .hero-content span {
     font-size: 67.59px;
@@ -289,7 +295,7 @@ h1, p {
     line-height: 45.71px;
 }
 .video-content h1 {
-    font-size: 53.11px;
+    font-size: 53.11px!important;
     font-weight: 600;
     line-height: 52px;
     letter-spacing: -0.02em;
@@ -448,7 +454,6 @@ h1, p {
         height: 15px;
     }
     .video-content {
-        max-width: 581px;
         margin: 0 auto;
         padding: 35px 35px 15px 35px;
     }
@@ -491,15 +496,38 @@ h1, p {
         gap: 7px;
 
     }
+    .hero-content button {
+        width: 120px;
+        height: 27px;
+    }
+    .btn-outline {
+        width: 120px!important;
+        height: 22px!important;
+        font-size: 8px!important;
+    }
+    .sevice-text h1 {
+        font-size: 14px;
+    }
+    .video-section h1 {
+        font-size: 21.42px;
+    }
+    .video-section p {
+        font-size: 14px;
+        line-height: unset;
+    }
+    .sevice-text p {
+        font-size: 10px;
+    }
+    .group-2 {
+        margin-top: 0px!important;
+    }
     .moretv-section {
         margin-bottom: 30px;
     }
     .card-text-tv h4 {
         font-size: 12px;
     }
-    .group-2 {
-        margin-top: 30px !important;
-    }
+
     .channel .section-subscription {
         max-width: 761px;
     }
@@ -530,6 +558,10 @@ h1, p {
         width: 33px;
         margin-bottom: 5px;
     }
+
+    .video-content {
+        border-radius: 5px;
+    }
     
     .hero-content h1 {
         font-size: 25.95px;
@@ -551,6 +583,9 @@ h1, p {
         padding-top: 10px;
         letter-spacing: 0.2px;
     }
+    .service-img .trivia_and_quiz {
+        height: 129px;
+    }
     .hero-content button {
         width: 100%;
         max-width: 110px;
@@ -562,36 +597,39 @@ h1, p {
     .video-section h1 {
         font-size: 21.43px;
         width: 100%;
-        max-width: 230px;
         margin: 0 auto;
-        line-height: 28px;
+        line-height: 32px;
     }
     .video-section .text-center {
         margin-left: 0px!important;
     }
     .video-section p {
         width: 100%;
-        max-width: 321px;
-        font-size: 12px;
-        line-height: 18.44px;
+        font-size: 14px!important;
+        max-width: 510px;
     }
     .video-content {
-        max-width: 341px;
+        width: 100%;
+        max-width: 581px;
+        height: 231px;
         margin: 20px auto;
         padding: 10px;
     }
     .blue-wd-5 {
-        width: 21px;
-        height: 21px;
+        width: 36px;
+        height: 36px;
         margin-bottom: 5px;
-        margin-left: 0px;
+        margin-left: 30px;
     }
     .video-content img {
         width: 10px;
         height: 10px;
     }
+    .group-2 {
+        margin-top: 0px !important;
+    }
     .video-content h1 {
-        font-size: 13px;
+        font-size: 31.23px;
     }
     .video-content p {
         width: 100%;
@@ -601,55 +639,55 @@ h1, p {
         padding-top: 0px;
     }
     .video-content h2 {
-        font-size: 7.5px;
+        font-size: 7.24px;
         line-height: 7px;
-        padding-bottom: 5px;
+        padding-bottom: 7px;
+    }
+    .video-section {
+        margin-top: 30px !important;
     }
     .content-card {
+        width: 100%;
+        max-width: 230px;
+        height: 167px;
         padding: 10px 5px 0px 5px;
-        margin-left: 5px;
+        margin-left: 50px;
+    }
+    .moretv-content {
+        gap: 10px;
     }
     .service-section {
-        max-width: 340px;
+        max-width: 581px;
+        height: 251px;
         margin: 0 auto;
     }
     .service-icon {
-        width: 20px;
-        height: 20px;
+        width: 25px;
+        height: 25px;
         margin-top: 5px;
         padding: 10px
     }
     .service-icon img {
         width: 9px;
     }
+    .sevice-text {
+        padding: 7px;
+    }
     .sevice-text h1 {
-        font-size: 10px;
+        font-size: 10px !important;
         line-height: 17.5px;
     }
     .video-section p {
-        font-size: 8px;
+        font-size: 9px!important;
         line-height: 11px;
         padding-top: 5px;
     }
-    .content-service {
-        justify-content: unset;
-        flex: 1 1 calc(50% - 10px);
-    }
-    .service-section {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px; /* Adjust the gap between the divs */
-    }
-    
-    .content-service:nth-child(3) {
-        flex: 1 1 100%; 
-        display: flex;
-        flex-direction: row;
-        padding: 15px 15px 0px 15px;
+    .video-content-p {
+        margin-left: 30px!important;
     }
     .moretv-section h3{
         font-size: 12px;
-        padding-left: 0;
+        padding-left: 20px;
         padding-top: 5px;
     }
     .moretv-section {
@@ -680,9 +718,119 @@ h1, p {
         display: none;
     }
 }
-@media (max-width: 336px){
+@media (max-width: 630px){
+    .moretv-card {
+        width: 140px;
+    }
+}
+@media (max-width: 390px){
     .moretv-section h3 {
         text-align: center;
+    }
+        .content-service {
+        justify-content: unset;
+        flex: 1 1 calc(50% - 10px);
+    }
+    .video-content {
+        max-width: 340px!important;
+        height: 136px!important;
+    }
+    .content-card {
+        max-width: 135px;
+        height: 98px!important;
+    }
+    .service-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px; 
+    }
+    .content-service:nth-child(3) {
+        flex: 1 1 100%; 
+        display: flex;
+        flex-direction: row;
+        padding: 15px 15px 0px 15px;
+    }
+    .service-section {
+        margin-bottom: 170px;
+    }
+    .video-section p{
+        font-size: 8.5px!important;
+    }
+    .text-left {
+        text-align: left!important;
+    }
+    .video-content h1 {
+        font-size: 13px;
+        line-height: 15px;
+    }   
+    .blue-wd-5{
+        width: 21px;
+        height: 20px;
+        margin-left: 0px;
+    }
+    .video-content-p {
+        font-size: 8.5px!important;
+        margin-left: 0px!important;
+    }
+    .content-card {
+        margin-left: 25px;
+    }
+    .moretv-section h3 {
+        margin-left: 5px!important;
+    }
+    .service-section {
+        max-width: 340px;
+        gap: 10px;
+        margin-top: -10px;
+    }
+    .video-section h1 {
+        font-size: 20px;
+        max-width: 223px;
+        margin: 0 auto;
+    }
+    .text-center .p-p{
+        font-size: 12px!important;
+        max-width: 321px;
+        line-height: 20px;
+        padding-bottom: 20px;
+    }
+    .service-icon {
+        width: 18px;
+        height: 18px;
+    }
+    .hide-blue{
+        position: relative;
+        top: -60px;
+        left: 27px;
+    }
+    }
+    .service-img .trivia_and_quiz {
+        width: 135px;
+    }
+    .hide-moretv {
+        display: none;
+    }
+    .moretv-section h3 {
+        text-align: start;
+        margin-left: 13px;
+    }
+    .moretv-card {
+        width: 160px;
+    }
+    .hero-content button {
+        height: 25px;
+    }
+    .video-content h1 {
+        font-size: 13px!important;
+        margin-left: 0px!important;
+    }
+    .btn-outline {
+        font-size: 8.5px!important;
+        width: 112px!important;
+        height: 17px!important;
+    }
+    .mb-1{
+        margin-bottom: 5px!important;
     }
 }
 
