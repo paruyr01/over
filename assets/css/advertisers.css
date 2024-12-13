@@ -46,7 +46,9 @@ body.advertise-page {
     max-width: 600px;
     margin: 20px auto;
 }
-
+.advertise-page .wrapper .container > .section-7 {
+    align-items: center;
+}
 .ads-accordion-item {
     border-radius: 10px;
     padding: 20px 10px 5px 0px;
