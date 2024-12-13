@@ -16,6 +16,13 @@ body:not(.home-page, .advertise-page){
 * {
     font-family: "Poppins", sans-serif;
 }
+
+
+.fa-solid, .fas {
+	font-family: "Font Awesome 6 Free" !important;
+	font-weight: 900;
+}
+
 body.home-page{
 	overflow-x: hidden;
 	background-color: #161616;
