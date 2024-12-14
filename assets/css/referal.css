@@ -7,7 +7,7 @@ body {
 	font-family: "Poppins", sans-serif;
 	margin: 0;
 	height: 3000px;
-	background-image: url('/assets/image/home-page-bg.png') !important; 
+	/*background-image: url('/assets/image/homepage-background.png') !important;*/
 	background-size: cover; 
 	background-repeat: no-repeat;
 	background-position: center top;

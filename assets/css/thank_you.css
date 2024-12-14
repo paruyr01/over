@@ -526,7 +526,7 @@ w-100-pr {
 }
 
 /* For screens between 1440px and 1919px in width */
-@media (min-width: 1490px) and (max-width: 1919px) {
+/*@media (min-width: 1490px) and (max-width: 1919px) {*/
     .venue-video img:nth-child(1) {
         top: 200px;
         right: 0;
@@ -545,6 +545,13 @@ w-100-pr {
     }
     .venue-body {
         overflow-x: hidden;
+    }
+/*}*/
+
+@media(min-width: 1920px) {
+    .venue-video img:nth-child(1) {
+        right: unset;
+        left: 55%;
     }
 }
 
@@ -1281,7 +1288,7 @@ w-100-pr {
     }
     .ipad-card {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         /* gap: 20px; */
         width: 100%;
         margin-top: 4%;
@@ -1387,7 +1394,7 @@ w-100-pr {
 
     .ipad-card {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         gap: 10px;
         width: 100%;
     }
@@ -1414,4 +1421,12 @@ w-100-pr {
     .hero-video video {
         width: 78%;
     }
+}
+
+.thank_you_page .container.hero-section {
+    position: static;
+}
+
+.venue-video.venue-hero-img {
+    margin-left: 30px;
 }
