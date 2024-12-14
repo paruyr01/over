@@ -14,7 +14,37 @@
 .into_revenue{
     background: linear-gradient(0deg, #2B7FFC 30%, #60EFFF 82.14%);
 }
+.wrapper.affiliate_page .container.affiliate-container .border-shape.shape2{
+    top: 722px;
+    right: -70px;
+    width: 200px;
+    height: 724px;
+}
+.wrapper.affiliate_page .container.affiliate-container:not(.section-shape) .border-shape.shape3{
+    left: -150px;
+    width: 200px;
+    top: 1195px;
+    height: 724px;
+}
+.wrapper.affiliate_page{
+    position: relative;
+    overflow: hidden;
+}
+.container.affiliate-container.section-shape{
+    position: relative;
+}
 
+.section-shape .border-shape.shape2{
+    right: -45% !important;
+    top: 264px !important;
+}
+
+.section-shape .border-shape.shape3{
+    top: 392px;
+    left: -45%;
+    width: 200px;
+    height: 724px;
+}
 .affiliate-container .eran_rewards_image img{
     border-radius:18px ;
 }
@@ -288,6 +318,24 @@
     display: none!important;
 }
 @media (max-width: 1440px) {
+
+
+    .wrapper.affiliate_page .container.affiliate-container .border-shape.shape2{
+        right: -200px;
+    }
+    .wrapper.affiliate_page .container.affiliate-container:not(.section-shape) .border-shape.shape3{
+        left: -200px;
+    }
+
+    .section-shape .border-shape.shape2{
+        right: -350px !important;
+    }
+
+    .section-shape .border-shape.shape3{
+        left: -350px;
+    }
+
+
     .affiliate_page.wrapper .container > .section-4  {
         max-width: 1120px;
     }
