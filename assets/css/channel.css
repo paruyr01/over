@@ -9,13 +9,40 @@ body.channel {
 	padding: 0;
 	font-family: "Poppins";
 	background: #161616;
-	background-image: url('/assets/image/Channels-bg.png') !important;
+	/*background-image: url('/assets/image/Channels-bg.png') !important;*/
 	background-size: 1900px 3672.73px;;
 	background-repeat: no-repeat;
 	height: 100%;
 	background-position: center 10px; 
     overflow-x: hidden;
   }
+body.channel .wrapper .container{
+    position: relative;
+}
+body.channel .wrapper .container .border-shape.shape3 , .border-shape.shape2{
+    height: 702px;
+    top: 1012px;
+    left: -3%;
+    width: 200px;
+    z-index: -1;
+}
+.footer-subscription .section-10 {
+    position: relative;
+}
+
+body.channel .wrapper .container .border-shape.shape2{
+    right: -3%;
+    width: 200px;
+    left: unset;
+}
+
+body.channel .section-10 .border-shape.shape2{
+    bottom: 360px;
+    width: 200px;
+    left: unset;
+    height: 160px;
+    right: -7% !important;
+}
   .hero-channel {
     height: 574px;
   }
@@ -343,6 +370,24 @@ h1, p {
 }
 
 @media (max-width: 1440px){
+    body.channel .wrapper .container .border-shape.shape3{
+        transform: skew(-10deg);
+        left: -15%;
+        border-top-right-radius: 10px;
+    }
+    body.channel .wrapper .container .border-shape.shape2{
+        right: -6%;
+        width: 273px;
+        left: unset;
+        border-bottom: none;
+    }
+    body.channel .section-10 .border-shape.shape2{
+        top: 315px;
+        right: -245px !important;
+    }
+    body.channel .wrapper .container{
+        overflow: hidden;
+    }
     .video-content{
         width: 100%;
         max-width: 990px;
@@ -383,6 +428,7 @@ h1, p {
 }
 
 @media (max-width: 1080px) and (min-width: 846px){
+
     body.channel {
         background-size: 0;
     }
@@ -539,6 +585,21 @@ h1, p {
     }    .header-title button {
         max-width: 260px!important;
         height: 32px!important;
+    }
+}
+
+
+@media (max-width: 1042px) and (min-width: 320px) {
+    .container .border-shape.shape4{
+        height: 270px;
+        width: 328px;
+        left: 20px;
+        z-index: -1;
+        border-right: none;
+        top: 25px;
+    }
+    body.channel .wrapper .container{
+        overflow: unset;
     }
 }
 
