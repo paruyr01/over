@@ -23,6 +23,15 @@ body.venue-body {
 .flex-card-mob {
     display: none;
 }
+w-50-pr {
+    width: 50%;
+}
+w-100-pr {
+    width: 100%;
+}
+.border-top-left-70 {
+    border-top-left-radius: 70px;
+}
 .hero-video video{
     width: 100%;
     max-width: 100%;
@@ -331,6 +340,12 @@ body.venue-body {
     justify-content: space-between;
     width: 100%;
     margin-top: 60px;
+    position:relative;
+}
+
+.card-container .border-shape.shape3 {
+    margin-top: -5px;
+    left: -135%;
 }
 .venue-card-img {
     display: flex;
@@ -342,6 +357,11 @@ body.venue-body {
     width: 100%;
     display: flex;
     gap: 10px;
+    position:relative;
+}
+.card-container .border-top-left-40{
+    right: -136%;
+    top: 446px;
 }
 
 .flex-card {
@@ -529,6 +549,9 @@ body.venue-body {
 }
 
 @media  (max-width: 1490px) {
+    .card-container .border-shape.shape3 {
+        left: -117%;
+    }
     .venue-video img:nth-child(1) {
         top: 220px;
         right: 0;
@@ -588,6 +611,11 @@ body.venue-body {
 @media  (max-width: 1250px) {
     .thank_you_page .venue-container .vector1{
         display: none;
+    }
+}
+@media  (max-width: 1200px) {
+    .card-container .border-top-left-40 {
+        display:none;
     }
 }
 
@@ -713,6 +741,15 @@ body.venue-body {
         max-width: 410px;
         height: 221px;
     }
+    .ipad-card{
+        position:relative;
+    }
+    .ipad-card   .border-shape{
+        margin-top: -5px;
+        left: -97%;
+        z-index: -1;
+        top: 108px;
+    }
 }
 
 @media (min-width: 1920px) and (max-height: 1420px) {
@@ -830,7 +867,9 @@ body.venue-body {
 }
 
 @media (max-width: 768px){
-
+    .ipad-card   .border-shape{
+        display:none;
+    }
     .listing {
         margin-top: 30px;
         margin-bottom: 30px;
