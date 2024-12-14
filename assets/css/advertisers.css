@@ -34,10 +34,10 @@ body.advertise-page {
 }
 .advertise-page .wrapper .hero-section .background-blue {
     height: 50px;
-    width: 500px;
+    width: 250px;
     background-color: #1b89e7;
-    bottom: -201px;
-    left: 63%;
+    bottom: -150px;
+    left: calc(100% - 90px);
     clip-path: polygon(5% 0, 100% 0%, 100% 100%, 0% 100%);
 }
 
@@ -104,6 +104,10 @@ body.advertise-page {
     line-height: 39.64px;
     text-align: left;
 }
+
+.ads-accordion-item {
+    padding: 30px;
+}
 .hero-video video{
     max-width: 706px;
     height: 426px !important;
@@ -117,7 +121,24 @@ body.advertise-page {
 .hero-text {
     position: relative;
     width: 50%;
+    align-self: start;
+    margin-top: 30px;
 }
+.advertise-page .wrapper .hero-section .border-shape.shape4:not(.background-blue) {
+    left: 50%;
+    max-width: 1121px;
+    height: calc(100% + 100px);
+    transform: skewX(-10deg) translateX(-50%);
+    border-width: 3px;
+    bottom: -100px;
+    top: 0;
+    background-color: #161616;
+}
+.container.hero-section {
+    position: relative;
+}
+
+
 .hero-video img {
     position: absolute;
     bottom: -65px;
@@ -155,7 +176,7 @@ body.advertise-page {
 .hero-text p {
     color: var(--white);
     font-size: 12.21px;
-    font-weight: 600;
+    font-weight: bold;
     line-height: 19.85px;
 }
 .hero-container {
@@ -197,7 +218,7 @@ body.advertise-page {
 }
 .wrapper .container {
     width: 100%;
-    max-width: 982px;
+    max-width: 1162px;
     margin: 0 auto;
 }
 .wrapper .container .ads-title h1{
@@ -207,6 +228,10 @@ body.advertise-page {
     text-align: start;
     color: #ffffff;
     margin: 0;
+}
+
+.advertise-page .wrapper .container > div {
+    max-width: 1162px;
 }
 .insights-section {
     display: flex;
@@ -274,7 +299,6 @@ body.advertise-page {
 }
 .Campaign-section {
     width: 100%;
-    max-width: 982px;
     margin: 0 auto;
 }
 .Campaign-section h1{
@@ -633,7 +657,7 @@ body.advertise-page {
     }
     .hero-text p {
         font-size: 8.77px;
-        font-weight: 700;
+        font-weight: bold;
         line-height: 13.15px;
 
     }
@@ -1041,7 +1065,7 @@ body.advertise-page {
     }
     .hero-text p {
         font-size: 18px;
-        font-weight: 700;
+        font-weight: bold;
         line-height: 27.49px;
 
     }
@@ -1353,4 +1377,39 @@ body.advertise-page {
     align-items: center;
     padding-top: 30px;
     border-top: 1px solid #474747;
+}
+
+@media (min-width: 1080px) {
+    .ad-section-6-ads-right {
+        width: 43%;
+    }
+    .ad-section-6-ads-left {
+        width: 57%;
+        max-width: unset;
+    }
+    .ad-section-6-ads-left p, .ad-section-6-ads-right p, .ad-section-6-ads-left h1, .ad-section-6-ads-right h1 {
+        max-width: unset;
+    }
+
+    .realtime-6-ads-left {
+        width: 49%;
+    }
+
+    .realtime-6-ads-right {
+        width: 51%;
+        max-width: unset;
+    }
+
+    .advertise-page .wrapper .container > .section-7 {
+        max-width: 982px;
+        align-items: start;
+    }
+
+    .ads-section-2 .border-shape.shape3 {
+        margin-top: 50%;
+        width: 300px;
+        left: -55%;
+        border-width: 3px;
+    }
+
 }

@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+	width: 100vw;
+}
 body:not(.home-page, .advertise-page){
 	margin: 0;
 	padding: 0;
@@ -359,11 +362,17 @@ button{
   header .container {
 	max-width: 1162px;
 	width: 100%;
-	padding: 0 4rem;
 	margin: 0 auto;
 	display: flex;
 	position: relative;
-	padding: 25px 0 10px;
+	padding: 25px 0;
+  }
+
+  header::before{
+	  content: '';
+	  display: block;
+	  height: 10px;
+	  background: linear-gradient(90deg, #00A3FB 14%, #0077FF 100%);
   }
 
   .logo-container {
@@ -1008,7 +1017,7 @@ button{
 	}
 	.section-2-card-right span p{
 		font-size: 13px;
-		font-weight: 400;
+		font-weight: 500;
 		line-height: 20px;
 		text-align: left;
 		padding: 15px 0 18px 0;
@@ -1093,7 +1102,7 @@ button{
 	}
 	.section-2-2-card-left span p{
 		font-size: 13px;
-		font-weight: 400;
+		font-weight: 500;
 		line-height: 20px;
 		text-align: left;
 		padding: 15px 0 18px 0;
@@ -2267,8 +2276,15 @@ button{
 		width: 100%;
 		margin-top: 5px;
 		border-radius: 10px;
-		max-width: 1115px;
+		max-width: 1040px;
 	}
+
+	.section-subscription .header-title h4 {
+		font-weight: 500;
+		font-size: 17px;
+		line-height: 1;
+	}
+
 	@media screen and (min-width: 1920px) {
 		.footer-subscription {
 			max-width: 100% !important;

@@ -11,17 +11,18 @@
       <link href="assets/css/style.css" rel="stylesheet">
       <link href="assets/css/animate.css" rel="stylesheet">
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+<!--      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />-->
+       <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
       <script src="https://www.google.com/recaptcha/api.js" async defer></script>
       <link rel="stylesheet" href="assets/css/swiper.min.css" />
        <link rel="stylesheet" href="assets/css/global.css" />
    </head>
    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
    <body class="advertise-page"> 
-      <div id="loader">
-         <div id="progress-bar"></div>
-         <img src="/assets/image/loader-overtv.png" alt="Loading..." />
-     </div>
+<!--      <div id="loader">-->
+<!--         <div id="progress-bar"></div>-->
+<!--         <img src="/assets/image/loader-overtv.png" alt="Loading..." />-->
+<!--     </div>-->
       <header id="header">
          <div class="container">
            <input type="checkbox" name="check" id="check">
@@ -144,11 +145,11 @@
                </div>
                <div class="insights-section w-100">
                   <div class="mobile-ad-image">
-                     <img src="assets/image/Background-comp.png">
+                     <img src="assets/image/Step1Background.png" class="step-image">
                   </div>
                   <div class="accordion-box">
                      <div class="ads-accordion">
-                        <div class="ads-accordion-item active">
+                        <div class="ads-accordion-item active" data-image="assets/image/Step1Background.png">
                            <div class="ads-accordion-header">
                            <i class="fa custon-icon fa-minus" aria-hidden="true"></i>
                            <p data-i18n="ads_efficient_setup">Efficient setup</p>
@@ -157,7 +158,7 @@
                               <p data-i18n="ad_campaigns_control">Create ad campaigns based on your business goals, stay in control of your budget and cost per view.</p>
                            </div>
                         </div>
-                        <div class="ads-accordion-item">
+                        <div class="ads-accordion-item" data-image="assets/image/Step1Background.png">
                            <div class="ads-accordion-header">
                            <i class="fa fa-plus custon-icon" aria-hidden="true"></i>
                               <p data-i18n="ads_campaign_management">Campaign management</p>
@@ -166,7 +167,7 @@
                               <p data-i18n="campaign_optimization">Test, adjust, and optimize campaigns,and discover tools to help manage campaigns more efficiently.</p>
                            </div>
                         </div>
-                        <div class="ads-accordion-item">
+                        <div class="ads-accordion-item" data-image="assets/image/Background-comp.png">
                            <div class="ads-accordion-header">
                            <i class="fa fa-plus custon-icon" aria-hidden="true"></i>
                               <p data-i18n="flexible_reach">Flexible Reach</p>
@@ -175,7 +176,7 @@
                               <p data-i18n="targeting_options">Connect with customers on your terms, targeting by country, state, city, block or even individual businesses.</p>
                            </div>
                         </div>
-                        <div class="ads-accordion-item">
+                        <div class="ads-accordion-item" data-image="assets/image/Step1Background.png">
                            <div class="ads-accordion-header">
                               <i class="fa fa-plus custon-icon" aria-hidden="true"></i>
                               <p data-i18n="ads_for_all_budgets">For all budgets</p>
@@ -184,7 +185,7 @@
                               <p data-i18n="pricing_decision">Decide for yourself what price you want to advertise at, whether it's a mini campaign or a mega rollout. </p>
                            </div>
                         </div>
-                        <div class="ads-accordion-item">
+                        <div class="ads-accordion-item" data-image="assets/image/Background-comp.png">
                            <div class="ads-accordion-header">
                            <i class="fa fa-plus custon-icon" aria-hidden="true"></i>
                               <p data-i18n="programmatic_buying">Programmatic Buying</p>
@@ -196,7 +197,7 @@
                      </div>
                   </div>
                   <div class=" image-insight-container">
-                     <img class="image-insight" src="assets/image/Background-comp.png">
+                     <img src="assets/image/Step1Background.png" class="step-image image-insight">
                       <div class="border-shape hidden-sm b2 absolute shape2 w-full skew-x-10 border-top-right-15"></div>
                   </div>
                </div>
@@ -440,7 +441,7 @@
        <a href="https://www.tiktok.com/@overtv3" target="_blank"><img src="../assets/svg/tik-tok.svg" width="17px" height="17px"></img>
        </a>
  </div>
-     <p data-i18n="copyright">2024 Over TV © All Rights Reserved.</p>
+     <p data-i18n="copyright">2024 Over TV (™) all rights Reserved.</p>
  </div>
 </div>
          </div>
@@ -453,6 +454,19 @@
       <script src="assets/js/custom.js"></script>
       <script src="assets/js/script.js"></script>
       <script src="assets/js/swiper.min.js"></script>
+        <script>
+            $('.ads-accordion-item').on('click', function() {
+                const stepImages = $('.step-image');
+                if(stepImages) {
+                    const newImage = $(this).data('image');
+                    if(newImage) {
+                        stepImages.each(function () {
+                            $(this).attr('src', newImage);
+                        });
+                    }
+                }
+            })
+        </script>
       <script>
          // Select all accordion items
          const accordionItems = document.querySelectorAll('.ads-accordion-item');
