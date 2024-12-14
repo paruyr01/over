@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.general-section {
+    display: flex;
+    width: 100%!important;
+    max-width: 1155px!important;
+    margin-top: 120px;
+    gap: 40px;
+}
+
+.general-section .privacy-section {
+    width: 100%;
+    max-width: 198px;
+}
+
+.privacy-section h2{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.privacy-section ul{
+    width: 100%;
+    max-width: 173px;
+    font-size: 15.38px;
+    line-height: 16px;
+    font-weight: 200;
+}
+
+.privacy-section ul li {
+    padding-bottom: 15px;
+}
+
+.general-question>h2{
+    font-size: 48px;
+    letter-spacing: -0.02em;
+    line-height: 60px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.privacy-blog .version-control{
+    font-size: 30px;
+    color: #8A8A8A;
+    font-weight: 400;
+    line-height: 38px;
+    padding-top: 8px;
+}
+.privacy-blog .welcom-to{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #FFFFFF;
+    padding-top: 45px;
+    padding-bottom: 13px;
+}
+.privacy-blog p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+
+.privacy-blog .titel-h2 {
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding-bottom: 13px;
+}
+
+.privacy-conditions {
+    margin-left: 38px;
+}
+.privacy-conditions .privacy-blog .first_p {
+    padding-top: 50px;
+}
+
+.active-page {
+    color: #5B5B5B;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 1180px) {
+    .general-section {
+        padding: 0 25px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .privacy-section h2 {
+        font-size: 16px;
+    }
+    .privacy-section ul li{
+        font-size: 12px;
+    }
+    .general-section {
+        padding: 0;
+    }
+    .container .general-section .privacy-section {
+        min-width: 110px;
+    }
+    .general-question>h2 {
+        font-size: 30px;
+    }
+    .privacy-blog .version-control {
+        font-size: 25px;
+    }
+    .privacy-blog .welcom-to {
+        font-size: 25px;
+        padding-top: 25px;
+    }
+    .privacy-blog p {
+        font-size: 12px;
+    }
+    .privacy-blog .titel-h2 {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 770px){
+    .general-section {
+        padding: 0 20px;
+    }
+    .privacy-conditions .privacy-blog .first_p {
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 510px){
+    .general-question>h2 {
+        font-size: 25px;
+    }
+    .privacy-blog .version-control {
+        font-size: 20px;
+        padding-top: 0;
+    }
+    .privacy-blog .welcom-to {
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 0;
+    }
+    .privacy-blog p {
+        font-size: 10px;
+    }
+    .privacy-blog .titel-h2 {
+        font-size: 21px;
+    }
+    .privacy-section h2 {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .privacy-section ul li {
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+    .privacy-conditions {
+        margin-left: 20px;
+    }
+}
