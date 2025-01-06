@@ -348,7 +348,7 @@ h1, p {
     font-size: 14px;
     font-weight: 300;
     line-height: 17.7px;
-    color: var(--grey-text);
+    color: var(--white);
 }
 .video-content p {
     font-size: 18px;

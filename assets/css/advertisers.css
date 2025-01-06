@@ -480,7 +480,7 @@ body.advertise-page {
     padding: 0px 12px;
 }
 .realtime-6-ads-left > .site-btn{
-    border-radius: 5px;
+    border-radius: 3.6px;
     min-width: 187px;
 }
 .site-btn2 {
@@ -495,6 +495,10 @@ body.advertise-page {
     font-weight: 600;
     line-height: 13.5px;
     margin-top: 10px;
+}
+
+.active .ads-accordion-header p {
+    white-space:nowrap;
 }
 .scale2{
     width: 100%;
