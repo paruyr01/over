@@ -345,7 +345,7 @@ h1, p {
     left: 207px;
 }
 .sevice-text p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 17.7px;
     color: var(--white);
@@ -824,7 +824,7 @@ h1, p {
         margin-bottom: 170px;
     }
     .video-section p{
-        font-size: 8.5px!important;
+        font-size: 9.5px!important;
     }
     .text-left {
         text-align: left!important;
