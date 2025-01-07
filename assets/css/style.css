@@ -373,7 +373,7 @@ button{
 	  content: '';
 	  display: block;
 	  height: 10px;
-	  background: linear-gradient(90deg, #00A3FB 14%, #0077FF 100%);
+	  background: linear-gradient(90deg, #2B7FFC 0%, #60EFFF 100%);
   }
 
   .logo-container {
