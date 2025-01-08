@@ -1,7 +1,7 @@
 body.venue-body {
     background: #161616 !important;
     color: #666666;
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     margin: 0;
     height: 100vh;
     background-size: cover;
@@ -419,7 +419,7 @@ w-100-pr {
     border-radius: 6.38px;
     font-size: 18.36px;
     line-height: 24.3px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 .thank_you_page .thankyu_slider{
     position: relative;
