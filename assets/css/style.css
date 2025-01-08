@@ -155,7 +155,7 @@ button{
 }
 /* header start */
 .affiliate-container {
-	max-width: 1120px !important;
+	max-width: 1338px !important;
 }
 .br-lang .section-7 .section-7-card:nth-child(3) h3 {
 	line-height: 24.18px;
@@ -711,7 +711,7 @@ button{
 	line-height: 73.64px;
 	letter-spacing: -0.03em;
 	  text-align: center;
-	  background: #0886fb;
+	  background: linear-gradient(0deg, #2B7FFC 0%, #60EFFF 100%);
 	  background-clip: text;
 	  -webkit-text-fill-color: transparent;
 	  font-weight: 800;

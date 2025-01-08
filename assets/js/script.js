@@ -33,19 +33,11 @@ function applyTranslations(translations) {
     });
 }
 function getCountryCode() {
-
-    /* TEMP */
-    const lang = localStorage.getItem('__lang') || 'EN';
-    loadLanguage(lang);return;
-    localStorage.setItem('__lang', lang)
-    /* TEMP */
-
-
     fetch('https://ipinfo.io/json')
         .then(response => response.json())
         .then(data => {
-            const countryCode = data.country;
-            // const countryCode = "BR";
+            // const countryCode = data.country;
+            const countryCode = "BR";
             loadLanguage(countryCode);
         })
         .catch(error => {

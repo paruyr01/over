@@ -313,11 +313,17 @@ h1, p {
     font-size: 18px;
     font-weight: 200;
     line-height: 31.44px;
-    color: var(--grey-text);
+    color: var(--white);
     padding-top: 15px;
     max-width: 783px;
     margin: 0 auto;
 
+}
+.channel .footer-subscription{
+    margin-top: 10px;
+}
+.channel .wrapper .container .section-10{
+    margin-top: 37px;
 }
 .video-section h1 {
     font-size: 35.43px;
