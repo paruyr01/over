@@ -37,8 +37,9 @@ body.home-page{
     --light-card: #161616;
     --light-dark: #1D1D1D;
     --grey-text: #C4C3C3;
-	--dark-grey: #9b9b9b;
+	--dark-grey: #A2A2A2;
 }
+
 
 @media (max-width: 576px) {
 	.hidden-sm {
@@ -1904,6 +1905,46 @@ button{
 		font-weight: 500;
 		line-height: 26.55px;
 	}
+
+.home-page .section-7 .section-7-card{
+	flex-direction: column;
+	max-width: 292.45px;
+	padding: 49.14px 32.4px;
+	height: 338.63px !important;
+}
+
+.home-page .section-7 .section-7-card .second_block{
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+ .home-page.second_block2 {
+	margin-top: 10px;
+}
+
+ .home-page .section-7 .section-7-card .second_block_title {
+	font-size: 30.75px;
+	line-height: 64.2px;
+	font-weight: bold;
+}
+
+.home-page .section-7 .section-7-card .second_block_sub_title{
+	font-size: 15.5px!important;
+	line-height: 54.3px!important;
+	font-weight: 500;
+}
+.home-page .section-7 .section-7-card p.second_block_text{
+	font-size: 12px;
+	line-height: 20.9px;
+}
+.home-page .section-7 .section-7-card h3 {
+	font-size: 18px;
+	line-height: 28.2px;
+}
+
+.home-page .section-7-card-content {
+	padding-top: 30px;
+}
 	.footer-container {
 		background-color: #161616;
 	}
@@ -2458,6 +2499,10 @@ button{
 		color: var(--dark-grey);
 		max-width: 85%;
    }
+
+.home-page .section-2-title p {
+	max-width: 762px;
+}
    .faq-drawer__content{
 	padding: 20px 0;
    }

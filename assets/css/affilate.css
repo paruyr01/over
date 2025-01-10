@@ -1,14 +1,16 @@
-.affiliate-container .title_part .title-break b, .affiliate-container .title_part .title-break span{
+.affiliate_page .affiliate-container .title_part .title-break b, .affiliate-container .title_part .title-break span{
     font-weight: 800!important;
+    font-size: 73.64px!important;
 }
 .affiliate-container .title{
     margin-top: 71px;
 }
 .affiliate-container .title_part .title-break{
     display: flex;
-    gap: 10px;
+    gap: 0px;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .into_revenue{
@@ -71,25 +73,27 @@
 }
 
 .affiliate-container .earning_resources_description {
-    font-size: 16px;
-    line-height: 19px;
-    max-width: 619px;
-    color: var(--white);
+    font-size: 18px;
+    line-height: 25.6px;
+    max-width: 762.17px;
+    color: var(--dark-grey);
 }
 
 .affiliate-container .section-4-card-group {
-    margin-top: 45px;
+    margin-top: 32.7px;
 }
 .affiliate-container .section-4-card p {
-    font-size: 9.32px;
-    font-weight: 400;
-    line-height: 14px;
-    max-width: 155px;
+    font-size: 14.33px;
+    font-weight: 300;
+    line-height: 17.1px;
+    max-width: 203.77px;
+    color: var(--dark-grey);
 }
 
 .affiliate-container  .section-4-card {
-    width: 207px;
-    height: 226px;
+    width: 254.21px;
+    height: 277.51px;
+    padding: 43.13px 25.18px;
 }
 
 .section-4-card-group {
@@ -97,15 +101,30 @@
 }
 
 .affiliate-container .section-4-card h1 {
-    font-size: 13.97px;
+    font-size: 16.72px;
     font-weight: 600;
-    line-height: 21px;
-    padding-bottom: 15px;
+    line-height: 26.6px;
+    padding: 14.33px 0px;
 }
 
-.affiliate-container .section-4-card-icon svg {
-    width: 61px;
-    height: 61px;
+.affiliate-container .section-4-card-icon {
+     height: unset;
+ }
+ .affiliate-container .section-4-card-icon1 svg {
+    width: 52.53px;
+    height: 49.04px;
+}
+.affiliate-container .section-4-card-icon2 svg {
+    width: 39px;
+    height: 39px;
+}
+.affiliate-container .section-4-card-icon3 svg {
+    width: 48.64px;
+    height: 39.8px;
+}
+.affiliate-container .section-4-card-icon4 svg {
+    width: 44.57px;
+    height: 41.84px;
 }
 
 .affiliate-container .section-4-card {
@@ -113,9 +132,23 @@
 }
 
 .affiliate-body .wrapper .container .title p {
-    width: 890px;
-    font-size: 18px;
+    width: 1029px;
+    font-size: 21px;
+    line-height: 30.9px;
 }
+
+.affiliate-body .affiliate_page .section-4 {
+    max-width: 1066px;
+}
+
+.affiliate_page .section-4-title h1{
+    max-width: 995px;
+    font-size: 40.49px;
+    line-height: 48.6px;
+    font-weight: 500;
+    margin-top: 65px;
+}
+
 .affiliate-body .title-under {
     margin-top: 15px;
 }
@@ -162,16 +195,31 @@
     right: -4px;
     z-index: 9;
 }
-.title .affiliate-button {
+.affiliate-body .affiliate-button {
     width: 100%;
-    max-width: 224px;
-    font-size: 18.42px;
-    font-weight: 500;
+    max-width: 207.51px;
+    margin: 0 auto;
     margin-top: 14px;
-    padding-left: 40px;
-    padding-right: 40px;
-    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    gap:5px;
 }
+
+.affiliate-body .affiliate_page .affiliate-rewards-first .affiliate-button {
+    margin: 0px!important;
+    margin-top: 0px!important;
+}
+
+.affiliate-body .affiliate-button div {
+    font-family: "Inter", sans-serif;
+    font-size: 16.27px;
+    line-height: 24.4px;
+    font-weight: 500;
+}
+
 .section-4-title p {
     padding: 0px 0 20px 0;
 }
@@ -182,11 +230,11 @@
 
 
 .affiliate-body .title-under.affiliate-text p {
-    color: #F1F5F960;
+    color: var(--dark-grey);
 }
 
 .affiliate-container .section-4-title {
-    margin-top: 215px;
+    margin-top: 200px;
 }
 .affiliate-text {
     min-height: 70px;
@@ -225,13 +273,17 @@
 }
 
 .affiliate-rewards  .reward-text p {
-    font-size: 16px;
+    font-size: 16.9px;
     font-weight: 300;
-    line-height: 22.7px;
+    line-height: 24.1px;
 }
 
 .affiliate-rewards .eran_rewards_image {
     max-width: 503px;
+}
+
+.affiliate-body .rewards-img {
+margin-top: 0px;
 }
 
 
@@ -251,8 +303,8 @@
     max-width: 991px;
 } 
 .affiliate-container .reward-text .revenue_share_title {
-    font-size: 60.6px;
-    line-height: 59.4px;
+    font-size: 64.38px;
+    line-height: 63.1px;
     color: var(--white);
     padding-top: 10px;
     max-width: 320px;
@@ -272,8 +324,8 @@
 }
 
 .affiliate-container .scale.wow.faq_button{
-    font-size: 16.36px;
-    line-height: 21.6px;
+    font-size: 13.52px;
+    line-height: 17.9px;
 }
 
 .affiliate-rewards {
@@ -281,17 +333,47 @@
 }
 
 .affiliate-container .section-7 h1 {
-    font-size: 44.69px;
-    line-height: 53.6px;
-    max-width: 580px;
+    font-size: 41.24px;
+    line-height: 49.5px;
+    max-width: 538.24px;
 }
 
 .affiliate-body .affiliate-container .section-7 .section-7-card{
-    max-width: 316.8px;
-    padding-top: 60px;
-    height: 414px!important;
-    padding-right: 40px;
+    max-width: 292.45px;
+    padding: 49.14px 32.4px ;
+    height: 338.63px!important;
 }
+
+
+.affiliate-body .faqs_description {
+    font-size: 18px;
+    line-height: 26.6px;
+}
+
+.affiliate-body .affiliate_page .section-7 .section-7-card .second_block{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.second_block2 {
+    margin-top: 10px;
+}
+
+.affiliate-body .affiliate_page .section-7 .section-7-card .second_block_title {
+    font-size: 30.75px;
+    line-height: 64.2px;
+    font-weight: bold;
+}
+
+.affiliate-body .affiliate_page .section-7 .section-7-card .second_block_sub_title{
+    font-size: 15.5px;
+    line-height: 54.3px;
+}
+.affiliate-body .affiliate_page .section-7 .section-7-card .second_block_text{
+    font-size: 12px;
+    line-height: 20.9px;
+}
+
 .affiliate-body .accordion-title{
     line-height: 32px;
 }
@@ -308,8 +390,8 @@
 }
 
 .affiliate-body .affiliate-container .section-7 .section-7-card h3 {
-    font-size: 23px;
-    line-height: 30.5px;
+font-size: 18px;
+line-height: 28.2px;
 }
 
 .affiliate-body .affiliate-container .accordion-item {
@@ -319,6 +401,11 @@
 }
 .mob{
     display: none!important;
+}
+
+.affiliate-container .section-4-card{
+background:#1E1E1E ;
+border: 1px solid #737373;
 }
 @media (max-width: 1440px) {
 
@@ -616,6 +703,10 @@
 }
 
 @media (max-width: 768px){
+    .affiliate_page .affiliate-container .title_part .title-break b, .affiliate-container .title_part .title-break span {
+        font-size: 30px !important;
+
+    }
     /* .affiliate-container .section-7 h1 {
         text-align: start;
     } */
@@ -744,8 +835,8 @@
     }
 
     .affiliate-container .section-4-card-icon svg {
-        width: 80px;
-        height: 80px;
+        /*width: 80px;*/
+        /*height: 80px;*/
     }
 
     .section-4-card-group .section-4-card {
@@ -795,12 +886,26 @@
         line-height: 18px;
         padding: 0px;
     }
+    .affiliate-body .affiliate_page .section-7 .section-7-card .second_block_text {
+        font-size: 9px;
+        line-height: 14px;
+    }
+    .affiliate-body .affiliate_page .section-7 .section-7-card .second_block_sub_title {
+        font-size: 12.5px;
+        line-height: 25.3px;
+    }
+
+    .affiliate-body .affiliate_page .section-7 .section-7-card .second_block_title {
+        font-size: 15.75px;
+        line-height: 30.3px;
+        font-weight: bold;
+    }
     .affiliate-body .affiliate-container .section-7 .section-7-card p {
         font-size: 9px;
         line-height: 11px;
     }
     .affiliate-body .affiliate-container .section-7 .section-7-card {
-        height: 190px !important;
+        height: 220px !important;
         max-width: 221.8px;
         padding: 20px 10px !important;
     }
