@@ -809,7 +809,7 @@ button{
   }
   .section-1 {
 	text-align: center;
-	margin-top: 43px;
+	margin-top: 65px;
 	}
 	.section-1-title {
 		position: relative;
@@ -957,7 +957,7 @@ button{
 	}
 	.section-2{
 		text-align: center;
-		margin-top: 38px;
+		margin-top: 65px;
 	}
 	.wrapper .container > .section-2 {
 		max-width: 927px;
@@ -1081,7 +1081,7 @@ button{
 		margin-bottom: 10px;
 	}
 	.section-2-card-right span p{
-		font-size: 13px;
+		font-size: 14px;
 		font-weight: 500;
 		line-height: 20px;
 		text-align: left;
@@ -1193,7 +1193,7 @@ button{
 	}
 	.section-3{
 		text-align: center;
-		margin-top: 45px;
+		margin-top: 65px;
 		width: 100%;
 		position: relative;
 	}
@@ -1756,7 +1756,7 @@ button{
 		padding-top: 4.67px;
 	}
 	.wrapper .container > .section-7 {
-		margin-top: 76px;
+		margin-top: 65px;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -2390,7 +2390,7 @@ button{
 
 	.section-subscription .header-title h4 {
 		font-weight: 500;
-		font-size: 17px;
+		font-size: 20px;
 		line-height: 1;
 	}
 
