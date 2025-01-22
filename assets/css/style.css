@@ -1235,7 +1235,7 @@ button{
 		font-weight: 600;
 		line-height: 48.6px;
 		/* padding: 23px; */
-		margin-bottom: 21px;
+		margin-bottom: 35px;
 		letter-spacing: -1px;
 	}
 	.section-1-title p{
@@ -1972,7 +1972,7 @@ button{
 .home-page .section-7 .section-7-card{
 	flex-direction: column;
 	max-width: 292.45px;
-	padding: 49.14px 37.4px;
+	padding: 52.14px 27.4px;
 	height: 338.63px !important;
 }
 
