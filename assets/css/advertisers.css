@@ -318,10 +318,13 @@ body.advertise-page {
     font-weight: 300;
     line-height: 31.7px;
     text-align: left;
-    color: #FFFFFF99;
+    color: #FFFFFF;
     max-width: 754px;
     margin-top: 10px;
     letter-spacing: 0.1px;
+}
+.br-lang .ads-accordion-item:nth-child(5) {
+    display: none;
 }
 .ads-title-under p {
     color: var(--grey-text);
@@ -420,7 +423,7 @@ body.advertise-page {
     font-size: 15.11px;
     font-weight: 300;
     line-height: 23.5px;
-    color: #d0d0d0;
+    color: #FFFFFF;
     padding-top: 10px;
     padding-bottom: 30px;
     max-width: 389px;
