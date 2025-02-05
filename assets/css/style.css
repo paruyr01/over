@@ -94,6 +94,15 @@ body.home-page{
 .pb-1 {
 	padding-bottom: 1rem !important;
 }
+.mb-35 {
+	margin-bottom: 35px !important;
+}
+.mt-35 {
+	margin-top: 35px !important;
+}
+.mt-30 {
+	margin-top: 30px !important;
+}
 .index-wrapper {
 	overflow-x: clip;
 }
@@ -1228,6 +1237,9 @@ button{
 		max-width: 90%;
 		color: var(--dark-grey);
 	}
+	.section-2-title .btn-outline{
+		margin-bottom: 35px;
+	}
 	.section-2-title h1{
 		font-size: 40px;
 		color: var(--white);
@@ -1325,6 +1337,9 @@ button{
 		right: 31px;
 		/* box-shadow: 4.98px 3.99px 3.99px 0px #00000073; */
 
+	}
+	.section-4.home{
+		margin-top: 43px;
 	}
 	.section-4{
 		text-align: center;
@@ -1716,7 +1731,7 @@ button{
 		font-size: 41px;
 		font-weight: 600;
 		line-height: 50px;
-		padding-top: 20px;
+		padding-top: 35px;
 		max-width: 380px;
 	}
 	.section-6-left p{
@@ -1741,7 +1756,7 @@ button{
 		color: #fff;
 		padding: 34px 53px 33px 17px;
 		border-radius: 8px;
-		margin-bottom: 12px;
+		margin-bottom: 16px;
 	}
 	.section-6-right-card h2{
 		font-size: 20px;
@@ -1862,7 +1877,7 @@ button{
 	.section-8 .faq-btn {
 		display: flex;
 		justify-content: center;
-		margin-bottom: 20px;
+		margin-bottom: 25px;
 	}
 	.section-7 .section-7-card:nth-child(2) h2{
 		font-size: 26px;
@@ -2034,6 +2049,9 @@ button{
 	.accordion-item > button[aria-expanded="true"] .icon::after , .accordion-item > button[aria-expanded="true"] .icon::before {
 		transform: rotate(135deg)
 	}
+	.section-8 .faq-title p {
+		margin-top: 25px;
+	}
 	.section-8 p {
 		max-width: 547px;
 		margin-top: 15px;
@@ -2060,7 +2078,7 @@ button{
 	.section-8{
 		width: 100%;
 		max-width: 916px;
-		margin: 65px auto 0;
+		margin: 62px auto 0;
 		/* margin-left: 3%; */
 		display: flex;
 		flex-direction: column;
@@ -2069,7 +2087,7 @@ button{
 		/* background: #146EF5; */
 	}
 	.section-8-wrapper{
-		padding-top: 31px;
+		padding-top: 35px;
 		padding-bottom: 50px;
 		width: 100%;
 	}
@@ -2153,31 +2171,38 @@ button{
 		background: #474747;
 
 	  }
-	  .accordion button .icon::before {
-		display: block;
-		position: absolute;
-		content: '';
-		top: 14px;
-		left: 0px;
-		width: 21px;
-		height: 2px;
-		background: currentColor;
-	  }
-	  .accordion button .icon::after {
-		display: block;
-		position: absolute;
-		content: '';
-		top: 5px;
-		left: 9px;
-		width: 2px;
-		height: 21px;
-		background: currentColor;
-	  }
+	  /*.accordion button .icon::before {*/
+		/*display: block;*/
+		/*position: absolute;*/
+		/*content: '';*/
+		/*top: 14px;*/
+		/*left: 0px;*/
+		/*width: 21px;*/
+		/*height: 2px;*/
+		/*background: currentColor;*/
+	  /*}*/
+	  /*.accordion button .icon::after {*/
+		/*display: block;*/
+		/*position: absolute;*/
+		/*content: '';*/
+		/*top: 5px;*/
+		/*left: 9px;*/
+		/*width: 2px;*/
+		/*height: 21px;*/
+		/*background: currentColor;*/
+	  /*}*/
 
-	  .accordion button[aria-expanded='true'] .icon {
-		 transform: rotate(0deg);
-		 right: 0;
-		 top: 14px;
+      .acaccordion .icon_close{
+		  display: none;
+	  }
+      .accordion-item .icon_close, .accordion-item .icon_open{
+		font-size: 23px;
+	  }
+	  .accordion button[aria-expanded='true'] .icon_open {
+		display: none;
+	  }
+      .accordion button[aria-expanded='false'] .icon_close {
+		display: none;
 	  }
 	  .accordion button[aria-expanded='true'] + .accordion-content {
 		opacity: 1;
@@ -2385,7 +2410,7 @@ button{
 
 	.section-subscription .header-title h4 {
 		font-weight: 500;
-		font-size: 20px;
+		font-size: 18px;
 		line-height: 1;
 	}
 

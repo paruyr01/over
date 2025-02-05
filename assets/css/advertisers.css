@@ -229,10 +229,28 @@ body.advertise-page {
     color: #ffffff;
     margin: 0;
 }
-
+.advertise-page .border-shape{
+    display: none !important;
+}
 .advertise-page .wrapper .container > div {
     max-width: 1162px;
 }
+.advertise-page .wrapper .container .advertiser_block_section {
+    padding: 0 132px;
+}
+.advertise-page .wrapper .container .advertiser_block_section .ads-section-container > div {
+    display: flex;
+    gap: 45px;
+    margin-top: 45px;
+}
+.advertise-page .wrapper .container .advertiser_block_section .ads-section-container .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+
 .insights-section {
     display: flex;
     width: 100%;
@@ -323,9 +341,7 @@ body.advertise-page {
     margin-top: 10px;
     letter-spacing: 0.1px;
 }
-.br-lang .ads-accordion-item:nth-child(5) {
-    display: none;
-}
+
 .ads-title-under p {
     color: var(--grey-text);
     font-size: 14px;
@@ -400,8 +416,6 @@ body.advertise-page {
     max-width: 982px;
     display: flex;
     align-items: end;
-    margin-left: 30px;
-    margin-top: 20px;
 }
 .ad-section-6-ads-right {
     width: 50%;
@@ -453,7 +467,6 @@ body.advertise-page {
     font-size: 16.21px;
     font-weight: 300;
     line-height: 25.2px;
-    max-width: 330px;
     color: #d0d0d0;
 }
 .realtime-6-ads-right {
@@ -480,12 +493,33 @@ body.advertise-page {
     width: 100%;
     max-width: 982px;
     margin: 0 auto;
-    padding: 0px 12px;
+    padding: 65px 12px 3px 12px;
+}
+.advertiser_block_section .section-7 h1 {
+    padding: 25px 0;
+    margin-bottom: unset;
+}
+.advertiser_block_section .section-7 > button {
+    line-height: unset;
 }
 .realtime-6-ads-left > .site-btn{
     border-radius: 3.6px;
     min-width: 187px;
 }
+.section-7-card .center-div .card-text-content{
+    display: flex;
+    flex-direction: column;
+}
+.section-7-card .center-div .card-text-content > b{
+   font-size: 30.75px;
+}
+.section-7-card .center-div .card-text-content span strong{
+    font-size: 15.5px;
+}
+.section-7-card-group .section-7-card .center-div.advertiser > p{
+    font-size: 12px;
+}
+
 .site-btn2 {
     width: 100%;
     max-width: 186.67px;
