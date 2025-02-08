@@ -33,11 +33,11 @@ body.advertise-page {
     height: 594px;
 }
 .advertise-page .wrapper .hero-section .background-blue {
-    height: 50px;
-    width: 250px;
+    height: 60px;
+    width: 320px;
     background-color: #1b89e7;
-    bottom: -150px;
-    left: calc(100% - 90px);
+    bottom: -110px;
+    left: calc(100% - 210px);
     clip-path: polygon(5% 0, 100% 0%, 100% 100%, 0% 100%);
 }
 
@@ -68,13 +68,13 @@ body.advertise-page {
     color: var(--white);
 }
 .ads-accordion-header {
-    padding: 0px 15px;
+    /* padding: 0px 15px; */
     cursor: pointer;
     font-weight: bold;
     display: flex;
     gap: 25px;
     align-items: center;
-    margin-top: 7px;
+  
 }
 
 .ads-accordion-content {
@@ -87,14 +87,14 @@ body.advertise-page {
 .ads-accordion-content p {
     font-size: 16px;
     font-weight: 300;
-    line-height: 25.04px;
+    line-height: 24.04px;
     text-align: left;
-    color: #ffffff;
+    color: #CCCCCC;
     padding-left: 45px;
 }
 
 .active .ads-accordion-content {
-    padding: 0px 15px 5px 15px;
+    padding: 15px 15px 5px 15px;
     max-height: 200px;
 }
 .ads-accordion-header p {
@@ -109,8 +109,8 @@ body.advertise-page {
     padding: 30px;
 }
 .hero-video video{
-    max-width: 706px;
-    height: 426px !important;
+    max-width: 726px;
+    height: 439px !important;
     border: 10px solid #020202;
     object-fit: cover;
     background-color: black;
@@ -122,7 +122,7 @@ body.advertise-page {
     position: relative;
     width: 50%;
     align-self: start;
-    margin-top: 30px;
+    margin-top: 90px;
 }
 .advertise-page .wrapper .hero-section .border-shape.shape4:not(.background-blue) {
     left: 50%;
@@ -148,7 +148,7 @@ body.advertise-page {
     height: 197px;
 }
 .hero-text span {
-    font-size: 46.74px;
+    font-size: 44px;
     font-weight: 700;
     display: block;
     min-width: 525px;
@@ -164,13 +164,13 @@ body.advertise-page {
     max-width: 173.59px;
     height: 41px;
     /* padding:  10px 15px 10px 15px; */
-    background: linear-gradient(360deg, #0079FF 0%, #019FFC 135.95%);
+    background: #007AFE;
     color: var(--white);
     border: 0px;
-    border-radius: 12.2px;
-    font-size: 13.96px;
+    border-radius: 12px;
+    font-size: 16px;
     font-weight: 600;
-    line-height: 20.94px;
+    line-height: 19.94px;
     letter-spacing: 0.5px;
 }
 .hero-text p {
@@ -185,9 +185,9 @@ body.advertise-page {
     align-items: center ;
 }
 .hero-text h1 {
-    font-size: 46.74px;
+    font-size: 44px;
     font-weight: 700;
-    line-height: 100%;
+    line-height: 123%;
     text-align: left;
     color: #EEEEEE;
     letter-spacing: -0.03em;
@@ -200,14 +200,19 @@ body.advertise-page {
 .hero-video {
     position: relative;
     width: 57%;
-    left: 3%;
+    left: 2%;
 }
 .control-section p {
     color: var(--grey-text);
     padding-top: 10px;
 }
+.ad-section-img{
+    width: 468px;
+    height: 300px;
+
+}
 .ad-section-6-ads-right img:nth-of-type(2) {
-    display: none;
+    /* display: none; */
 }
 .control-section h2 {
     color: var(--white);
@@ -218,7 +223,7 @@ body.advertise-page {
 }
 .wrapper .container {
     width: 100%;
-    max-width: 1162px;
+    max-width: 1245px;
     margin: 0 auto;
 }
 .wrapper .container .ads-title h1{
@@ -233,7 +238,7 @@ body.advertise-page {
     display: none !important;
 }
 .advertise-page .wrapper .container > div {
-    max-width: 1162px;
+    max-width: 1245px;
 }
 .advertise-page .wrapper .container .advertiser_block_section {
     padding: 0 132px;
@@ -241,13 +246,14 @@ body.advertise-page {
 .advertise-page .wrapper .container .advertiser_block_section .ads-section-container > div {
     display: flex;
     gap: 45px;
-    margin-top: 45px;
+    margin-top: 20px;
 }
 .advertise-page .wrapper .container .advertiser_block_section .ads-section-container .text-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-self: center;
+ 
 }
 
 
@@ -321,7 +327,7 @@ body.advertise-page {
 }
 .Campaign-section h1{
     color: var(--white);
-    font-size: 40px;
+    font-size: 44px;
     font-weight: 600;
     line-height: 54.15px;
     padding-top: 40px;
@@ -332,11 +338,11 @@ body.advertise-page {
 }
 .Campaign-section p {
     width: 100%;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 31.7px;
     text-align: left;
-    color: #FFFFFF;
+    color: #CCCCCC;
     max-width: 754px;
     margin-top: 10px;
     letter-spacing: 0.1px;
@@ -353,6 +359,8 @@ body.advertise-page {
 .image-insight {
     position: absolute;
     top: 1050px;
+    right: -308px;
+    max-width: 784px;
 }
 .image-insight-container {
     display: flex;
@@ -382,6 +390,7 @@ body.advertise-page {
     line-height: 39.64px;
     text-align: left;
     color: #ffffff;
+    margin-top: -10px;
 
 }
 .campain-text {
@@ -426,21 +435,21 @@ body.advertise-page {
 .ad-section-6-ads-left h1,
 .ad-section-6-ads-right h1
 {
-    font-size: 40.29px;
+    font-size: 44px;
     font-weight: 600;
-    line-height: 50.4px;
+    line-height: 37.6px;
     max-width: 400px;
     color: var(--white);
     letter-spacing: -0.02em;
 }
 .ad-section-6-ads-left p, .ad-section-6-ads-right p {
-    font-size: 15.11px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 23.5px;
-    color: #FFFFFF;
-    padding-top: 10px;
+    color: #CCCCCC;
+    padding-top: 30px;
     padding-bottom: 30px;
-    max-width: 389px;
+    width: 393px;
 }
 .campaign-margin {
     margin-top: 2rem;
@@ -456,18 +465,21 @@ body.advertise-page {
     margin-left: 0px!important;
 }
 .realtime-6-ads-left h1 {
-    padding-top: 6rem;
-    font-size: 43.23px;
+    padding-top: 25px;
+    font-size: 44px;
     color: var(--white);
     font-weight: 600;
-    line-height: 54px;
+    line-height: 51.6px;
     letter-spacing: -0.02px;
 }
 .realtime-6-ads-left p {
-    font-size: 16.21px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 25.2px;
-    color: #d0d0d0;
+    color: #CCCCCC;
+    max-width: 396px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 .realtime-6-ads-right {
     width: 100%;
@@ -498,6 +510,7 @@ body.advertise-page {
 .advertiser_block_section .section-7 h1 {
     padding: 25px 0;
     margin-bottom: unset;
+    line-height: 53px;
 }
 .advertiser_block_section .section-7 > button {
     line-height: unset;
@@ -512,12 +525,14 @@ body.advertise-page {
 }
 .section-7-card .center-div .card-text-content > b{
    font-size: 30.75px;
+   line-height: 40px;
 }
 .section-7-card .center-div .card-text-content span strong{
     font-size: 15.5px;
 }
 .section-7-card-group .section-7-card .center-div.advertiser > p{
     font-size: 12px;
+    margin-top: 2px !important;
 }
 
 .site-btn2 {
@@ -595,7 +610,46 @@ body.advertise-page {
         padding-left: 40px;
     }
     .hide-for-desktop {
-        display: block;
+        display: none;
+    }
+    .ad-section-6-ads-left h1, .ad-section-6-ads-right h1 {
+        font-size: 28px;
+    }
+    .ad-section-6-ads-left p, .ad-section-6-ads-right p {
+        font-size: 14px;
+        padding-bottom: 0px;
+        width: 342px;
+    }
+    .realtime-6-ads-left h1 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .realtime-6-ads-left p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .realtime-6-ads-right {
+        align-items: start;
+        margin-top: 0px;
+    }    .realtime-6-ads-right img{
+        width: 100%;
+        height: 220px;
+    }
+    .ad-section-6-ads-right  img{
+        width: 100%;
+        height: 220px;
+    }
+    .ad-section-img {
+        max-width: 100%;
+        height: 220px;
+    }
+    .section-realtime{
+        flex-direction: column-reverse !important;
+    }
+    .advertise-page .wrapper .container .advertiser_block_section .ads-section-container > div{
+        flex-direction: column;
+        gap:30px;
+
     }
 	.mobile-insight {
 		margin-top: 3rem;
@@ -655,8 +709,10 @@ body.advertise-page {
         max-width: 706px;
     }
     .image-insight{
-        top: 250px;
-        right: -468px;
+        top: 115px;
+        right: -408px;
+        max-width: 784px;
+        height: 784px;
     }
     .ads-section-2{
         position: relative;
@@ -697,9 +753,10 @@ body.advertise-page {
         padding-top: 10px;
     }
     .hero-text p {
-        font-size: 8.77px;
+        font-size: 12px;
         font-weight: bold;
         line-height: 13.15px;
+        margin-top: 10px;
 
     }
     body {
@@ -708,8 +765,47 @@ body.advertise-page {
         overflow-x: hidden;
     }
     .scale{
-        height: 16.9px !important;
-        font-size: 10.58px !important;
+        height: 21px !important;
+        width:155px !important;
+        font-size: 14px !important;
+    }
+    .advertiser_block_section .section-7 h1 {
+        font-size: 28px;
+        line-height: 34px;
+        text-align: start;
+        width: 72%;
+    }
+    .section-7 .section-7-card:nth-child(1) h3 {
+        margin-top: 0px !important;
+        padding-left: 10px !important;
+        padding-top: 0px !important;
+        line-height: 15px !important;
+
+    }
+    .faq-btn .scale{
+        width: 217px !important;
+    }
+    .section-7 .section-7-card:nth-child(3) h3 {
+        margin-top: -20px !important;
+    }
+    .section-7 .section-7-card:nth-child(3) p {
+        display: none;
+    }
+    .section-7 .section-7-card:nth-child(1) p {
+        display: none;
+    }
+    .section-7 .section-7-card:nth-child(2) span {
+        line-height: 12px !important;
+    }
+
+    .section-7-card .center-div .card-text-content > b {
+        font-size: 18px;
+    }
+    .section-7-card .center-div .card-text-content span strong {
+        font-size: 10px;
+    }
+    .section-7-card-group .section-7-card .center-div.advertiser > p {
+        font-size: 8px;
     }
     .wrapper{
         padding: 0px 15px;
@@ -731,7 +827,7 @@ body.advertise-page {
         width: 380px;
     }
     .hero-video video{
-        border-right: 0;
+        border: 0;
         left: 15% !important;
     }
     .ad-section-6-ads-right {
@@ -749,9 +845,10 @@ body.advertise-page {
         left: 7%;
     }
     .hero-text button{
-        width: 100px;
-        height: 21px;
-        border-radius: 4px;
+        width: 165px;
+        height: 36px;
+        border-radius: 12px;
+        font-size: 14px;
     }
     .hero-container .spaces{
         margin: 10px 0;
@@ -773,12 +870,14 @@ body.advertise-page {
         letter-spacing: -0.03em;
         text-align: left;
         max-width: 75%;
+       
     }
     .hero-text button {
-        font-size: 7.18px;
+        font-size: 14px;
         font-weight: 700;
         line-height: 6.73px;
         text-align: center;
+        padding: 12px 13px;
     }
     .mobile-ad-image {
         display: flex;
@@ -792,7 +891,7 @@ body.advertise-page {
         display: flex;
     }
     .schedule-section h2 , .Targeting-section h2{
-        font-size: 24px;
+        font-size: 28px;
         font-weight: 600;
         line-height: 32px;
         max-width: 250px;
@@ -803,10 +902,10 @@ body.advertise-page {
         line-height: 32px;
     }
     .section-8 p {
-        max-width: 330px !important;
+        max-width: 336px !important;
     }
     .schedule-section p , .Targeting-section p , .Performance-section p {
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 400;
         line-height: 18px;
 
@@ -814,11 +913,11 @@ body.advertise-page {
     .hero-video img {
         width: 72px;
         height: 72px;
-        bottom: -13px;
+        bottom: -2px;
         left: 3%;
     }
     .ads-accordion-header p {
-        font-size: 14.28px;
+        font-size: 16px;
         font-weight: 600;
         line-height: 21.77px;
     }
@@ -848,7 +947,7 @@ body.advertise-page {
         display: none;
     }
     .ad-section-6 {
-        display: none;
+        /* display: none; */
     }
     .Campaign-section h1:nth-of-type(2), .Campaign-section button:nth-of-type(1) {
         display: block;
@@ -859,18 +958,22 @@ body.advertise-page {
         padding-top: 5px;
     }
     .mobile-ad-image img {
-        width: 100%;
+        width: 103%;
+    }
+    .active .ads-accordion-content {
+        padding: 5px 27px;
     }
     .active .ads-accordion-header p {
-        font-size: 14.28px;
+        font-size: 16px;
         font-weight: 600;
         line-height: 21.77px;
+        margin-top: 0px;
     }
     .ads-accordion-content p {
-        font-size: 8.60px;
+        font-size: 12px;
         font-weight: 400;
         line-height: 13.18px;
-        padding-left: 28px;
+        padding-left: 0px;
 
     }
     .hero-text span {
@@ -885,14 +988,14 @@ body.advertise-page {
         margin-top: 48px;
     }
     .mobile-ad-image img{
-        left: 3%;
+        left: 2%;
     }
 
     .section-7-card-group .section-7-card{
-        min-width: 186px !important;
+        min-width: 165px !important;
     }
     .hero-video video{
-        left: 10% !important;
+        left: 13% !important;
     }
     .work-title h2 {
         font-size: 20px;
@@ -945,21 +1048,50 @@ body.advertise-page {
 }
 
 @media only screen and (max-width: 600px) {
+    .hero-container {
+        margin-top: 0%;
+    }
+    .hero-text span {
+        font-size: 28px;
+    }
+    .hero-text h1 {
+        font-size: 24.5px;
+        line-height: 120%;
+    }
+    .hero-text {
+        margin-top: 39px;
+    }
+    .hero-container .spaces {
+        flex-direction: column;
+        align-items: start;
+        margin-top: 20px;
+    }
     .ads-accordion .ads-accordion-item.active{
         min-width: 339px;
-        max-height: 108px;
+        max-height: 120px;
+        padding: 15px;
     }
     .section-7 {
         /*margin-left: 27px !important;*/
     }
     .section-7 .section-7-card-group{
-        gap: 18px;
+        gap: 8px;
     }
     .ad-section-6 {
         display: flex;
         flex-direction: column;
     }
     .ad-section-6-ads-right {
+width: 100%;
+margin-top: 0px;
+    }
+    .advertise-page .wrapper .container .advertiser_block_section {
+        padding: 0px 10px !important;
+    }
+    .realtime-6-ads-left {
+        width: 100%;
+        padding-left: 0px !important;
+        
 
     }
 }
@@ -1139,7 +1271,7 @@ body.advertise-page {
 
     }
     .ad-section-6-ads-right img:nth-of-type(1) {
-        display: none;
+        /* display: none; */
     }
     .ad-section-6-ads-right img:nth-of-type(2) {
         display: inline;
@@ -1178,11 +1310,12 @@ body.advertise-page {
         flex-direction: column;
     }
     .ads-section-2 .image-insight-container .image-insight{
-        margin-top: 160px;
-        right: 0;
+        margin-top: 280px;
+        right: -90px;
     }
     .ads-accordion .ads-accordion-item.active{
         min-width: 406px;
+        height: 118px;
     }
     .hero-container {
         display: flex;
@@ -1238,7 +1371,7 @@ body.advertise-page {
         line-height: 26.1px;
     }
     .ads-accordion-content p {
-        font-size: 10.54px;
+        font-size: 12px;
         font-weight: 400;
         line-height: 15.8px;
         padding-left: 28px;
@@ -1255,7 +1388,7 @@ body.advertise-page {
         margin-top: 40px;
     }
     .accordion-box {
-        margin-top: -20px;
+        margin-top: 60px;
     }
     .active .ads-accordion-content {
         padding: 10px 15px 15px 15px;
@@ -1298,11 +1431,11 @@ body.advertise-page {
         gap: 25px;
     }
     .ad-section-6-ads-left h1, .ad-section-6-ads-right h1 {
-        font-size: 26.04px;
+        font-size: 36px;
         font-weight: 600;
-        line-height: 35.97px;
+        line-height: 40.97px;
         text-align: left;
-
+        width: 300px;
     }
     .ad-section-6-ads-right h1, .ad-section-6-ads-right p {
         padding-left: 20%;
@@ -1311,10 +1444,20 @@ body.advertise-page {
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
+        padding: 15px 0;
+        width:310px;
 
     }
     .ad-section-6-ads-right img:nth-of-type(1) {
-        display: none;
+        /* display: none; */
+        width: 369px !important;
+        height: 269px !important;
+    }
+    .ad-section-6-ads-right {
+        margin-top: 20px;
+    }
+    .advertise-page .wrapper .container .advertiser_block_section {
+        padding: 20px;
     }
     .ad-section-6-ads-right img:nth-of-type(2) {
         display: inline;
@@ -1329,14 +1472,22 @@ body.advertise-page {
         height: 129px;
     }
     .Campaign-section p {
-        max-width: 88%;
+        max-width: 86%;
         padding-top: 10px;
+        font-size: 18px;
+        line-height: 30px;
     }
     .realtime-6-ads-left h1 {
         font-size: 30.64px;
         font-weight: 600;
         line-height: 38.3px;
+        width: 320px;
 
+    }
+    .section-7 h1 {
+        font-size: 33px !important;
+        line-height: 38px !important;
+        width: 470px;
     }
     .section-8 {
         padding: 5%;
@@ -1347,14 +1498,32 @@ body.advertise-page {
         font-size: 14px;
         font-weight: 400;
         line-height: 20px;
-        max-width: 91%;
+        width: 312px;
     }
     .realtime-6-ads-right img {
         height: 100%;
+        width: 338px;
+    }
+    .realtime-6-ads-right {
+        align-items: start;
+        width: auto;
+    }
+    .footer-subscription {
+        max-width: 680px !important;
+        font-size: 13px;
+       
+    } 
+    .footer-subscription    .section-subscription {
+        padding: 12px 8px!important;
+    }
+    .footer-subscription  .header-title button {
+        padding: 6px 32px !important;
+        height: 30px;
+        line-height: 12px;
     }
     .hero-video video {
-        width: 100%;
-        right: -100px;
+        width: 78%;
+        right: 0px;
         height: 381px !important;
         position: absolute;
     }
@@ -1368,10 +1537,16 @@ body.advertise-page {
     .hero-container {
         display: flex;
         flex-direction: column;
+        margin-top: 0px;
+        margin-left: 60px;
     }
     body {
         /*background-image: url('/assets/image/advertiser-ipad.png') !important;*/
         background-position: center 45px !important;
+    }
+    .Campaign-section h1 {
+        width: 62%;
+        font-size: 40px;
     }
 }
 
@@ -1425,7 +1600,7 @@ body.advertise-page {
         width: 43%;
     }
     .ad-section-6-ads-left {
-        width: 57%;
+        width: 49%;
         max-width: unset;
     }
     .ad-section-6-ads-left p, .ad-section-6-ads-right p, .ad-section-6-ads-left h1, .ad-section-6-ads-right h1 {

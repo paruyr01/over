@@ -71,13 +71,13 @@ body.channel .section-10 .border-shape.shape2{
     text-align: center;
     min-height: 500px;
     letter-spacing: -2px;
-    padding-top: 63px;
+    padding-top: 103px;
     padding-left: 8px;
 }
 .hero-content h1 {
-    font-size: 67.59px;
+    font-size: 44px;
     font-weight: 800;
-    line-height: 77.59px;
+    line-height: 51.59px;
 
 }
 .video-content {
@@ -86,7 +86,7 @@ body.channel .section-10 .border-shape.shape2{
     background: var(--light-dark);
     border-radius: 9.89px;
     display: flex;
-    padding: 70px 40px 40px 40px;
+    padding: 30px 0px;
     align-items: center;
     margin-top: 60px;
     margin-left: auto;
@@ -125,7 +125,7 @@ body.channel .section-10 .border-shape.shape2{
     width: 32%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     border-radius: 5px;
     flex-direction: column;
@@ -138,6 +138,9 @@ body.channel .section-10 .border-shape.shape2{
 }
 .sevice-text {
     padding: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .service-img {
     display: flex;
@@ -190,7 +193,7 @@ body.channel .section-10 .border-shape.shape2{
 }
 .btn-outline {
     width: 100%!important;
-    max-width: 186px!important;
+    max-width: 286px!important;
     height: 25.74px!important;
     font-size: 13.52px!important;
     padding: 0!important;
@@ -219,7 +222,7 @@ body.channel .section-10 .border-shape.shape2{
     font-size: 14px;
     font-weight: 400;
     line-height: 17.7px;
-    margin-bottom: 8px!important;
+    margin-bottom: 4px!important;
     text-align: center;
     color: var(--grey-text)
 }
@@ -233,7 +236,7 @@ body.channel .section-10 .border-shape.shape2{
     border-radius: 5px !important;
 }
 .hero-content span {
-    font-size: 67.59px;
+    font-size: 64px;
     font-weight: 800;
     line-height: 64.59px;
     text-align: center;
@@ -244,14 +247,14 @@ body.channel .section-10 .border-shape.shape2{
 }
 
 .hero-content button {
-    width: 224px;
-    height: 42px;
-    padding: 4px 18px 5px 18px;
-    background: linear-gradient(360deg, #1367e5 0%, #099DFB 58.95%);
+    width: 162px;
+    height: 40px;
+    padding: 10px 23px ;
+    background:#007AFE;
     color: var(--white);
     border: 0px;
     border-radius: 12.2px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     margin-top: 40px !important;
     letter-spacing: 0.1px;
@@ -265,7 +268,7 @@ body.channel .section-10 .border-shape.shape2{
     background-color: #131313;
     padding: 24px 15px 15px 15px;
     border-radius: 7.22px;
-    margin-left: 62px;
+    margin-left: 55px;
 }
 .content-card h1 {
     color: var(--grey-text);
@@ -273,6 +276,7 @@ body.channel .section-10 .border-shape.shape2{
     text-align: start;
     padding-bottom: 10px;
 }
+
 .content-card video {
     border-radius: 5.72px;
 }
@@ -291,7 +295,7 @@ h1, p {
     max-width: 765px;
     color: var(--white);
     opacity: 60%;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 27.37px;
     padding-top: 26px;
@@ -310,11 +314,11 @@ h1, p {
     margin-bottom: 38px;
 }
 .video-section p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 31.44px;
-    color: var(--white);
+    color: #FFFFFF99;
     padding-top: 15px;
-    max-width: 783px;
+    max-width: 827px;
     margin: 0 auto;
 
 }
@@ -324,24 +328,35 @@ h1, p {
 .channel .wrapper .container .section-10{
     margin-top: 37px;
 }
+.video_choose{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 .video-section h1 {
-    font-size: 35.43px;
+    margin-top: 15px;
+    font-size: 44px;
     font-weight: 500;
-    line-height: 45.71px;
+    line-height: 43.71px;
+    max-width: 570px;
+    margin: 10px 0px;
 }
 .video-content h1 {
-    font-size: 53.11px!important;
+    font-size: 44px!important;
     font-weight: 600;
     line-height: 52px;
     letter-spacing: -0.02em;
     max-width: 83%;
     text-align: left;
     margin-left: 30px;
+    margin-top: 16px;
 }
 .sevice-text h1 {
     font-size: 22px;
     font-weight: 500;
     line-height: 33.64px;
+    width: 90%;
 
 }
 .frame_icon {
@@ -350,16 +365,17 @@ h1, p {
     left: 207px;
 }
 .sevice-text p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
-    line-height: 17.7px;
-    color: var(--white);
+    line-height: 20px;
+    color: #FFFFFF99;
+    width: 243px !important;
 }
 .video-content p {
     font-size: 18px;
     font-weight: 300;
     line-height: 24.78px;
-    color: var(--white);
+    color: #FFFFFF99;
     max-width: 86%;
     padding-top: 15px;
 }
@@ -519,6 +535,7 @@ h1, p {
         padding: 10px 10px 0px 10px;
         margin-left: 20px;
     }
+ 
     .hide-mobile {
         width: 100%;
         max-width: 581px;
@@ -535,7 +552,7 @@ h1, p {
         width: 9px;
     }
     .content-service {
-        justify-content: unset;
+        /* justify-content: unset; */
     }
     .sevice-text {
         padding: 2px;
@@ -559,9 +576,10 @@ h1, p {
         height: 27px;
     }
     .btn-outline {
-        width: 120px!important;
-        height: 22px!important;
-        font-size: 8px!important;
+        width: 183px!important;
+        height: 29px!important;
+        font-size: 14px!important;
+        margin-top: 40px;
     }
     .sevice-text h1 {
         font-size: 14px;
@@ -612,6 +630,7 @@ h1, p {
     }
     body.channel .wrapper .container{
         overflow: unset;
+        margin-top: -20px;
     }
 }
 
@@ -620,16 +639,18 @@ h1, p {
         height: 255px;
     }
     .bg-video {
-        height: 255px;
+        height: 460px;
         top: 100px;
     }
     .hero-content {
-        padding-top: 30px;
+        padding-top: 62px;
         min-height: 280px;
     }
     .hero-content img {
-        width: 33px;
-        margin-bottom: 5px;
+        width: 100px;
+        height: 19px;
+        margin-top: 62px;
+        margin-bottom: 20px;
     }
 
     .video-content {
@@ -637,22 +658,22 @@ h1, p {
     }
     
     .hero-content h1 {
-        font-size: 25.95px;
+        font-size: 48px;
         font-weight: 800;
         line-height: 100%;
         letter-spacing: 0px;
     }
     .hero-content span {
-        font-size: 25.95px;
+        font-size: 48px;
         line-height: 100%;
         margin-top: 5px;
         letter-spacing: 0.1px;
     }
     .hero-content p {
-        max-width: 309px;
-        font-size: 12px;
+        max-width: 648px;
+        font-size: 18px;
         font-weight: 300;
-        line-height: 18.37px;
+        line-height: 26px;
         padding-top: 10px;
         letter-spacing: 0.2px;
     }
@@ -661,17 +682,23 @@ h1, p {
     }
     .hero-content button {
         width: 100%;
-        max-width: 110px;
-        margin-top: 20px !important;
-        font-size: 8.5px;
+        max-width: 138px;
+        /* margin-top: 30px !important; */
+        height: 36px;
+        font-size: 14px;
         padding: 6px 10px 6px 10px;
         border-radius: 6px
     }
     .video-section h1 {
-        font-size: 21.43px;
+        font-size: 35px;
         width: 100%;
         margin: 0 auto;
-        line-height: 32px;
+        line-height: 38px;
+       
+    }
+    .video_choose h1{
+        font-size: 35px;
+        letter-spacing: -2%;
     }
     .video-section .text-center {
         margin-left: 0px!important;
@@ -679,7 +706,11 @@ h1, p {
     .video-section p {
         width: 100%;
         font-size: 14px!important;
-        max-width: 510px;
+        /* max-width: 510px; */
+    }
+    .service-section p{
+        font-size: 10px !important;
+        max-width: 173px !important;
     }
     .video-content {
         width: 100%;
@@ -695,8 +726,11 @@ h1, p {
         margin-left: 30px;
     }
     .video-content img {
-        width: 10px;
-        height: 10px;
+        width: 100%;
+        height: 80%;
+    }
+    .blue-wd-5 img {
+        width: 17px;
     }
     .group-2 {
         margin-top: 0px !important;
@@ -707,17 +741,21 @@ h1, p {
     .video-content p {
         width: 100%;
         max-width: 321px;
-        font-size: 8.5px;
-        line-height: 11px;
-        padding-top: 0px;
+        font-size: 13px !important;
+        line-height: 17px;
+        padding-top: 5px;
     }
     .video-content h2 {
-        font-size: 7.24px;
-        line-height: 7px;
+        font-size: 14.83px;
+        line-height: 14px;
         padding-bottom: 7px;
     }
     .video-section {
-        margin-top: 30px !important;
+        margin-top: 250px !important;
+        margin-bottom: 80px;
+    }
+    .content-service {
+        height: 115%;
     }
     .content-card {
         width: 100%;
@@ -737,7 +775,7 @@ h1, p {
     .service-icon {
         width: 25px;
         height: 25px;
-        margin-top: 5px;
+        margin-top: 20px;
         padding: 10px
     }
     .service-icon img {
@@ -750,16 +788,18 @@ h1, p {
         font-size: 10px !important;
         line-height: 17.5px;
     }
-    .video-section p {
-        font-size: 9px!important;
-        line-height: 11px;
+     .video_choose p {
+        margin-top: 20px;
+        font-size: 18px!important;
+        line-height: 26px;
         padding-top: 5px;
+        width: 727px !important;
     }
     .video-content-p {
         margin-left: 30px!important;
     }
     .moretv-section h3{
-        font-size: 12px;
+        font-size: 14px;
         padding-left: 20px;
         padding-top: 5px;
     }
@@ -774,23 +814,23 @@ h1, p {
         font-size: 12px;
     }
     .header-title h4 {
-        display: none;
+        /* display: none; */
     }
     .header-title button {
         width: 100%;
         max-width: 339px;
     }
     .channel .section-subscription {
-        border: none;
+        /* border: none; */
         background-color: #161616;
     }
 }
 
-@media (max-width: 759px){
+/* @media (max-width: 759px){
     .channel .section-subscription {
         display: none;
     }
-}
+} */
 @media (max-width: 630px){
     .moretv-card {
         width: 140px;
@@ -799,6 +839,25 @@ h1, p {
 
 
 @media (max-width: 390px){
+    .hero-content {
+        padding-top: 50px !important;
+    }
+    .hero-content img{
+        margin-top: 0px !important;
+    }
+    .hero-content h1 {
+        font-size: 32px ;
+        width: 70%;
+        line-height: 33px;
+    }
+    .hero-content span {
+        font-size: 32px;}
+        .hero-content p {
+            font-size: 16px;
+            line-height: 22px;
+            width: 335px;
+            margin-top: 20px;
+        }
     .moretv-section h3 {
         text-align: center;
     }
@@ -823,7 +882,8 @@ h1, p {
         flex: 1 1 100%;
         display: flex;
         flex-direction: row;
-        padding: 15px 15px 0px 15px;
+        padding: 15px 0px 0px 15px;
+        height: 135px !important;
     }
     .service-section {
         margin-bottom: 170px;
@@ -833,15 +893,20 @@ h1, p {
     }
     .text-left {
         text-align: left!important;
+        margin-left: -28px !important;
     }
     .video-content h1 {
         font-size: 13px;
         line-height: 15px;
     }
+    .sevice-text h1{
+
+    }
     .blue-wd-5{
         width: 21px;
         height: 20px;
         margin-left: 0px;
+        margin-top: 20px;
     }
     .video-content-p {
         font-size: 8.5px!important;
@@ -865,9 +930,9 @@ h1, p {
     }
     .text-center .p-p{
         font-size: 12px!important;
-        max-width: 321px;
-        line-height: 20px;
-        padding-bottom: 20px;
+        max-width: 321px !important;
+        line-height: 20px !important;
+        padding-bottom: 20px !important;
     }
     .service-icon {
         width: 18px;
@@ -876,11 +941,12 @@ h1, p {
     .hide-blue{
         position: relative;
         top: -60px;
-        left: 27px;
+        /* left: 27px; */
     }
 
     .service-img .trivia_and_quiz {
         width: 135px;
+        margin-top: -11px;
     }
     .hide-moretv {
         display: none;
@@ -892,20 +958,84 @@ h1, p {
     .moretv-card {
         width: 160px;
     }
+    .video-section {
+        margin-top: 280px !important;
+    }
+    .video-section .btn-outline {
+        width: 286px !important;
+        height: 21px !important;
+    }
+    .video-section h1 {
+        font-size: 30px;
+        line-height: 34px;
+        max-width: 350px !important;
+        margin-top: 20px;
+    }
+    .text-center .p-p {
+        font-size: 16px !important;
+        max-width: 360px !important;
+    }
+    /* .video-content {
+        height: ;
+    } */
+    .video-content h1 {
+        margin-top: 0px;
+        line-height: 20px;
+    }
+    .video-content-p{
+        padding-left: 0px !important;
+        margin-top: 5px !important;
+        margin-bottom: 15px !important;
+    }
+    .video-section p {
+        font-size: 8px !important;
+        line-height: 11px !important;
+        padding: 0px 15px;
+        margin-top: 10px;
+    }
     .hero-content button {
-        height: 25px;
+        height: 36px;
+        width: 138px;
+        margin-top: 23px;
     }
     .video-content h1 {
         font-size: 13px!important;
         margin-left: 0px!important;
     }
     .btn-outline {
-        font-size: 8.5px!important;
+        font-size: 12px!important;
         width: 112px!important;
         height: 17px!important;
     }
     .mb-1{
         margin-bottom: 5px!important;
+    }
+.head-left{
+    margin-left: -15px !important;
+}
+    .sevice-text h1 {
+        font-size: 14px !important;
+        line-height: 20px !important;
+        margin-top: 10px;
+        
+    }
+    .service-icon {
+        margin-top: 10px !important;
+    }
+    .content-service {
+        justify-content: space-between;
+        height: 106% !important;
+    }
+    .section-subscription {
+        display: block !important;
+        border: none !important;
+    }
+    .section-subscription .header-title h4 {
+        display: none !important;
+    }
+
+    .section-subscription .header-title button {
+        font-size: 14px !important;
     }
 }
 

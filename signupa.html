@@ -242,70 +242,82 @@
                 </div>
                 
             </div>
+            <h2 class="head-text hidden-xl flex-sm" data-i18n="advertiser_signupa">Sign Up</h2>
+
             <div class="column right-column">
                <div class="signup-form">
-                <h2 data-i18n="advertiser_signup">Sign Up</h2>
-                <span><p>Already have an Over account?</p> <a href="https://admin.over.tv/" style="color: #498afd;">Login Here</a></span>                <form onsubmit="submitForm(event)" class="submit-form" id="signupForm">
-                    <div class="form-control">
+                <h2 data-i18n="advertiser_signupa" class="hidden-sm">Sign Up</h2>
+                <span class="hidden-sm"><p data-i18n="already">Already have an Over account?</p> <a href="https://admin.over.tv/" style="color: #498afd;" data-i18n="loginHere">Login Here</a></span>                <form onsubmit="submitForm(event)" class="submit-form" id="signupForm">
+                    <h2 data-i18n="contact_info" style="margin-top: 1.5rem;">
+                        Contact Info
+                    </h2>
+                    <!-- <div class="form-control">
                         <label data-i18n="work_email" for="work-email">Work Email</label>
                         <input onchange="ValidarSeUsuarioExiste()" type="email" id="work-email" placeholder="Your work email" data-i18n-placeholder="work_email_placeholder" required />
-                        <span id="msgValidacaoEmail" style="color: #e85347;font-size: 11px;font-style: italic;display:none"></span>
+                        <span id="msgValidacaoEmail" style="color: #e85347;font-size: 11px;font-style: italic;display:none"></span> -->
                         <!-- <p class="input-description">This will be used as your username</p> -->
-                    </div>
+                    <!-- </div> -->
                     <div class="form-control-flex">
                         <div class="form-control">
                             <label for="first-name" data-i18n="first_name">First Name</label>
-                            <input type="text" id="first-name" data-i18n-placeholder="first_name" placeholder="First Name" required/>
+                            <input type="text" id="first-name" placeholder="Nome Completo" required/>
                         </div>
                         <div class="form-control">
+                            <label for="work-email" data-i18n="work_email">Work Email</label>
+                            <input onchange="ValidarSeUsuarioExiste()" type="email" id="work-email" placeholder="E-mail" required />
+                            <span id="msgValidacaoEmail" style="color: #e85347;font-size: 11px;font-style: italic;display:none"></span>
+                            <!-- <p class="input-description">This will be used as your username</p> -->
+                        </div>
+                        <!-- <div class="form-control">
                             <label for="last-name" data-i18n="last_name">Last Name</label>
                             <input type="text" id="last-name" placeholder="Last Name" data-i18n-placeholder="last_name" required/>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="form-control-flex">
                         <div class="form-control">
                             <label for="phone" data-i18n="phone_number">Phone Number</label>
-                            <input id="phone" type="tel" name="phone"  required/>
+                            <input id="phone1" placeholder="Telefone" type="number" name="phone"  required/>
                         </div>
                         <div class="form-control">
-                            <label for="CPF/CNPJ">CPF/CNPJ</label>
-                            <input  type="text" id="CPF/CNPJ" placeholder="CPF/CNPJ" onkeyup="CPF(event)" onchange="CPF(event)" maxlength="18" required/>
+                            <label for="CPF/CNPJ" data-i18n="cpf">CPF/CNPJ</label>
+                            <input  type="text" id="CPF/CNPJ" placeholder="CPF ou CNPJ" onkeyup="CPF(event)" onchange="CPF(event)" maxlength="18" required/>
                         </div>
                     </div>
                     <div class="form-control-flex">
                         <div class="form-control">
-                            <label for="bussiness-name">Business name</label>
+                            <label for="bussiness-name" data-i18n="businessName">Business name</label>
                             <input id="bussiness-name" type="text" placeholder="Business name" data-i18n-placeholder="business_name" required/>
                         </div>
                         <div class="form-control">
-                            <label for="website-url">Website</label>
+                            <label for="website-url" data-i18n="website">Website</label>
                             <input type="text" id="website-url" placeholder="www.website.com" data-i18n-placeholder="website_links" required/>
                         </div>
                     </div>
-                    <div class="form-control form-margin">
-                        <label for="business-type" data-i18n="business_type">Type of business</label>
-                        <select name="businessTypes" class="form-select" id="business-type" required>
-                            <option value="" disabled selected hidden style="color: #99A1B7;" data-i18n="business_type">Type of Business</option>
-                            <option value="alimentos-bebidas">Alimentos e Bebidas</option>
-                            <option value="automotivo">Automotivo</option>
-                            <option value="tecnologia">Tecnologia</option>
-                            <option value="varejo">Varejo</option>
-                            <option value="financas">Finanças</option>
-                            <option value="beleza-cuidados-pessoais">Beleza e Cuidados Pessoais</option>
-                            <option value="saude">Saúde</option>
-                            <option value="educacao">Educação</option>
-                            <option value="entretenimento">Entretenimento</option>
-                            <option value="moda">Moda</option>
-                            <option value="turismo">Turismo</option>
-                            <option value="transporte-mobilidade">Transporte e Mobilidade</option>
-                            <option value="servicos-publicos">Serviços Públicos</option>
-                            <option value="hospitalidade">Hospitalidade</option>
-                            <option value="imobiliario">Imobiliário</option>
-                            <option value="e-commerce">E-commerce</option>
-                            <option value="outros">Outros</option>
-                        </select>
-                    </div>
-                    <div class="form-control form-margin">
+                    <div class="form-control-flex">
+                        <div class="form-control">
+                            <label for="business-type" data-i18n="business_typ">Type of business</label>
+                            <select name="businessTypes" class="form-select" id="business-type" required>
+                                <option value="" disabled selected hidden style="color: #99A1B7;" data-i18n="business_type">Type of Business</option>
+                                <option value="alimentos-bebidas">Alimentos e Bebidas</option>
+                                <option value="automotivo">Automotivo</option>
+                                <option value="tecnologia">Tecnologia</option>
+                                <option value="varejo">Varejo</option>
+                                <option value="financas">Finanças</option>
+                                <option value="beleza-cuidados-pessoais">Beleza e Cuidados Pessoais</option>
+                                <option value="saude">Saúde</option>
+                                <option value="educacao">Educação</option>
+                                <option value="entretenimento">Entretenimento</option>
+                                <option value="moda">Moda</option>
+                                <option value="turismo">Turismo</option>
+                                <option value="transporte-mobilidade">Transporte e Mobilidade</option>
+                                <option value="servicos-publicos">Serviços Públicos</option>
+                                <option value="hospitalidade">Hospitalidade</option>
+                                <option value="imobiliario">Imobiliário</option>
+                                <option value="e-commerce">E-commerce</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </div>
+                       <div class="form-control">
                         <label for="monthly-budget" data-i18n="monthly_budget">Monthly Budget</label>
                         <select class="form-select" name="monthly-budge" id="monthly-budget" required>
                             <option value="" hidden data-i18n="monthly_budget" disabled selected style="color: #99A1B7;">Select Monthly Budget</option>
@@ -315,18 +327,46 @@
                             <option value="50000-100000">$50.000 - $100.000 USD</option>
                             <option value="mais-100000">Mais de $100.000 USD</option>
                         </select>
+                       </div>
+                        
                     </div>
-                    <div class="submit-button">
+                    <!-- <div class="form-control form-margin">
+                     
+                    </div> -->
+                    <!-- <div class="submit-button">
                         <button id="signupButton" class="signup-button">
                             <span class="button-text" data-i18n="advertiser_signup" style="display: inline;">Sign Up</span> 
+                            <span class="loader" style="display: none;"></span> 
+                        </button>
+                    </div> -->
+                    <div class="terms-checkbox terms-checkbox-margin">
+                        <input type="checkbox" id="agree-terms" required/>
+                        <label for="agree-terms" class="agree-terms">
+                            <span data-i18n="agree-terms">I agree that I have read the </span><p data-i18n="terms"> Terms of Use</p>  <span data-i18n="and">and</span>   <p data-i18n="privacy">Privacy Policy</p>
+                        </label>
+                    </div>
+                    <div class="submit-button">
+                        <button type="submit" id="signupButton" class="signup-button">
+                            <span class="button-text" style="display: inline;" data-i18n="sign">Sign Up</span> 
                             <span class="loader" style="display: none;"></span> 
                         </button>
                     </div>
                     <div class="success-message" style="display: none;">
                         <i class="fas fa-check-circle"></i>
+                        <span>Cadastro efetuado, enviamos um e-mail para confirmação da sua conta, por favor valide o e-mail para prosseguir!</span>
+                    </div>
+                    <div class="success-message" style="display: none;">
+                        <i class="fas fa-check-circle"></i>
                         <span data-i18n="sucess_error">Registration completed, we have sent an email to confirm your account, please validate the email to proceed!</span>
                     </div>
-                    <div class="terms-checkbox terms-checkbox-margin">
+                    <div class="margin-privacy">
+                        <label class="privacy-policy">
+                            <!-- <span>This site is protected by reCAPTCHA and the Google <p>Privacy Policy</p> and <p>Terms of Service</p>  apply.</span> -->
+                            <span data-i18n="protected">This site is protected by reCAPTCHA and the Google </span> <p data-i18n="privacy">Privacy Policy</p>  <span data-i18n="and">and</span>  <p data-i18n="terms"> Terms of Use</p> 
+
+                        </label>
+                    </div>
+                    <!-- <div class="terms-checkbox terms-checkbox-margin">
                         <input type="checkbox" id="agree-terms" required/>
                         <label for="agree-terms" data-i18n="agree_terms">
                             I agree to OverTv`s Terms and Conditions, Privacy Policy, and Cookie Policy.
@@ -337,7 +377,7 @@
                         <label for="agree-terms-2" data-i18n="agree_terms_2">
                             I agree to receive information related to marketing communications, newsletter, and products update. I understand i can unsubscribe at any time.
                         </label>
-                    </div>
+                    </div> -->
                 </form>
                </div>
             </div>

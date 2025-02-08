@@ -16,14 +16,14 @@ body {
     }
 .venue-container {
     display: flex;
-    gap: 15px; 
+    gap: 27px; 
     max-width: 1093px;
     margin: 0 auto;
     padding: 10px;
     margin-top: 5rem;
 }
 .submit-form h2 {
-    font-size: 29px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 34.8px;
     letter-spacing: -0.9303167462348938px;
@@ -32,8 +32,26 @@ body {
     margin-top: 2rem;
 }
 .venue-col {
-    border-radius: 5px;
+    border-radius: 10px;
 }
+input::placeholder {
+    font-size: 14px;
+}
+input::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+  
+  input:-moz-placeholder {
+    font-size: 14px;
+  }
+  
+  input::-moz-placeholder {
+    font-size: 14px;
+  }
+  
+  input:-ms-input-placeholder {
+    font-size: 14px;
+  }
 .overtv-device {
     display: flex;
     justify-content: start;
@@ -52,24 +70,24 @@ body {
     margin-bottom: 0.5rem;
  }
 .prices p:nth-child(1) {
-    font-size: 19.19px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 26.87px;
     text-align: left;
     color: #909090;
 }
 .prices p:nth-child(2) {
-    font-size: 19.19px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 400;
     line-height: 26.87px;
     text-align: left;
-    color: #FFFFFF
+    color: #131313;
 }
 .summary-border {
     height: 1px;
     background-color: #A1A1A11A;
     margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 22px;
 }
 .input-wrapper {
     border: 1px solid #DBDFE9;
@@ -115,10 +133,10 @@ body {
     border: 0 !important;
 }
 .overtv-device span {
-    margin-left: 1rem;
+    margin-left: 1.7rem;
 }
 .overtv-device p:nth-child(1) {
-    color: #FFFFFF;
+    color: #131313;
     font-size: 19.19px;
     font-weight: 600;
     line-height: 26.87px;
@@ -126,33 +144,34 @@ body {
 
 }
 .overtv-device p:nth-child(2) {
-    color: #00A3FB;
+    color: #2AA520;
     font-size: 15.35px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 26.87px;
     text-align: left;
 }
 .total-prices p:nth-child(1) {
-    font-size: 15.35px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
     line-height: 26.87px;
     text-align: left;
 }
 .total-prices p:nth-child(3) {
-    font-size: 34px;
-    font-weight: 600;
+    font-size: 15.4px;
+    font-weight: 400;
     line-height: 26.87px;
     text-align: left;
-    color: #FFFFFF;
-    margin-top: 1rem;
+    color: #131313;
+    margin: 1rem 0px;
+    width: 100%;
 }
 .total-prices p:nth-child(2) {
-    font-size: 32px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 500;
     line-height: 26.87px;
     text-align: left;
-    color: #909090;
-    margin-top: 1rem;
+    color: #131313;
+    margin-top: 0.7rem;
 }
 .del {
     content: '';
@@ -166,18 +185,23 @@ body {
     pointer-events: none;
 }
 .total-prices p:nth-child(4) {
-    font-size: 15.35px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 26.87px;
+    line-height: 19.6px;
     text-align: left;
-    color: #FFFFFF;
-    margin-top: 1.5rem;
+    color: #131313;
+    margin-top: 1rem;
+}
+.total-prices span{
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 19px;
 }
 .summary-block {
-    background: #212121;
+    background: #FFFFFF;
     border: 0.96px solid #2B2B2B;
-    border-radius: 9.6px;
-    padding: 1.8rem 1.3rem 1.3rem 1.3rem;
+    border-radius: 10px;
+    padding: 2rem;
 }
 .summary-block p {
     color: #909090;
@@ -220,7 +244,7 @@ body {
     flex: 0 0 442px;
 }
 .venue-signup h2 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 38.4px;
     letter-spacing: -0.9303167462348938px;
@@ -249,26 +273,33 @@ body {
 .form-control {
     display: flex;
     flex-direction: column;
-    margin-top: 0.6rem;
+    /* margin-top: 20px; */
 }
 .form-control-flex {
     display: flex;
     gap: 10px;
 }
-
+.business_info_text{
+    color:#6C757D;
+    font-size: 15px;
+    line-height: 21px;
+    margin: 20px 0px;
+}
 .form-control-flex .form-control {
     flex: 1;
 }
+
 .form-control select:invalid{
     color: #99A1B7;
 }
 .form-control label {
-    font-size: 15.41px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 500;
     margin-bottom: 4px;
     color: #3C3C3C;
     line-height: 23.07px;
     font-family: 'Inter', sans-serif;
+    margin-top: 20px;
 }
 .iti--allow-dropdown input {
     width: 100%;
@@ -293,14 +324,14 @@ body {
     line-height: 20px;
 }
 .form-margin {
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
 }
 .submit-button button {
     width: 100%; 
     border-radius: 9.96px;
     margin-top: 1.8rem;
     border: 0;
-    background: linear-gradient(180deg, #00A3FB 0%, #0077FF 100%);
+    background:#047EFE;
     font-size: 16px;
     font-weight: 700;
     color: #FFFFFF;
@@ -471,19 +502,59 @@ input[type="checkbox"] {
 }
 
 @media (max-width: 768px) {
+    .head-text{
+        font-size: 28px;
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .prices p:nth-child(1) {
+        font-size: 14px;
+    }
+    .prices p:nth-child(2) {
+        font-size: 14px;
+    }
+    .total-prices p:nth-child(3) {
+        font-size: 14px;
+    }
+    .total-prices span {
+        font-size: 14px;
+    }
     .venue-container {
-        flex-direction: column; 
+        flex-direction: column-reverse; 
         gap: 15px; 
         margin-top: 2rem;
+        align-items: center;
     }
     .form-control-flex .form-control {
-        width: 49%;
+        width: 100%;
+    }
+    .form-control label {
+        margin-top: 10px;
+    }
+    .col-left{
+        width: 95%;
+        padding: 22px !important;
     }
     .col-left, .col-right {
         flex: 1; 
     }
+    .submit-form h2{
+        margin-top: 9px !important;
+        margin-bottom: 10px !important;
+    }
+    .submit-form .business_info{
+        margin-top: 35px !important;
+        margin-bottom: 10px !important;
+    }
+    .business_info_text {
+        width: 103%;
+    }
     .form-control-flex {
         justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        gap:0px;
     }
 }
 
@@ -493,6 +564,6 @@ input[type="checkbox"] {
     }
 
     .venue-col {
-        padding: 15px;
+        padding: 8px;
     }
 }

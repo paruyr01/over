@@ -114,60 +114,69 @@
          </div>
       </header>
       <!-- body content start here  -->
+       <h2 data-i18n="advertiser_signup" class="head-text hidden-xl flex-sm ">Sign up</h2>
         <div class="venue-container">
+
             <div class="venue-col col-left">
                 <div class="venue-signup">
-                    <h2 data-i18n="advertiser_signup">Sign up</h2>
-                    <span><p>Already have an Over account?</p> <a href="https://admin.over.tv/" style="color: #498afd;">Login Here</a></span> 
+                    <h2 data-i18n="advertiser_signup" class="hidden-sm">Sign up</h2>
+                    <!-- <span><p>Already have an Over account?</p> <a href="https://admin.over.tv/" style="color: #498afd;">Login Here</a></span>  -->
                 </div>
                 <form onsubmit="submitFormVenue(event)" class="submit-form" id="venueSignupForm">
-                    <h2 data-i18n="contact_info" style="margin-top: 1rem;">
+                    <h2 data-i18n="contact_info" style="margin-top: 1.5rem;">
                         Contact Info
                     </h2>
-                    <div class="form-control">
+                    <!-- <div class="form-control">
                         <label for="work-email" data-i18n="work_email">Work Email</label>
                         <input onchange="ValidarSeUsuarioExiste()" type="email" id="work-email" placeholder="Your work email" required />
-                        <span id="msgValidacaoEmail" style="color: #e85347;font-size: 11px;font-style: italic;display:none"></span>
+                        <span id="msgValidacaoEmail" style="color: #e85347;font-size: 11px;font-style: italic;display:none"></span> -->
                         <!-- <p class="input-description">This will be used as your username</p> -->
-                    </div>
+                    <!-- </div> -->
                     <div class="form-control-flex">
                         <div class="form-control">
                             <label for="first-name" data-i18n="first_name">First Name</label>
-                            <input type="text" id="first-name" placeholder="First Name" required/>
+                            <input type="text" id="first-name" placeholder="Nome Completo" required/>
                         </div>
                         <div class="form-control">
+                            <label for="work-email" data-i18n="work_email">Work Email</label>
+                            <input onchange="ValidarSeUsuarioExiste()" type="email" id="work-email" placeholder="E-mail" required />
+                            <span id="msgValidacaoEmail" style="color: #e85347;font-size: 11px;font-style: italic;display:none"></span>
+                            <!-- <p class="input-description">This will be used as your username</p> -->
+                        </div>
+                        <!-- <div class="form-control">
                             <label for="last-name" data-i18n="last_name">Last Name</label>
                             <input type="text" id="last-name" placeholder="Last Name" required/>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="form-control-flex">
                         <div class="form-control">
                             <label for="phone" data-i18n="phone_number">Phone Number</label>
-                            <input id="phone" type="tel" name="phone"  required/>
+                            <input id="phone1" placeholder="Telefone" type="number" name="phone"  required/>
                         </div>
                         <div class="form-control">
                             <label for="CPF/CNPJ">CPF/CNPJ</label>
-                            <input type="text" id="CPF/CNPJ" placeholder="CPF/CNPJ" onkeyup="CPF(event)" onchange="CPF(event)" maxlength="18" required/>
+                            <input type="text" id="CPF/CNPJ" placeholder="CPFCNPJ/" onkeyup="CPF(event)" onchange="CPF(event)" maxlength="18" required/>
                         </div>
                     </div>
-                    <h2 data-i18n="business_info" style="margin-top: 1rem;">
+                    <h2 class="business_info" data-i18n="business_info" style="margin-top: 3rem;">
                         Business Info
                     </h2>
+                    <p class="business_info_text" data-i18n="business_info_text">O endereço informado será usado para envio e ativação do seu dispositivo. Se precisar de mais dispositivos, fale com nossa equipe empresarial.</p>
                     <div class="form-control-flex">
                         <div class="form-control">
                             <label for="business-name" data-i18n="business_name">Business Name</label>
                             <input type="text" id="business-name" placeholder="Business Name" data-i18n-placeholder="business_name" required/>
                         </div>
                         <div class="form-control">
-                            <label for="website">Website</label>
-                            <input type="text" id="website" placeholder="www.website.com" required/>
+                            <label for="website" data-i18n="website">Website</label>
+                            <input type="text" id="website" placeholder="Website ou Instagram" required/>
                         </div>
                     </div>
                     <div class="form-control form-margin adress-field">
                         <label for="hq-Address" data-i18n="hq_address">HQ Address*</label>
                         <div class="input-wrapper">
                             <input type="text" id="hq-Address" class="hq-Address" data-i18n-placeholder="hq_address_placeholder" placeholder="Enter business HQ address" required/>
-                            <span class="edit-text"><button type="button" onclick="toggleEditAddress()" data-i18n="edit">Edit</button></span>
+                            <!-- <span class="edit-text"><button type="button" onclick="toggleEditAddress()" data-i18n="edit">Edit</button></span> -->
                         </div>
                         <div id="autocomplete-list" class="autocomplete-list"></div>
                     </div>
@@ -175,7 +184,7 @@
                         <div class="form-control form-margin">
                             <label for="neighbourhood" data-i18n="apt_address">Apt, Suite, Unit, Etc</label>
                             <div class="input-wrapper">
-                                <input style="width: 100%" type="text" name="address" id="address" placeholder="Unit 100" required/>
+                                <input style="width: 100%" type="text" name="address" id="address" placeholder="Apto, Suíte, Unidade, Etc." required/>
                             </div>
                         </div>
                         <div class="form-control-flex">
@@ -188,15 +197,15 @@
                                 <input type="text" id="postal-code" placeholder="00000-000"/>
                             </div>
                         </div>
-                        <div class="form-control form-margin">
+                        <!-- <div class="form-control form-margin">
                             <label for="country" data-i18n="country">Country</label>
                             <select name="country" class="form-select" id="country" required>
                                 <option value="" hidden disabled selected  data-i18n="country">Choose Country</option>
                             </select>
-                        </div>
+                        </div> -->
                         
                     </div>
-                    <div class="form-control-flex" style="margin-top: 10px">
+                    <div class="form-control-flex" style="margin-top: 10px; font-size: 14px;">
                         <div class="form-control">
                             <label for="business-type" data-i18n="business_type">Type of business</label>
                             <select name="business-type" class="form-select" id="business-type" required>
@@ -263,12 +272,12 @@
                     <div class="terms-checkbox terms-checkbox-margin">
                         <input type="checkbox" id="agree-terms" required/>
                         <label for="agree-terms" class="agree-terms">
-                            <span>I agree that I have read the <p>Terms of Use</p>  and <p>Privacy Policy</p></span>
+                            <span data-i18n="agree-terms">I agree that I have read the </span><p data-i18n="terms"> Terms of Use</p>  <span data-i18n="and">and</span>   <p data-i18n="privacy">Privacy Policy</p>
                         </label>
                     </div>
                     <div class="submit-button">
                         <button type="submit" id="signupButton" class="signup-button">
-                            <span class="button-text" style="display: inline;">Sign Up</span> 
+                            <span class="button-text" style="display: inline;" data-i18n="sign">Sign Up</span> 
                             <span class="loader" style="display: none;"></span> 
                         </button>
                     </div>
@@ -281,7 +290,9 @@
                     </div>
                     <div class="margin-privacy">
                         <label class="privacy-policy">
-                            <span>This site is protected by reCAPTCHA and the Google <p>Privacy Policy</p> and <p>Terms of Service</p>  apply.</span>
+                            <!-- <span>This site is protected by reCAPTCHA and the Google <p>Privacy Policy</p> and <p>Terms of Service</p>  apply.</span> -->
+                            <span data-i18n="protected">This site is protected by reCAPTCHA and the Google </span><p data-i18n="terms"> Terms of Use</p>  <span data-i18n="and">and</span>   <p data-i18n="privacy">Privacy Policy</p>
+
                         </label>
                     </div>
                     <input type="hidden" id="latitude" placeholder="Latitude" type="text" />
@@ -294,7 +305,8 @@
                 <div class="summary-block">
                     <p data-i18n="summary">Summary</p>
                 <div class="overtv-device">
-                    <img src="assets/image/overtv-box.png" alt="">
+                    <img class="hidden-sm" src="assets/image/overtv-box.png" alt="">
+                    <img class="hidden-xl flex-sm" src="assets/image/overtv-box-mb.png" alt="">
                     <span>
                         <p data-i18n="overtv_device">
                             OverTV Device
@@ -306,21 +318,22 @@
                 </div>
                  <div class="summary-border"></div>
                  <div class="prices">
-                    <span><p data-i18n="basic_plan">Basic Plan</p><p>$0/Month*</p></span>
-                    <span><p data-i18n="activation_fee">Activation Fee</p><p>$0*</p></span>
+                    <span><p data-i18n="basic_plan">Basic Plan</p><p data-i18n="month">$0/Month*</p></span>
+                    <span><p data-i18n="activation_fee">Activation Fee</p><p>R$0*</p></span>
                     <span><p data-i18n="shipping">Shipping</p><p data-i18n="free">Free</p></span>
                  </div>
                  <div class="summary-border"></div>
                  <div class="total-prices">
                     <p>Total</p>
-                    <p style="color: #909090; position: relative; display: inline-block;">
-                        R$49.00
-                        <span class="del"></span>
+                    <p style=" position: relative; display: inline-block;">
+                        R$00.00
+                        <!-- <span class="del"></span> -->
                     </p>
-                    <p>R$00.00</p>
+                    <!-- <p>R$00.00</p> -->
                     <p data-i18n="summary_terms">
                         *We only ask for your credit card details in case the device isn’t used for at least 40 hours a month, in which case a one-time fee will be charged.
                     </p>
+                    <span data-i18n="Precisa">Precisa de mais dispositivos? </span> <span style=" text-decoration: underline;" data-i18n="Precisa_underline"> Fale com nossa equipe empresarial.</span>
                  </div>
                 </div>
             </div>
