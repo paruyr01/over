@@ -40,7 +40,12 @@ w-100-pr {
     object-fit: cover;
     background-color: black;
 }
-
+.wrapper .container > div {
+    max-width: 1100px !important;
+}
+.venue-body .container {
+    max-width: 1360px !important;
+}
 .thank_you_page .venue-container .vector1{
     position: absolute;
     left: 0px;
@@ -94,8 +99,8 @@ w-100-pr {
 }
 
 .venue-text button {
-    padding: 16.24px 26.49px;
-    background-color: #0199FB;
+    padding: 10px 23px;
+    background-color: #007AFE;
     color: var(--white);
     border: 0px;
     border-radius: 12px;
@@ -111,7 +116,7 @@ w-100-pr {
     align-items: center ;
 }
 .venue-text h1 {
-    font-size: 46.09px;
+    font-size: 48px;
     font-weight: 600;
     line-height: 56.79px;
     letter-spacing: -0.02em;
@@ -119,7 +124,7 @@ w-100-pr {
     color: var(--white);
 }
 .venue-text{
-    width: 55%;
+    width: 81%;
 }
 .card-ipad-container, .ipad-card {
     display: none;
@@ -190,7 +195,7 @@ w-100-pr {
     width: 465px;
 }
 .hero-list li{
-    font-size: 20.52px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 31.92px;
     display: flex;
@@ -199,11 +204,12 @@ w-100-pr {
 }
 .listing {
     margin-top: 35px;
-    display: -webkit-box;
+    display: flex;
+    align-items: center;
     margin-bottom: 40px;
 }
 .hero-listing {
-    width: 50px;
+    width: 55px;
     height: 50px;
     margin-right: 20px;
     text-align: center;
@@ -243,9 +249,9 @@ w-100-pr {
     margin-top: 20px;
 }
 .venue-h2 {
-    font-size: 40px;
+    font-size: 44px;
     font-weight: 600;
-    line-height: 61px;
+    line-height: 55px;
     letter-spacing: -0.02em;
     text-align: center;
     margin-top: 14px;
@@ -337,7 +343,7 @@ w-100-pr {
 }
 .card-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     width: 100%;
     margin-top: 60px;
     gap: 25px;
@@ -364,7 +370,34 @@ w-100-pr {
     right: -136%;
     top: 446px;
 }
+.card_item{
+    display: flex;
+    align-items: center;
+    padding: 28px 45px;
+}
+.card_item div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+} 
+.card_item div h1{
+    font-size: 44px;
+    text-align: start;
+    /* letter-spacing: 2px; */
+    margin-bottom: 25px;
 
+}
+.card_item div p{
+    font-size: 20px;
+    text-align: start !important;
+    max-width:86% ;
+    line-height: 24px;
+    color: #D0D0D0 !important;
+}
+.card_item img{
+    max-width: 444px;
+    height: 245px;
+}
 .flex-card {
     border-radius: 26px;
     display: flex;
@@ -375,11 +408,11 @@ w-100-pr {
     text-align: start;
 }
 .venue-section-2 p {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     text-align: center;
-    color: #ffffff;
+    color: #ffffff99;
     max-width: 922px;
 }
 .venue-card p {
@@ -581,7 +614,7 @@ w-100-pr {
         height: 300px;
     }
     .venue-section-2 {
-        margin-top: 120px
+        margin-top: 61px
     }
     .venue-body {
         overflow-x: hidden;
@@ -667,17 +700,22 @@ w-100-pr {
     }
 
     .hero-list li {
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 300;
-        line-height: 34px;
+        line-height: 32px;
+        width: 77%;
+    }
+    .hero-listing {
+        width: 48px;
+        height: 48px;
     }
     .venue-section-2 {
-        margin-top: 80px;
+        margin-top: 30px;
     }
 
     .venue-text button {
-        padding: 20.24px 49px;
-        font-size: 18px;
+        padding: 12px 18px;
+        font-size: 14px;
     }
     .thank_you_page .btn_outline {
         font-size: 13px;
@@ -686,8 +724,8 @@ w-100-pr {
     }
 
     .venue-section-2 h1{
-        font-size: 40px;
-        line-height: 45px;
+        font-size: 36px !important;
+        line-height: 39px;
         max-width: 590px;
         margin-top: 20px;
     }
@@ -709,7 +747,26 @@ w-100-pr {
         bottom: 15px;
 
     }
-
+    .card_item {
+        padding: 28px 30px;
+    }
+    .card-container {
+        margin-top: 0px;
+    }
+    .card_item div p {
+        font-size: 14px;
+        max-width: 94%;
+    }
+    .card_item img{
+        width: 317px;
+        height: 175px;
+    }
+    .card_item div h1 {
+        margin-bottom: 15px;
+        margin-top: 0px !important;
+        font-weight: 600;
+        width: 90%;
+    }
     .thank_you_page .thankyu_slider {
         max-width: 260px;
         width: 100%;
@@ -884,7 +941,7 @@ w-100-pr {
         margin-bottom: 30px;
     }
     .venue-container-mobile h1 {
-        font-size: 33.56px;
+        font-size: 28px;
         font-weight: 500;
         line-height: 38.04px;
         max-width: 339px;
@@ -911,8 +968,8 @@ w-100-pr {
         line-height: 18.5px;
     }
     .venue-text button {
-        border-radius: 2.5px;
-        font-size: 9.68px;
+        border-radius: 10px;
+        font-size: 14px;
         line-height: 9.7px;
         padding: 11.14px 15px;
     }
@@ -925,21 +982,22 @@ w-100-pr {
     }
 
     .venue-section-2 h1{
-        font-size: 22.82px;
+        font-size: 30px !important;
         font-weight: 700;
-        line-height: 26.02px;
-        text-align: center;
-        max-width: 339px;
+        line-height: 32.02px;
+        text-align: start;
+        /* max-width: 339px; */
         margin-top: 0;
     }
 
     .venue-section-2 p{
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 400;
         line-height: 18.5px;
         text-align: start;
         color: #ffffff;
         max-width: 339px;
+        margin-top: 20px;
     }
 
     .thank_you_page .thankyu_slider {
@@ -1005,7 +1063,7 @@ w-100-pr {
         display: block !important;
     }
     .hero-list li{
-        max-width: calc(100% - 60px);
+        /* max-width: calc(100% - 60px); */
         text-align: start;
     }
     .venue-text h1 {
@@ -1025,12 +1083,15 @@ w-100-pr {
         margin-left: 0px;
         height: 100%;
     }
+    .hero-listing {
+        margin-right: 10px;
+    }
     .hero-video video {
         width: 90%;
         left: 12%;
         position: relative;
     }
-    .venue-container, .card-container, .card-container-2 {
+    .venue-container,  .card-container-2 {
         display: none;
     }
     .flex-card img {
@@ -1043,9 +1104,32 @@ w-100-pr {
         width: 200px;
         height: 160px;
     }
-
+    .card_item {
+        flex-direction: column;
+        padding: 10px 10px;
+       
+    }
+    .card-container{
+        margin-top: 20px;
+    }
+    .card_item div{
+        max-width:390px ;
+    }
+    .card_item img {
+        width: 340px !important;
+        margin-top: 25px;
+    }
+    .card_item div h1 {
+        width: 95%;
+        font-size: 28px !important;
+        line-height: 32px;
+        margin-bottom: 0px;
+    }
     .venue-margin {
         margin-bottom: 10px;
+    }
+    .footer-bod-div {
+        margin: 20px 0px;
     }
 
     .ipad-card {
@@ -1105,7 +1189,7 @@ w-100-pr {
     }
     .mobile-text {
         color: #D8D8D899 !important;
-        text-align: center !important;
+        /* text-align: center !important; */
     }
     .flex-card {
         border-radius: 3.38px;
@@ -1121,10 +1205,11 @@ w-100-pr {
         width: 130px;
     }
     .venue-container-mobile {
-        margin-top: 3rem;
+        margin-top: 10px;
         display: flex;
         flex-direction: column;
         color: var(--white);
+        padding: 0px 15px;
     }
 
     .venue-text, .hero-video {
@@ -1213,7 +1298,13 @@ w-100-pr {
         height: 100px;
     }
     .hero-list li {
-        max-width: 290;
+        width: 416px;
+        font-weight: 300;
+    }
+    .hero-listing {
+        width: 32px;
+        height: 27px;
+        font-size: 10px;
     }
 }
 @media screen and (max-width: 1400px) {
@@ -1235,7 +1326,7 @@ w-100-pr {
         justify-content: space-between;
     }
     .venue-container, .card-container , .card-container-2 {
-        display: none;
+        /* display: none; */
     }
     .work-section {
         padding-top: 10px;
@@ -1347,7 +1438,7 @@ w-100-pr {
         display: flex;
         justify-content: space-between;
     }
-    .venue-container, .card-container , .card-container-2 {
+    .venue-container {
         display: none;
     }
     .work-section {
@@ -1385,12 +1476,14 @@ w-100-pr {
     .venue-container-mobile {
         display: flex;
         flex-direction: column;
+        padding: 0px 20px;
     }
     .venue-container-mobile h1{
         color: var(--white);
-        font-size: 60px;
+        font-size: 48px;
         font-weight: 600;
         line-height: 68px;
+        margin-top: 20px;
         letter-spacing: -0.02em;
     }
 

@@ -80,7 +80,9 @@
     font-weight: 300;
     padding-top: 25px;
 }
-
+.bg_video_mb{
+    display: none;
+}
 .affiliate-container .section-4-card-group {
     margin-top: 15px;
     margin-bottom: 20px;
@@ -779,14 +781,28 @@ background:#1E1E1E ;
         font-size: 27px !important;
 
     }
+    .bg_video_mb{
+        display: flex;
+        position: absolute;
+        top: -74px;
+        left: -24px;
+        z-index: -7;
+
+    }
+    .affiliate-container .title {
+        margin-top: 24px;
+    }
     /* .affiliate-container .section-7 h1 {
         text-align: start;
     } */
     .des-top {
-        display: none!important;
+        /* display: none!important; */
     }
     .mob{
         display: block!important;
+    }
+    .section-6-left p {
+        width: 104% !important;
     }
     .affiliate-body .section-4-slider {
         margin-top: 25px;
@@ -798,11 +814,11 @@ background:#1E1E1E ;
     }
 
     .affiliate-container .section-7 h1 {
-        font-size: 20px;
-        line-height: 22.3px;
-        max-width: 254px;
+        font-size: 30px;
+        line-height: 34px;
+        max-width: 267px;
         width: 100%;
-        margin: 0 auto;
+        /* margin: 0 auto; */
     }
 
     .btn-outline.benefits{
@@ -837,6 +853,7 @@ background:#1E1E1E ;
     }
     .title .affiliate-button{
         /* display: none; */
+        width: 100% !important;
     }
 
     .affiliate-body .affiliate-video {
@@ -921,6 +938,7 @@ background:#1E1E1E ;
         margin-bottom: 10px;
         border: 1px solid #737373
     }
+  
     .affiliate-container .section-4-card h1{
         font-size: 24px;
         line-height: 22.3px;
@@ -937,6 +955,9 @@ background:#1E1E1E ;
     }
     .section-6-left {
         margin-top: 0px;
+    }
+    .section-6-right {
+        margin-top: 20px;
     }
     .affiliate-container .reward-text .revenue_share_title {
         max-width: 70%;
@@ -1007,7 +1028,7 @@ background:#1E1E1E ;
         padding-top: 20px;
     }
     .affiliate-body .section-8 {
-        margin-top: 21px;
+        margin-top: 35px;
     }
     .affiliate-body .section-8-wrapper {
         padding-top: 20px;
@@ -1018,9 +1039,28 @@ background:#1E1E1E ;
         border-radius: 4px;
      }
         
-     .affiliate-body .accordion-title, .affiliate-body .section-8 p  {
-        line-height: 11px;
-        font-size: 10px;
+      .affiliate-body .section-8 .faqs_description  {
+        line-height: 18px;
+        font-size: 14px !important;
+    }
+    .accordion-item span {
+        font-size: 12px !important;
+        line-height: 17px !important;
+    }
+    .affiliate-body .section-8 p {
+        font-size: 12px !important;
+        width: 100% !important;
+        padding-right: 0px !important;
+    }
+    .affiliate-body .affiliate-container .accordion-item {
+        padding: 10px 15px !important;
+    }
+    .mb-button{
+        height: 33px !important;
+    }
+    .mb-button button {
+        background:#007AFE;
+        height: 33px;
     }
 }
 

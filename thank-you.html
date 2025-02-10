@@ -88,7 +88,7 @@
             </div>
             <div class="log-sign" style="--i: 1.8s">
                 <a href="/signup.html" class="btn transparent">
-                    <button class="contact-button"><span data-i18n="mb-header-button">Get Your Free Player </span><svg width="13" height="11" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <button class="contact-button"><span data-i18n="mb-header-button_signupa">Get Your Free Player </span><svg width="13" height="11" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                                 d="M12.2421 4.18234L2.2943 12.5771L0.660034 11.198L10.6066 2.80322H1.84008V0.852539H14.5536V11.5813H12.2421V4.18234Z"
                                 fill="white" />
@@ -116,9 +116,9 @@
 <div class="wrapper thank_you_page">
     <div class="container hero-section">
         <div class="venue-container">
-            <div class="vector1">
+            <!-- <div class="vector1">
                 <img  src="assets/image/thVector1.png" alt="">
-            </div>
+            </div> -->
             <div class="venue-text">
                 <h1 data-i18n="welcome_message">You’re One Step Ahead of the Competition!</h1>
                 <ul class="hero-list">
@@ -142,15 +142,22 @@
                     </div>
                 </ul>
                 <div class="d-flex sm-block gap-1 mt-1">
-                    <button onclick="redirectToDashboard()" data-i18n="go_to_dashboard">Get to the Dashboard </button>
+                    <button onclick="redirectToDashboard()" > <span data-i18n="go_to_dashboard" style="margin-right:5px;"> Get to the Dashboard </span>
+                        <svg width="13" height="11" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M12.2421 4.18234L2.2943 12.5771L0.660034 11.198L10.6066 2.80322H1.84008V0.852539H14.5536V11.5813H12.2421V4.18234Z"
+                                    fill="white" />
+                        </svg>
+                    </button>
+               
                 </div>
             </div>
             <div class="venue-video venue-hero-img">
                 <img class="img1" src="assets/image/thbanner.png"></img>
-                <div>
+                <!-- <div>
                     <img class="img3" src="assets/image/thVector2.png"></img>
                     <img class="img2" src="assets/image/thVector3.png"></img>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="venue-container-mobile">
@@ -180,30 +187,75 @@
                     </div>
                 </ul>
                 <div class="d-flex sm-block gap-1 mt-1">
-                    <button data-i18n="go_to_dashboard">Get to the Dashboard </button>
+                    <button onclick="redirectToDashboard()" > <span data-i18n="go_to_dashboard" style="margin-right:5px;"> Get to the Dashboard </span>
+                        <svg width="13" height="11" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                    d="M12.2421 4.18234L2.2943 12.5771L0.660034 11.198L10.6066 2.80322H1.84008V0.852539H14.5536V11.5813H12.2421V4.18234Z"
+                                    fill="white" />
+                        </svg>
+                    </button>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="venue-section-2">
-            <button class="btn_outline venue-margin wow fadeInUp" data-i18n="see_waiting">See what’s waiting for you</button>
+            <!-- <button class="btn_outline venue-margin wow fadeInUp" data-i18n="see_waiting">See what’s waiting for you</button> -->
             <h1 class="wow fadeInUp venue-h2" data-i18n="experience_future">Experience the Future of Entertainment</h1>
             <p class="wow mobile-text fadeInUp" data-i18n="entertainment_description">
                 Over 50 channels covering the best content in sports, entertainment, plus viral videos and engaging trivia, enhancing the ambiance and guest experience at your venue.
             </p>
             <div class="card-container">
+                <div class="card_item">
+                    <div>
+                        <h1 data-i18n="dispositivo">1. Ligue Deu Dispositivo</h1>
+                        <p> <strong data-i18n="dispositivo_strong">Basta conectar o cabo de alimentação e o cabo HDMI ao Over e à TV.</strong>
+                            <span data-i18n="dispositivo_text"> Depois, selecione a entrada HDMI correta no controle remoto.</span></p>
+                       
+                    </div>
+                    <div>
+                        <img src="assets/image/como_1.png"></img>
+                    </div>
+                </div>
+                <div  class="card_item">
+                    <div>
+                        <h1 data-i18n="conecte">2. Conecte-se à internet</h1>
+                        <p> 
+                            <span data-i18n="conecte_text" > Para o Over transmitir anúncios corretamente, ele precisa estar online.</span>
+                            <strong data-i18n="conecte_strong">Conecte-o à internet via Wi-Fi ou cabo de rede (Ethernet) para garantir uma conexão estável.</strong>
+                        </p>
+
+                    </div>
+                    <div>
+                        <img src="assets/image/como_2.png"></img>
+                    </div>
+                </div>
+                <div  class="card_item">
+                    <div>
+                        <h1 data-i18n="insira">3. Insira Seu Código De Validação Único</h1>
+                        <p><span data-i18n="insira_text_one">No dashboard, vá até</span>
+                        <strong data-i18n="insira_strong">“Meus Dispositivos” e copie o código do seu dispositivo.</strong>
+                        <span data-i18n="insira_text_two"> Insira-o na tela de configuração do Over para conectar tudo e garantir a exibição correta dos anúncios.</span>
+                        </p>
+                        
+                    </div>
+                    <div>
+                        <img src="assets/image/como_3.png"></img>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="card-container">
                 <div class="border-shape hidden-sm b2 absolute shape3 w-full h-full skew-x--10 border-top-right-15"></div>
                 <div class="border-shape hidden-lg hidden-md hidden-sm b2 absolute shape2 w-full h-full skew-x-10 border-top-left-40"></div>
                 <div class="venue-card th-card1 wow fadeInUp">
                     <div class="venue-card-img">
 
-                        <div class="thankyu_slider">
+                        <div class="thankyu_slider"> -->
                             <!-- <div class="swiper-button-prev"></div> -->
-                            <div class="swiper mySwiper">
-                                <div class="swiper-wrapper">
+                            <!-- <div class="swiper mySwiper">
+                                <div class="swiper-wrapper"> -->
                                     <!-- <div class="swiper-slide"> -->
-                                        <img src="assets/image/Container-thankyou1.png" alt="">
+                                        <!-- <img src="assets/image/Container-thankyou1.png" alt=""> -->
                                     <!-- </div>
                                     <div class="swiper-slide">
                                         <img src="assets/image/Container-thankyou1.png" alt="">
@@ -211,13 +263,13 @@
                                     <div class="swiper-slide">
                                         <img src="assets/image/Container-thankyou1.png" alt="">
                                     </div> -->
-                                </div>
+                                <!-- </div> -->
                                 <!-- <div class="swiper-pagination"></div> -->
-                            </div>
+                            <!-- </div> -->
                             <!-- <div class="swiper-button-next"></div> -->
-                        </div>
+                        <!-- </div> -->
 
-                    </div>
+                    <!-- </div>
                     <h2 data-i18n="revenue_each_ad">Tailored Content</h2>
                     <p data-i18n="earning_with_ads">+50 channels fully focused on your business.</p>
                 </div>
@@ -228,13 +280,13 @@
                     <h2 data-i18n="digital_signage">Revenue for Each Ad</h2>
                     <p data-i18n="revenue_content"> Advertise your products within every channel.</p>
                 </div>
-                <div class="venue-card th-card3 wow fadeInUp">
+                <div class="venue-card th-card3 wow fadeInUp"> -->
                     <!-- <div class="venue-card-img"> -->
-                    <img src="assets/image/venue-card-3.png" alt="" height="172px">
+                    <!-- <img src="assets/image/venue-card-3.png" alt="" height="172px"> -->
                     <!-- </div> -->
-                    <h2 data-i18n="expand_and_earn">Expand and Earn</h2>
-                    <p data-i18n="boost_revenue">Each new location boosts your revenue.</p>
-                </div>
+                    <!-- <h2 data-i18n="expand_and_earn">Expand and Earn</h2>
+                    <p data-i18n="boost_revenue">Each new location boosts your revenue.</p> -->
+                <!-- </div>
             </div>
             <div class="card-container-2 wow fadeInUp">
                 <div class="flex-card w-50-pr th-flex-card1">
@@ -338,10 +390,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- End Section 7 -->
     </div>
-    <div class="footer-subscription">
+    <!-- <div class="footer-subscription">
         <div class="mb-button">
             <button onclick="redirectToSignup()">Get Your Free OverTV Device Now!</button>
         </div>
@@ -351,7 +403,7 @@
                 <button data-i18n="thank_you_sub_button" onclick="redirectToSignup()">Get Your Free OverTV Device Now!</button>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- footer -->
     <div class="container footer-container">
 
