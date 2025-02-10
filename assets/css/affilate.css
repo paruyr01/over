@@ -1,6 +1,7 @@
 .affiliate_page .affiliate-container .title_part .title-break b, .affiliate-container .title_part .title-break span{
     font-weight: 800!important;
     font-size: 64px!important;
+    line-height: 70px;
 }
 .affiliate-container .title{
     margin-top: 71px;
@@ -167,7 +168,7 @@
 }
 
 .affiliate-body .title-under {
-    margin-top: 25px;
+    margin-top: 30px;
 }
 .affiliate-body .affiliate-button {
     border-radius: 12px;
@@ -403,7 +404,7 @@ margin-top: 0px;
 }
 
 .affiliate-body .accordion-title{
-    line-height: 32px;
+    line-height: 20px;
 }
 .scale.faq_button {
     width: 207.29px !important;
@@ -625,7 +626,8 @@ background:#1E1E1E ;
 
     .affiliate-container .section-4-card {
         width: 331px;
-        height: 303px;
+        height: 370px;
+        border: 1px solid #737373;
     }
     .affiliate-video img:nth-child(1) {
         max-width: 130px;
@@ -656,7 +658,8 @@ background:#1E1E1E ;
     }
 
     .affiliate-container .section-4-card-group {
-        margin-top: 57px;
+        margin-top: 30px;
+        grid-gap:0px;
     }
 
     .affiliate-container .section-4-card h1 {
@@ -779,7 +782,7 @@ background:#1E1E1E ;
 @media (max-width: 768px){
     .affiliate_page .affiliate-container .title_part .title-break b, .affiliate-container .title_part .title-break span {
         font-size: 27px !important;
-
+        line-height: 30px;
     }
     .bg_video_mb{
         display: flex;
@@ -926,7 +929,7 @@ background:#1E1E1E ;
     .affiliate-container .section-4-card{
         width: 100%;
         /* max-width: 285px; */
-        /* max-height: 223px; */
+        height: 339px;
     }
 
     .affiliate-container .section-4-card-icon svg {
@@ -995,10 +998,11 @@ background:#1E1E1E ;
     .affiliate-body .affiliate_page .section-7 .section-7-card .second_block_text {
         font-size: 9px;
         line-height: 14px;
+        margin-top: 0px;
     }
     .affiliate-body .affiliate_page .section-7 .section-7-card .second_block_sub_title {
         font-size: 12.5px;
-        line-height: 25.3px;
+        line-height: 16.3px;
     }
 
     .affiliate-body .affiliate_page .section-7 .section-7-card .second_block_title {

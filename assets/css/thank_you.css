@@ -69,7 +69,7 @@ w-100-pr {
     width: 50%;
 }
 .venue-hero-img .img3, .venue-hero-img .img1{
-    border-radius: 14px;
+    border-radius: 20px;
 }
 .venue-hero-img .img3, .venue-hero-img .img2{
     position: absolute;
@@ -114,6 +114,7 @@ w-100-pr {
     display: flex;
     margin-top: 125px;
     align-items: center ;
+    margin-left: -230px;
 }
 .venue-text h1 {
     font-size: 48px;
@@ -345,7 +346,7 @@ w-100-pr {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 35px;
     gap: 25px;
     position:relative;
 }
@@ -384,13 +385,14 @@ w-100-pr {
     font-size: 44px;
     text-align: start;
     /* letter-spacing: 2px; */
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+    font-weight: 500px;
 
 }
 .card_item div p{
     font-size: 20px;
     text-align: start !important;
-    max-width:86% ;
+    max-width:84% ;
     line-height: 24px;
     color: #D0D0D0 !important;
 }
@@ -409,11 +411,12 @@ w-100-pr {
 }
 .venue-section-2 p {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 32px;
     text-align: center;
     color: #ffffff99;
     max-width: 922px;
+    margin-top: 20px;
 }
 .venue-card p {
     font-size: 16px;
@@ -532,8 +535,8 @@ w-100-pr {
         top: 200px;
         right: 0;
         position: absolute;
-        width: 645px;
-        height: 621.73px;
+        width: 840px;
+        height: 520px;
     }
     .venue-section-2 {
         margin-top: 13rem;
@@ -566,8 +569,8 @@ w-100-pr {
         top: 200px;
         right: 0;
         position: absolute;
-        width: 700px;
-        height: 560px;
+        width: 820px;
+        height: 540px;
     }
     .venue-hero-img .img3 {
         max-width: 520px;
@@ -598,8 +601,8 @@ w-100-pr {
         top: 220px;
         right: 0;
         position: absolute;
-        width: 600px;
-        height: 560px;
+        /* width: 800px;
+        height: 560px; */
     }
     .venue-hero-img div{
         overflow: hidden;
@@ -823,8 +826,8 @@ w-100-pr {
         top: 215px;
         right: 0;
         position: absolute;
-        width: 834.48px;
-        height: 621.73px;
+        max-width: 820px;
+        height: 540px;
     }
     .venue-section-2 {
         margin-top: 130px;
