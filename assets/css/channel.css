@@ -158,7 +158,7 @@ body.channel .section-10 .border-shape.shape2{
 .moretv-section {
     width: 100%;
     max-width: 1025px;
-    margin-top: 52px;
+    /* margin-top: 52px; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -170,7 +170,7 @@ body.channel .section-10 .border-shape.shape2{
     line-height: 21.88px;
 }
 .moretv-section {
-    margin-top: 15px !important;
+    /* margin-top: 15px !important; */
 }
 .video-section {
     margin-bottom: 40px !important;
@@ -205,21 +205,21 @@ body.channel .section-10 .border-shape.shape2{
 }
 .btn-outline {
     width: 100%!important;
-    max-width: 286px!important;
+    max-width: 186px!important;
     height: 25.74px!important;
-    font-size: 13.52px!important;
+    font-size: 14px!important;
     padding: 0!important;
 }
 .moretv-content {
-    width: 100%;
+    width: 96%;
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; 
-    gap: 17px; 
-    margin-bottom: 20px;
+    /* gap: 17px;  */
+    margin-bottom: 10px;
 }
 /* .group-2 {
     margin-top: 65px !important;
@@ -294,7 +294,7 @@ body.channel .section-10 .border-shape.shape2{
 }
 button {
     padding:  10px 15px 10px 15px;
-    background: linear-gradient(360deg, #2B7FFC 0%, #60EFFF 135.95%);
+    /* background: linear-gradient(360deg, #2B7FFC 0%, #60EFFF 135.95%); */
     color: var(--white);
     border: 0px;
     border-radius: 4px;
@@ -523,6 +523,7 @@ h1, p {
     .video-content h1 {
         font-size: 31.43px!important;
         margin-left: 0;
+        line-height: 31px;
     }
     .video-content .addition-content p {
         font-size: 12px;
@@ -535,9 +536,10 @@ h1, p {
         font-size: 12.34px;
         padding-bottom: 7px;
     }
-    .video-content img {
-        width: 15px;
-        height: 15px;
+    .video-content .content-card  img {
+        width: 98%;
+        /* width: 15px;
+        height: 15px; */
     }
     .video-content {
         margin: 0 auto;
@@ -602,15 +604,21 @@ h1, p {
     .video-section p {
         font-size: 14px;
         line-height: unset;
+        margin-bottom: 15px;
     }
     .sevice-text p {
         font-size: 10px;
+        width: 79% !important;
+        margin-bottom: 10px !important;
+    }
+    .service-img .trivia_and_quiz {
+        max-height: 158px !important;
     }
     .group-2 {
         margin-top: 0px!important;
     }
     .moretv-section {
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; */
     }
     .card-text-tv h4 {
         font-size: 12px;
@@ -648,7 +656,7 @@ h1, p {
 
 @media (max-width: 846px) and (min-width: 320px) {
     .hero-channel {
-        height: 255px;
+        /* height: 255px; */
     }
     .bg-video {
         height: 460px;
@@ -686,7 +694,7 @@ h1, p {
         font-size: 18px;
         font-weight: 300;
         line-height: 26px;
-        padding-top: 10px;
+        padding-top: 20px;
         letter-spacing: 0.2px;
     }
     .service-img .trivia_and_quiz {
@@ -767,7 +775,7 @@ h1, p {
         padding-bottom: 7px;
     }
     .video-section {
-        margin-top: 280px !important;
+        margin-top: 0px !important;
         margin-bottom: 120px !important;
     }
     .content-service {
@@ -782,7 +790,8 @@ h1, p {
     }
     .moretv-content {
         gap: 10px;
-        width: 86%;
+        width: 96%;
+        margin-top: 10px;
     }
     .service-section {
         /* max-width: 581px; */
@@ -811,7 +820,7 @@ h1, p {
         font-size: 18px!important;
         line-height: 26px;
         padding-top: 5px;
-        width: 727px !important;
+        max-width: 727px !important;
     }
     .video-content-p {
         margin-left: 30px!important;
@@ -836,11 +845,14 @@ h1, p {
     }
     .header-title button {
         width: 100%;
-        max-width: 339px;
+        max-width: 290px;
     }
     .channel .section-subscription {
         /* border: none; */
         background-color: #161616;
+    }
+    .section-10-footer p{
+        font-size: 12px !important;
     }
 }
 
@@ -853,6 +865,7 @@ h1, p {
     .moretv-card {
         width: 140px;
     }
+    
 }
 
 
@@ -882,6 +895,9 @@ h1, p {
     .content-service {
         justify-content: unset;
         flex: 1 1 calc(50% - 10px);
+    }
+    .moretv-content {
+        width: 86% !important;
     }
     .video-content {
         max-width: 340px!important;
@@ -919,6 +935,9 @@ h1, p {
     }
     .sevice-text h1{
 
+    }
+    .header-title button {
+        max-width: 345px;
     }
     .blue-wd-5{
         width: 21px;
@@ -978,7 +997,7 @@ h1, p {
         width: 160px;
     }
     .video-section {
-        margin-top: 280px !important;
+        /* margin-top: 280px !important; */
     }
     .video-section .btn-outline {
         width: 286px !important;
@@ -1023,7 +1042,7 @@ h1, p {
     }
     .btn-outline {
         font-size: 12px!important;
-        width: 112px!important;
+        max-width: 286px!important;
         height: 17px!important;
     }
     .mb-1{

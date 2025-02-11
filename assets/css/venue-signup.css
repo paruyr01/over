@@ -283,7 +283,7 @@ input::-webkit-input-placeholder {
     color:#6C757D;
     font-size: 15px;
     line-height: 21px;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 .form-control-flex .form-control {
     flex: 1;
@@ -299,7 +299,7 @@ input::-webkit-input-placeholder {
     color: #3C3C3C;
     line-height: 23.07px;
     font-family: 'Inter', sans-serif;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .iti--allow-dropdown input {
     width: 100%;
