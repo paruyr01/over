@@ -788,7 +788,9 @@ body.advertise-page {
         width: 217px !important;
     }
     .section-7 .section-7-card:nth-child(3) h3 {
-        margin-top: -20px !important;
+        margin-top: -11px !important;
+        margin-left: -17px;
+        padding: 10px;
     }
     .section-7 .section-7-card:nth-child(3) p {
         display: none;
@@ -802,6 +804,7 @@ body.advertise-page {
 
     .section-7-card .center-div .card-text-content > b {
         font-size: 18px;
+        line-height: 30px;
     }
     .section-7-card .center-div .card-text-content span strong {
         font-size: 10px;
@@ -1056,6 +1059,9 @@ body.advertise-page {
         top: 180px;
 		width: 100px;
         height: 100px;
+    }
+    .footer-subscription .mb-button > button {
+        width: 90% !important;
     }
 }
 
