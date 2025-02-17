@@ -565,6 +565,10 @@ button{
   .footer-btn {
 	width: 60px;
   }
+  .icon_head{
+	width: 149px;
+	height: 29.54px;
+  }
   .nav-link > a {
 	line-height: 50%;
 	padding: 0 15px;
@@ -693,7 +697,7 @@ button{
     display: none;
 	}
   .mb-button  button {
-	background: linear-gradient(180deg, #00A3FB 0%, #0077FF 100%);
+	background: #0077FF;
 	padding: 7px 15px;
 	font-size: 13.4px;
 	font-weight: 600;
@@ -1830,7 +1834,7 @@ button{
 		line-height: 26.47px;
 	}
 	.section-6-right-card p{
-		margin-top: 15px;
+		margin-top: 12px;
 		font-size: 14px;
 		font-weight: 300;
 		line-height: 19.5px;
@@ -2586,7 +2590,7 @@ button{
 		padding: 0 0 19px;
 	}
 	.section-10-content .d-inline p{
-		font-size: 12.49px;
+		font-size: 16px;
 		font-weight: 300;
 		line-height: 19.42px;
 		color: #A1A1A1;
@@ -3020,6 +3024,9 @@ display: none;
 		display: none;
 		
 	}
+	header .container {
+		padding: 15px 20px !important;
+	}
 	.section-1-title p {
 		color: var(--grey-text);
         font-size: 16px;
@@ -3092,6 +3099,10 @@ display: none;
 	.entertain-box img{
 		width: 100%;
 	}
+	.icon_head{
+		width: 123px;
+		height: 24px;
+	  }
 	.entertainment-box {
 		background-color: #232323;
 	}
@@ -3584,7 +3595,7 @@ display: none;
 		line-height: 18.75px;
 	}
 	.section-6-right-card p  {
-		font-size: 11px;
+		font-size: 12px;
 		font-weight: 300;
 		line-height: 150%;
 		/* padding-left: 2%;
@@ -3889,6 +3900,13 @@ width: 109%;
 		text-align: center;
 
 	}
+	.icon_head{
+		width: 73px;
+		height: 14px;
+	  }
+	  .hamburger-menu  {
+		height: 14px;
+	  }
 	.affiliate-button {
 		width: 60% !important;
 	}
@@ -3968,8 +3986,8 @@ width: 109%;
 	.mb-button {
         display: flex;
         justify-content: center;
-		  width: 145px;
-		  height: 33px;
+		  width: 90.59px;
+		  height: 19.84px;
     }
 	.btn-outline {
 		padding: 3px 10px 3px 10px;
@@ -3982,6 +4000,7 @@ width: 109%;
 	.hamburger-menu-container svg {
 		width: 8px;
 		height: 8px;
+		margin-left: -12px;
 	}
 	.check-icon {
 		margin-left: 5%;
@@ -4040,9 +4059,9 @@ width: 109%;
 	display: block;
   }
   .section-6-right-card {
-	width: 84%;
+	width: 85%;
 	border-radius: 4px;
-	padding: 25px 14px 25px 14px;
+	padding: 25px 15px 25px 15px;
   }
   .section-10-header-title h4:nth-child(1) {
 		font-size: 18px;
@@ -4183,7 +4202,8 @@ width: 109%;
 	}
 	.wrapper .container .title p {
 		font-size: 16px;
-		line-height: 21px;
+		line-height: 22px;
+		width: 91%;
 	}
 	.section-2-title .btn-outline {
 		width: 287px;
@@ -4197,8 +4217,12 @@ width: 109%;
 		padding: 9px 11px;
 	}
 	.btn-color-white {
-		font-size: 14px;
+		font-size: 16px;
 		padding: 9px 11px;
+	}
+	.entertain-text h2 {
+		font-size: 24px;
+		line-height: 24px;
 	}
 	.section-1-title img:nth-child(3):not(.overtv-overlays) {
         top: 32px;
@@ -4212,7 +4236,10 @@ width: 109%;
 		height: 25px;
 	}
 	.section-3 {
-		margin-top: 25px;
+		margin-top: 35px;
+	}
+	.section-3 button {
+		margin-bottom: 20px;
 	}
 	.section-3-card-content img {
         width: 175px;
@@ -5581,13 +5608,16 @@ width: 109%;
 		.section-10-content .d-inline h5 {
 			font-weight: 400;
 		}
+		.section-4.home {
+			margin-top: 19px;
+		}
 }
 
 @media (max-width: 846px) {
-	header .container {
+	/* header .container {
 		padding-left: 30px;
 		padding-right: 30px;
-	}
+	} */
 }
 
 @media(max-width: 769px) {

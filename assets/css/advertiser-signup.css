@@ -530,6 +530,14 @@ input[type="checkbox"] {
         font-size: 12px;
         padding-top: 0px;
     }
+    .mb-button {
+        display: flex;
+        justify-content: center;
+        font-size: 9px;
+        width: 90.59px;
+        height: 19.84px !important;
+    }
+
 }
 
 @media (max-width: 576px) {

@@ -752,7 +752,7 @@ h1, p {
         height: 80%;
     }
     .blue-wd-5 img {
-        width: 17px;
+        width: 13px;
     }
     .group-2 {
         margin-top: 0px !important;
@@ -983,8 +983,8 @@ h1, p {
 
     .service-img .trivia_and_quiz {
         width: 135px;
-        margin-top: -11px;
-        height: 130px;
+        margin-top: 7px;
+        height: 110px;
     }
     .hide-moretv {
         display: none;
@@ -1054,7 +1054,7 @@ h1, p {
     .sevice-text h1 {
         font-size: 14px !important;
         line-height: 20px !important;
-        margin-top: 10px;
+        margin-top: 0px;
         max-width: 154px !important;
         
     }

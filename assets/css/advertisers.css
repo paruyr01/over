@@ -625,10 +625,14 @@ body.advertise-page {
     .realtime-6-ads-left h1 {
         font-size: 28px;
         line-height: 32px;
+        padding-top: 31px;
     }
     .realtime-6-ads-left p {
         font-size: 16px;
         line-height: 18px;
+    }
+    .realtime-6-ads-left p {
+        padding-top: 25px !important;
     }
     .realtime-6-ads-right {
         align-items: start;
@@ -1042,6 +1046,16 @@ body.advertise-page {
 		top: 155px;
 		width: 65px;
 	}
+    .accordion{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+    .accordion-title{
+        width: 91% !important;
+    }
+    .footer-subscription .mb-button {
+        height: 40px !important;
+    }
     .hide-mb {
         display: none;
     }
@@ -1055,6 +1069,7 @@ body.advertise-page {
 		aspect-ratio: 1 / 0.7 !important;
 		width: calc(100% - 40px) !important;
 	}
+    .ads-accordion {margin-top: 5px !important;}
 	.section-advertiser-1-title img:nth-child(2) {
         top: 180px;
 		width: 100px;
@@ -1104,7 +1119,7 @@ width: 100%;
 margin-top: 0px;
     }
     .advertise-page .wrapper .container .advertiser_block_section {
-        padding: 0px 10px !important;
+        padding: 0px 0px !important;
     }
     .realtime-6-ads-left {
         width: 100%;
