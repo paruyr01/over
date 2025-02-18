@@ -850,6 +850,7 @@ h1, p {
     .channel .section-subscription {
         /* border: none; */
         background-color: #161616;
+        margin-top: 5px !important;
     }
     .section-10-footer p{
         font-size: 12px !important;

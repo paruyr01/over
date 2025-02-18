@@ -1248,6 +1248,16 @@ w-100-pr {
     .hide-mb {
         display: none;
     }
+    .section-10{
+        padding: 20px 0px !important;
+        margin-top: 15px;
+    }
+       .footer-border {
+        width: 100%;
+    }
+    .section-10-header,.section-10-content,.section-10-footer{
+        padding-left: 0px !important;
+    }
 }
 @media (max-width: 650px) {
     .flex-card-tex{
@@ -1308,6 +1318,10 @@ w-100-pr {
         width: 32px;
         height: 27px;
         font-size: 10px;
+    }
+    .section-10{
+        padding: 20px 0px !important;
+        margin-top: 15px;
     }
 }
 @media screen and (max-width: 1400px) {

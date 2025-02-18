@@ -1070,8 +1070,22 @@ background:#1E1E1E ;
     .mb-button button {
         background:#007AFE;
         height: 33px;
-        width: 92% !important;
+        width: 100% !important;
     }
+    .footer-subscription {
+        margin-top: 5px;
+    }
+    .section-10{
+        padding: 20px 0px !important;
+        margin-top: 15px;
+    }
+       .footer-border {
+        width: 100%;
+    }
+    .section-10-header,.section-10-content,.section-10-footer{
+        padding-left: 0px !important;
+    }
+    
 }
 
 @media (max-width: 450px){

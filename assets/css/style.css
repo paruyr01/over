@@ -3025,7 +3025,7 @@ display: none;
 		
 	}
 	header .container {
-		padding: 15px 20px !important;
+		padding: 18px 20px !important;
 	}
 	.section-1-title p {
 		color: var(--grey-text);
@@ -3611,8 +3611,11 @@ display: none;
 		font-weight: 400;
 		line-height: 18px;
 		text-align: center;
-		/* max-width: 94%; */
+		max-width: 97%;
 		padding: 10px 20px;
+	}
+	.wrapper .container > .section-7 {
+		margin-top: 35px;
 	}
 	/* .hide-mobile {
 		display: none;
@@ -3969,12 +3972,14 @@ width: 109%;
 	}
 	.accordion .accordion-content p {
 		font-size: 12px;
-		font-weight: 400;
-		line-height: 15px;
+		font-weight: 300;
+		line-height: 16px;
 		text-align: left;
 		color: #EFEFEB;
 		padding-bottom: 10px;
-		padding-right: 40px;
+		/* padding-right: 40px; */
+		width: 315px;
+        letter-spacing: -0.16px;
 	}
 	.section-8 h1 {
 		font-size: 30px;
@@ -4018,6 +4023,7 @@ width: 109%;
 		line-height: 34px;
 		letter-spacing: -0.02em;
 		/* text-align: center; */
+		margin-top: 14px !important;
 
 	}
 	.swiper-slide {
@@ -4036,8 +4042,8 @@ width: 109%;
 	padding: 10px 0;
   }
   .accordion {
-	padding-left: 4%;
-	padding-right: 4%;
+	/* padding-left: 4%;
+	padding-right: 4%; */
 	gap: 4px;
   }
   /* Hide the navigation by default */
@@ -4139,9 +4145,10 @@ width: 109%;
 	}
 	.footer-subscription .mb-button{
 		width: 100%;
+		height: 40px;
 	}
 	  .footer-subscription .mb-button > button{
-		width: 83%;
+		width: 90%;
 		height: 33px;
 	}
 	.section-10-header {
@@ -4249,7 +4256,7 @@ width: 109%;
 	.section-3-card {
         width: 49%;
         height: 142px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 	.section-3-card-title h1{
 		font-size: 16px;

@@ -363,6 +363,7 @@ body.advertise-page {
     top: 1050px;
     right: -308px;
     max-width: 784px;
+    max-height: 731px;
 }
 .image-insight-container {
     display: flex;
@@ -715,10 +716,10 @@ body.advertise-page {
         max-width: 706px;
     }
     .image-insight{
-        top: 115px;
-        right: -408px;
+        top: 160px;
+        /* right: -408px; */
         max-width: 784px;
-        height: 784px;
+        height: 731px;
     }
     .ads-section-2{
         position: relative;
@@ -989,7 +990,7 @@ body.advertise-page {
 
     }
     .hero-text span {
-        background: linear-gradient(0deg, #2B7FFC 0%, #60EFFF 100%);
+        background: #007AFE;
         background-clip: text;
     }
 	.Campaign-section h1 {
@@ -1076,7 +1077,7 @@ body.advertise-page {
         height: 100px;
     }
     .footer-subscription .mb-button > button {
-        width: 90% !important;
+        width: 100% !important;
     }
 }
 
