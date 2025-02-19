@@ -44,7 +44,7 @@ body.advertise-page {
 .ads-accordion {
     /* position: absolute; */
     max-width: 600px;
-    margin: 20px auto;
+    margin: 15px auto;
 }
 .advertise-page .wrapper .container > .section-7 {
     align-items: center;
@@ -92,7 +92,7 @@ body.advertise-page {
     line-height: 24.04px;
     text-align: left;
     color: #CCCCCC;
-    padding-left: 45px;
+    padding-left: 28px;
 }
 
 .active .ads-accordion-content {
@@ -108,7 +108,7 @@ body.advertise-page {
 }
 
 .ads-accordion-item {
-    padding: 30px;
+    padding: 37px;
 }
 .hero-video video{
     max-width: 726px;
@@ -143,7 +143,7 @@ body.advertise-page {
 
 .hero-video img {
     position: absolute;
-    bottom: -65px;
+    bottom: -55px;
     z-index: 9;
     left: -46px;
     width: 198px;
@@ -157,7 +157,7 @@ body.advertise-page {
     line-height: 46.74px;
     letter-spacing: -0.03em;
     text-align: left;
-    background: linear-gradient(0deg, #2B7FFC 0%, #60EFFF 70.76%);
+    background: #007AFE;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -248,7 +248,7 @@ body.advertise-page {
 .advertise-page .wrapper .container .advertiser_block_section .ads-section-container > div {
     display: flex;
     gap: 45px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .advertise-page .wrapper .container .advertiser_block_section .ads-section-container .text-wrapper {
     display: flex;
@@ -322,6 +322,7 @@ body.advertise-page {
 }
 .ads-section-2 {
     margin-top: 150px;
+    margin-left:280px ;
 }
 .Campaign-section {
     width: 100%;
@@ -332,7 +333,7 @@ body.advertise-page {
     font-size: 44px;
     font-weight: 600;
     line-height: 54.15px;
-    padding-top: 40px;
+    padding-top: 30px;
     letter-spacing: -0.02em;
 }
 .ads-title-under p {
@@ -344,9 +345,9 @@ body.advertise-page {
     font-weight: 300;
     line-height: 31.7px;
     text-align: left;
-    color: #CCCCCC;
+    color: #ffffff99;
     max-width: 754px;
-    margin-top: 10px;
+    margin-top: 20px;
     letter-spacing: 0.1px;
 }
 
@@ -420,7 +421,8 @@ body.advertise-page {
     margin-top: 50px;
 }
 .Campaign-section button {
-    margin-top: 26px;
+    margin-top: 20px;
+    font-size: 16px !important;
 }
 .section-realtime {
     padding: 10px 0 10px 0;
@@ -433,7 +435,7 @@ body.advertise-page {
     width: 50%;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 .ad-section-6-ads-left h1,
 .ad-section-6-ads-right h1
@@ -511,12 +513,23 @@ body.advertise-page {
     padding: 65px 12px 3px 12px;
 }
 .advertiser_block_section .section-7 h1 {
-    padding: 25px 0;
+    padding: 25px 0 !important;
     margin-bottom: unset;
     line-height: 53px;
 }
 .advertiser_block_section .section-7 > button {
-    line-height: unset;
+    line-height: 0px;
+    padding: 15px 18px;
+}
+.section-7 h1 {
+    max-width: 629px !important;
+}
+.section-7 .section-7-card:nth-child(1),.section-7 .section-7-card:nth-child(2),.section-7 .section-7-card:nth-child(3){
+height: 363px !important;
+max-width:305px !important ;
+}
+.section-7 .section-7-card:nth-child(1) p, .section-7 .section-7-card:nth-child(3) p {
+    margin-top: -50px !important;
 }
 .realtime-6-ads-left > .site-btn{
     border-radius: 3.6px;
@@ -528,7 +541,14 @@ body.advertise-page {
 }
 .section-7-card .center-div .card-text-content > b{
    font-size: 30.75px;
-   line-height: 40px;
+   line-height: 34px !important;
+   margin-top: 10px !important;
+}
+.section-7 .section-7-card:nth-child(2) span {
+    line-height: 34px !important;
+}
+.section-7 .section-7-card:nth-child(2) {
+    padding: 30px !important;
 }
 .section-7-card .center-div .card-text-content span strong{
     font-size: 15.5px;
@@ -536,6 +556,7 @@ body.advertise-page {
 .section-7-card-group .section-7-card .center-div.advertiser > p{
     font-size: 12px;
     margin-top: 2px !important;
+    width: 96%;
 }
 
 .site-btn2 {
@@ -880,7 +901,7 @@ body.advertise-page {
         line-height: 24.23px;
         letter-spacing: -0.03em;
         text-align: left;
-        max-width: 75%;
+        max-width: 77%;
        
     }
     .hero-text button {
@@ -1000,16 +1021,34 @@ body.advertise-page {
 	}
     .ads-section-2 {
         margin-top: 48px;
+        margin-left: 0px ;
     }
     .mobile-ad-image img{
         left: 2%;
     }
-
+    .ads-accordion-item {
+        padding: 20px;
+    }
+    .active {
+        margin-bottom: 10px;
+    }
+    .advertise-page .wrapper .container .advertiser_block_section .ads-section-container > div {
+        margin-top: 10px;
+    }
+    .section-7 .section-7-card:nth-child(2) {
+        height: 192px !important;
+    }
     .section-7-card-group .section-7-card{
-        min-width: 160px !important;
+        min-width: 159px !important;
     }
     .hero-video video{
         left: 13% !important;
+    }
+    .advertiser_block_section .section-7 > button {
+        padding: 15px 0px;
+    }
+    .section-7-card .center-div .card-text-content > b {
+        margin-top: 0px !important;
     }
     .section-7 .section-7-card:nth-child(1) h3 {
         width: 100% !important;
@@ -1108,8 +1147,9 @@ body.advertise-page {
     }
     .ads-accordion .ads-accordion-item.active{
         min-width: 339px;
-        max-height: 120px;
-        padding: 15px;
+        max-height: 99px;
+        padding-top: 12px ;
+        padding-bottom: 18px;
     }
     .section-7 {
         /*margin-left: 27px !important;*/
@@ -1347,13 +1387,15 @@ margin-top: 0px;
     }
     .ads-section-2{
         margin-top: 100px;
+        margin-left: 0px !important;
     }
     .ads-section-2 .Campaign-section{
         flex-direction: column;
     }
     .ads-section-2 .image-insight-container .image-insight{
-        margin-top: 80px;
-        right: -90px;
+        margin-top: 73px;
+        right: -16px;
+        width: 395px;
     }
     .ads-accordion .ads-accordion-item.active{
         min-width: 406px;
@@ -1499,16 +1541,31 @@ margin-top: 0px;
     .ad-section-6-ads-right {
         margin-top: 20px;
     }
+    .section-7 .section-7-card:nth-child(1) p, .section-7 .section-7-card:nth-child(3) p {
+        margin-top: 0px !important;
+    }
+    .section-7-card .center-div .card-text-content > b {
+        line-height: 19px !important;
+    }
+    .section-7 .section-7-card:nth-child(2) span {
+        line-height: 24px !important;
+       
+    }
     .advertise-page .wrapper .container .advertiser_block_section {
         padding: 20px;
     }
     .br-lang .section-7 .section-7-card:nth-child(3) h3 {
         padding-left: 0px !important;
         width: 95%;
+        margin-top: -32px !important;
     }
     .br-lang .section-7 .section-7-card:nth-child(1) h3 {
         padding-left: 0px !important;
         width: 95%;
+        margin-top: -32px !important;
+    }
+    .section-7 .section-7-card:nth-child(1), .section-7 .section-7-card:nth-child(2), .section-7 .section-7-card:nth-child(3) {
+        height: 265px !important;
     }
     .section-7 .section-7-card:nth-child(3) p {
         padding-left: 0px !important;

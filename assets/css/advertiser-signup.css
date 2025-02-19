@@ -459,7 +459,13 @@ input[type="checkbox"] {
     position: relative; 
     padding-right: 30px; 
 }
-
+.section-10-content .d-inline {
+    display: flex;
+    flex-direction: column !important;
+}
+.d-inline  a{
+    margin-bottom: 15px;
+}
 @media (max-width: 1536px) {
     .advertiser-container {
         padding: 8px;
@@ -535,6 +541,10 @@ input[type="checkbox"] {
         font-size: 9px;
         width: 90.59px;
         height: 19.84px !important;
+    }
+    .section-10-content .d-inline {
+        display: flex;
+        flex-direction: column !important;
     }
 
 }

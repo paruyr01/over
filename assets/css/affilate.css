@@ -891,7 +891,7 @@ background:#1E1E1E ;
     }
     .affiliate-container .earning_resources_description {
         font-size: 16px;
-        line-height: 18.5px;
+        line-height: 22px;
         max-width: 339px;
         margin-top: 15px;
         padding-top: 0px;
@@ -934,11 +934,22 @@ background:#1E1E1E ;
         height: 339px;
     }
 
-    .affiliate-container .section-4-card-icon svg {
-        width: 65px !important;
+    .affiliate-container .section-4-card-icon1 svg {
+        width: 70px !important;
         height: 65px !important;
     }
-
+    .affiliate-container .section-4-card-icon3 svg {
+        width: 65px !important;
+        height: 50px !important;
+    }
+    .affiliate-container .section-4-card-icon2 svg {
+        width: 52px !important;
+        height: 52px !important;
+    }
+    .affiliate-container .section-4-card-icon4 svg {
+        width: 59px !important;
+        height: 52px !important;
+    }
     .section-4-card-group .section-4-card {
         margin-bottom: 10px;
         border: 1px solid #737373
@@ -947,16 +958,18 @@ background:#1E1E1E ;
     .affiliate-container .section-4-card h1{
         font-size: 24px;
         line-height: 35.6px;
+        margin-top: 0px !important;
     }
     .section-6-left h1 {
-        margin-top: 30px !important;
+        margin-top: 10px !important;
+        margin-bottom: 0px;
     }
 
     .affiliate-container .section-4-card p {
         font-size: 18px;
         font-weight: 300;
-        line-height: 20px;
-        max-width: 304.8px;
+        line-height: 23px;
+        max-width: 270px;
     }
     .btn{
         display: none;
@@ -999,17 +1012,21 @@ background:#1E1E1E ;
         font-size: 12px;
         line-height: 18px;
         padding: 0px;
+        margin-top: 6px !important;
     }
     .affiliate-body .affiliate_page .section-7 .section-7-card .second_block_text {
-        font-size: 9px;
+        font-size: 8px;
         line-height: 14px;
         margin-top: 0px;
     }
     .affiliate-body .affiliate_page .section-7 .section-7-card .second_block_sub_title {
-        font-size: 12.5px;
+        font-size: 10px;
         line-height: 16.3px;
     }
 
+    .section-6-right-card {
+        padding: 30px 21px;
+    }
     .affiliate-body .affiliate_page .section-7 .section-7-card .second_block_title {
         font-size: 15.75px;
         line-height: 30.3px;
@@ -1035,6 +1052,7 @@ background:#1E1E1E ;
     }
     .affiliate-container .section-7-card-content {
         padding-top: 20px;
+        display: none;
     }
     .affiliate-body .section-8 {
         margin-top: 35px;
@@ -1054,7 +1072,11 @@ background:#1E1E1E ;
     }
     .accordion-item span {
         font-size: 12px !important;
-        line-height: 17px !important;
+        line-height: 16px !important;
+        letter-spacing: -0.19px;
+    }
+    .accordion-item .accordion-title {
+        width: 305px;
     }
     .affiliate-body .section-8 p {
         font-size: 12px !important;
@@ -1062,10 +1084,10 @@ background:#1E1E1E ;
         padding-right: 0px !important;
     }
     .affiliate-body .affiliate-container .accordion-item {
-        padding: 10px 15px !important;
+        padding: 10px 10px !important;
     }
     .mb-button{
-        height: 33px !important;
+        height: 19.83px !important;
     }
     .mb-button button {
         background:#007AFE;
@@ -1074,6 +1096,9 @@ background:#1E1E1E ;
     }
     .footer-subscription {
         margin-top: 5px;
+    }
+    .footer-subscription .mb-button {
+        height: 40px !important;
     }
     .section-10{
         padding: 20px 0px !important;

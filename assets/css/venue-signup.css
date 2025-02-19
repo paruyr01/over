@@ -556,6 +556,12 @@ input[type="checkbox"] {
         width: 100%;
         gap:0px;
     }
+    .terms-checkbox-margin {
+        margin-top: 36px;
+    }
+    .terms-checkbox {
+        align-items: center;
+    }
 }
 
 @media (max-width: 480px) {
