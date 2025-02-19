@@ -320,7 +320,7 @@ button{
     /*max-width: 98px;*/
 
     height: 27px;
-    padding: 5px 16px 5px 16px;
+    padding: 5px 15px 5px 15px;
     border: 0.94px solid #0886FB;
     color: var(--link-color);
     background: transparent;
@@ -2153,7 +2153,7 @@ button{
 	}
 	.section-8{
 		width: 100%;
-		/* max-width: 916px; */
+		max-width: 916px;
 		margin: 92px auto 0;
 		/* margin-left: 3%; */
 		display: flex;
@@ -3103,7 +3103,7 @@ display: none;
 		
 	}
 	.mt-md-4 {
-		margin-top: 2rem !important;
+		margin-top: 44px !important;
 		margin-bottom: 1rem;
 	}
 	.entertain-box img{
