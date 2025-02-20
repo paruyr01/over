@@ -992,6 +992,7 @@ w-100-pr {
         text-align: start;
         /* max-width: 339px; */
         margin-top: 0;
+        padding-left: 5px;
     }
 
     .venue-section-2 p{
@@ -1000,7 +1001,7 @@ w-100-pr {
         line-height: 18.5px;
         text-align: start;
         color: #ffffff;
-        max-width: 339px;
+        max-width: 341px;
         margin-top: 20px;
     }
 
@@ -1110,7 +1111,7 @@ w-100-pr {
     }
     .card_item {
         flex-direction: column;
-        padding: 10px 10px;
+        padding: 10px 10px 10px 5px;
        
     }
     .card-container{
@@ -1128,6 +1129,7 @@ w-100-pr {
         font-size: 28px !important;
         line-height: 32px;
         margin-bottom: 0px;
+        padding-left: 0px !important;
     }
     .venue-margin {
         margin-bottom: 10px;
@@ -1213,7 +1215,7 @@ w-100-pr {
         display: flex;
         flex-direction: column;
         color: var(--white);
-        padding: 0px 15px;
+        padding: 0px 12px;
     }
 
     .venue-text, .hero-video {

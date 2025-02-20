@@ -295,7 +295,7 @@ input::-webkit-input-placeholder {
 .form-control label {
     font-size: 14px;
     font-weight: 500;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
     color: #3C3C3C;
     line-height: 23.07px;
     font-family: 'Inter', sans-serif;
@@ -523,14 +523,14 @@ input[type="checkbox"] {
     .venue-container {
         flex-direction: column-reverse; 
         gap: 15px; 
-        margin-top: 2rem;
+        margin-top: 35px;
         align-items: center;
     }
     .form-control-flex .form-control {
         width: 100%;
     }
     .form-control label {
-        margin-top: 10px;
+        margin-top: 15px;
     }
     .col-left{
         width: 95%;
@@ -557,7 +557,7 @@ input[type="checkbox"] {
         gap:0px;
     }
     .terms-checkbox-margin {
-        margin-top: 36px;
+        margin-top: 31.64px;
     }
     .terms-checkbox {
         align-items: center;

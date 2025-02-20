@@ -62,6 +62,7 @@ body.advertise-page {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 10px;
 }
 .custon-icon {
     font-size: 20px;
@@ -245,6 +246,21 @@ body.advertise-page {
 .advertise-page .wrapper .container .advertiser_block_section {
     padding: 0 132px;
 }
+.ads-section-container{
+    margin-top: 117px;
+}
+.br-lang .section-7 .section-7-card:nth-child(3) h3 {
+    width: 96% !important;
+}
+.section-8 h1 {
+    font-size: 47.12px !important;
+}
+.section-8 p {
+    font-size: 21.42px !important;
+}
+.br-lang .section-8 .faq-title p {
+    max-width: 594px !important;
+}
 .advertise-page .wrapper .container .advertiser_block_section .ads-section-container > div {
     display: flex;
     gap: 45px;
@@ -257,7 +273,20 @@ body.advertise-page {
     align-self: center;
  
 }
-
+/* .accordion-content p{
+    font-size: 18.21px !important;
+    line-height: 32.1px !important;
+    letter-spacing: -0.65px !important;
+}
+.accordion-item .accordion-title {
+    font-size: 20px !important;
+    line-height: 34.3px !important;
+    letter-spacing: -0.81px !important;
+}
+.section-8 {
+    width: 97% !important;
+    max-width: 980px !important;
+} */
 
 .insights-section {
     display: flex;
@@ -297,6 +326,16 @@ body.advertise-page {
     height: 34px;
     padding: 0px 19px;
     white-space: nowrap;
+    font-size: 15px;
+}
+.section-8 .faq-btn {
+    margin-bottom: 15px !important;
+}
+.section-8 .faq-title p {
+    margin-top: 15px !important;
+}
+.section-8-wrapper {
+    padding-top: 34.15px !important;
 }
 .section-8 .section-8-wrapper .border-shape.triangle{
     right: -156%;
@@ -587,6 +626,11 @@ max-width:305px !important ;
     font-size: 16.36px;
     letter-spacing: -0.31px;
 }
+.footer-subscription .mb-button > button {
+    width: 100% !important;
+    background: #007AFE !important;
+}
+
 @media (max-width: 810px){
     .wrapper .container .ads-title span{
 		font-size: 28px;
@@ -644,10 +688,13 @@ max-width:305px !important ;
         padding-bottom: 0px;
         width: 342px;
     }
+    .section-7 .section-7-card:nth-child(1), .section-7 .section-7-card:nth-child(2), .section-7 .section-7-card:nth-child(3)  {
+        height: 192px !important;
+    }
     .realtime-6-ads-left h1 {
         font-size: 28px;
         line-height: 32px;
-        padding-top: 31px;
+        padding-top: 41px;
     }
     .realtime-6-ads-left p {
         font-size: 16px;
@@ -655,6 +702,18 @@ max-width:305px !important ;
     }
     .realtime-6-ads-left p {
         padding-top: 25px !important;
+    }
+    .section-8 h1 {
+        font-size: 30px !important;
+    }
+    .section-8 p {
+        font-size: 14px !important;
+        line-height: 18px !important;
+        letter-spacing: 0px !important;
+        font-weight: 300 !important;
+    }
+    .section-8-wrapper {
+        padding-top: 20px !important;
     }
     .realtime-6-ads-right {
         align-items: start;
@@ -792,6 +851,9 @@ max-width:305px !important ;
         background-position: center 60px !important;
         overflow-x: hidden;
     }
+    .section-10-footer p {
+        font-size: 14px !important;
+    }
     .scale{
         height: 21px !important;
         width:155px !important;
@@ -826,6 +888,7 @@ max-width:305px !important ;
     }
     .section-7 .section-7-card:nth-child(2) span {
         line-height: 12px !important;
+        font-size: 10px !important;
     }
 
     .section-7-card .center-div .card-text-content > b {
@@ -834,13 +897,14 @@ max-width:305px !important ;
     }
     .section-7-card .center-div .card-text-content span strong {
         font-size: 10px;
+        line-height: 16px;
     }
     .section-7-card-group .section-7-card .center-div.advertiser > p {
         font-size: 8px;
-        width: 90%;
+        width: 100%;
     }
     .wrapper{
-        padding: 0px 20px;
+        padding: 0px 18px;
     }
     .sm-block {
         display: block !important;
@@ -1039,7 +1103,7 @@ max-width:305px !important ;
         height: 192px !important;
     }
     .section-7-card-group .section-7-card{
-        min-width: 159px !important;
+        min-width: 155px !important;
     }
     .hero-video video{
         left: 13% !important;
@@ -1048,7 +1112,8 @@ max-width:305px !important ;
         padding: 15px 0px;
     }
     .section-7-card .center-div .card-text-content > b {
-        margin-top: 0px !important;
+        margin-top: 5px !important;
+        line-height: 27px !important;
     }
     .section-7 .section-7-card:nth-child(1) h3 {
         width: 100% !important;
@@ -1057,7 +1122,7 @@ max-width:305px !important ;
     #advertiser_mb_h3 {
 		line-height: 16px !important;
 		width: 83% !important;
-		margin-top: -8px !important;
+		margin-top: 2px !important;
 	}
     .section-8 {
         margin-top: 40px !important;
@@ -1115,7 +1180,10 @@ max-width:305px !important ;
 		aspect-ratio: 1 / 0.7 !important;
 		width: calc(100% - 40px) !important;
 	}
-    .ads-accordion {margin-top: 5px !important;}
+    .ads-accordion {
+        margin-left: 5px !important;
+        margin-top: 5px !important;
+    }
 	.section-advertiser-1-title img:nth-child(2) {
         top: 180px;
 		width: 100px;
@@ -1139,6 +1207,7 @@ max-width:305px !important ;
     }
     .hero-text {
         margin-top: 39px;
+        margin-left: 12px;
     }
     .hero-container .spaces {
         flex-direction: column;
@@ -1147,7 +1216,7 @@ max-width:305px !important ;
     }
     .ads-accordion .ads-accordion-item.active{
         min-width: 339px;
-        max-height: 99px;
+        max-height: 102px;
         padding-top: 12px ;
         padding-bottom: 18px;
     }
@@ -1394,12 +1463,18 @@ margin-top: 0px;
     }
     .ads-section-2 .image-insight-container .image-insight{
         margin-top: 73px;
-        right: -16px;
-        width: 395px;
+        right: 0px;
+        width: 340px;
     }
     .ads-accordion .ads-accordion-item.active{
         min-width: 406px;
-        height: 118px;
+        height: 128px;
+    }
+    .ads-accordion-item {
+        padding: 20px;
+    }
+    .active{
+        margin-bottom: 12px;
     }
     .hero-container {
         display: flex;
@@ -1416,8 +1491,8 @@ margin-top: 0px;
 @media (min-width: 770px) and (max-width: 1080px) {
 
     .hero-text {
-        width: 100%;
-        left: 0px;
+        width: 90%;
+        left:33px;
         margin-top: 41px;
     }
     .hide-for-desktop {
@@ -1441,8 +1516,8 @@ margin-top: 0px;
         width: 6%;
     }
     .hero-video {
-        width: 100%;
-        width: 100%;
+       
+        width: 95%;
         display: flex;
         padding-top: 25px;
         justify-content: end;
@@ -1545,7 +1620,7 @@ margin-top: 0px;
         margin-top: 0px !important;
     }
     .section-7-card .center-div .card-text-content > b {
-        line-height: 19px !important;
+        line-height: 28px !important;
     }
     .section-7 .section-7-card:nth-child(2) span {
         line-height: 24px !important;
@@ -1582,7 +1657,7 @@ margin-top: 0px;
     .hero-video img {
         width: 129px;
         bottom: -7px;
-        left: 14%;
+        left: 18%;
         height: 129px;
     }
     .Campaign-section p {
@@ -1639,10 +1714,14 @@ margin-top: 0px;
         line-height: 12px;
     }
     .hero-video video {
-        width: 78%;
-        right: 20px;
+        width: 79%;
+        right: -24px;
         height: 381px !important;
         position: absolute;
+    }
+    .section-7-card-group .section-7-card .center-div.advertiser > p {
+        font-size: 10px !important;
+        line-height: 16px !important;
     }
     .hero-video .border-shape.shape5{
         top: -252px;
@@ -1650,12 +1729,13 @@ margin-top: 0px;
     }
     .ads-section-2{
         margin-top: 30px;
+        padding-left: 25px !important;
     }
     .hero-container {
         display: flex;
         flex-direction: column;
         margin-top: 0px;
-        margin-left: 60px;
+        /* margin-left: 60px; */
     }
     body {
         /*background-image: url('/assets/image/advertiser-ipad.png') !important;*/

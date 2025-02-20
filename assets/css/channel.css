@@ -670,7 +670,7 @@ h1, p {
 
 @media (max-width: 846px) and (min-width: 320px) {
     .hero-channel {
-        height: 535px;
+        height: 525px;
     }
     .bg-video {
         height: 460px;
@@ -766,7 +766,7 @@ h1, p {
         height: 80%;
     }
     .blue-wd-5 img {
-        width: 13px;
+        width: 8px;
     }
     .group-2 {
         margin-top: 0px !important;
@@ -774,10 +774,11 @@ h1, p {
     .video-content h1 {
         font-size: 31.23px !important;
         margin-left: 30px;
+        width: 87%;
     }
 
     .video-content p {
-        width: 100%;
+        width: 85%;
         max-width: 321px;
         font-size: 13px !important;
         line-height: 17px;
@@ -822,7 +823,7 @@ h1, p {
         width: 9px;
     }
     .sevice-text {
-        padding: 7px;
+        padding: 5px;
     }
     .sevice-text h1 {
         font-size: 10px !important;
@@ -855,7 +856,7 @@ h1, p {
         font-size: 12px;
     }
     .service-img {
-        margin-top: 10px;
+        margin-top: 12px;
     }
     .header-title h4 {
         /* display: none; */
@@ -870,7 +871,7 @@ h1, p {
         margin-top: 5px !important;
     }
     .section-10-footer p{
-        font-size: 12px !important;
+        font-size: 14px !important;
     }
 }
 
@@ -889,7 +890,7 @@ h1, p {
 
 @media (max-width: 560px){
     .hero-content {
-        padding-top: 50px !important;
+        padding-top: 51px !important;
     }
     .hero-content img{
         margin-top: 0px !important;
@@ -1095,7 +1096,7 @@ h1, p {
     }
     .content-service {
         justify-content: space-between;
-        height: 106% !important;
+        height: 107% !important;
     }
     .section-subscription {
         display: block !important;
