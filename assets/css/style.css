@@ -3532,7 +3532,8 @@ display: none;
 
 	}
 	.section-10-content .d-inline span{
-		font-size: 13px;
+		font-size: 13.81px;
+		color:#A1A1A1;
 	}
 	.section-10-content .container {
 		display: block;
@@ -3558,6 +3559,8 @@ display: none;
 	.section-10-footer img{
 		margin-top: 10px;
 		margin-bottom: 25px;
+		width: 15px !important;
+		height: 15px !important;
 	}
 	.wrapper .container .title h1{
 		font-size: 27px;

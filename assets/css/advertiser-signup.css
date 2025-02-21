@@ -202,12 +202,16 @@ body {
 .submit-form h2{
     font-size: 22px;
 }
+.already p{
+    font-size: 16px !important;
+}
+
 .signup-form p,a {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 16px ;
+    font-weight: 500;
     letter-spacing: -0.5px;
     text-align: left;
-    /* color: white; */
+    color: #001B30;
 }
 .contact-button {
     font-size:16px ;
