@@ -47,6 +47,9 @@ body.home-page{
 	.hidden-sm {
 		display: none !important;
 	}
+	.home-page .wrapper .container .home_mobile_title{
+		margin-top: 15px;
+	}
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
