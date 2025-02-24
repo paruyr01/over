@@ -1303,18 +1303,22 @@ button{
 		max-width: 95%;
 		color: var(--dark-grey);
 	}
-	.section-2-title .btn-outline{
+
+  html[lang="BR"] .section-2-title .btn-outline{
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
 		margin-bottom: 35px;
-		width: 339.47px;
+		width: 339.47px !important;
 		height: 27.74px;
 		border-radius: 4.7px;
 		cursor: default !important;
 		margin-bottom: 25px !important;
 	}
+	html[lang="EN"] .section-2-title .btn-outline {
+		width: 100px !important;
+  }
 	.section-2-title h1{
 		font-size: 44px;
 		color: var(--white);
@@ -1923,6 +1927,16 @@ button{
 		text-align: left;
 		width: 97%;
 		/* padding-left: 7px; */
+	}
+	html[lang="EN"] .section-7 .section-7-card:nth-child(1) h3
+	{
+		width: 91%;
+	}
+	html[lang="EN"] .home-page .section-7-card-content {
+		padding-top: 6px;
+	}
+	html[lang="EN"] .section-7-card-header {
+		height: 100%;
 	}
 	.section-7 .section-7-card:nth-child(1) p, .section-7 .section-7-card:nth-child(3) p{
 		font-size: 14px;

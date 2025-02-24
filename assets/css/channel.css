@@ -259,7 +259,10 @@ body.channel .section-10 .border-shape.shape2{
     -webkit-text-fill-color: transparent;
     margin-top: 0rem;
 }
-
+html[lang="EN"] .hero-content button {
+    width: 196px;
+    font-size: 14px;
+}
 .hero-content button {
     width: 162px;
     height: 40px;

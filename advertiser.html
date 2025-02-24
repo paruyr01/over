@@ -105,7 +105,7 @@
         </div>
 
         <div class="hamburger-menu-container mb-head">
-            <a href="/signup.html" class="contact-button mb-button"><span data-i18n="advertise" style="margin-right: 10px;"> Get Your Free Player </span>
+            <a href="/signup.html" class="contact-button mb-button"><span data-i18n="advertise" style="margin-right: 10px;"> Create Campaign </span>
                 <svg width="13" height="11" style="margin-top: -2px;" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                             d="M12.2421 4.18234L2.2943 12.5771L0.660034 11.198L10.6066 2.80322H1.84008V0.852539H14.5536V11.5813H12.2421V4.18234Z"
@@ -301,14 +301,9 @@
                     <div class="ad-section-6-ads-left text-wrapper">
                         <div class="border-shape  b2 absolute shape3 w-full h-full skew-x-10 border-top-right-15"></div>
                         <h1 class="wow fadeInUp" data-i18n="ads_full_control_schedule_budget_6_1"
-                            style="visibility: visible; animation-name: fadeInUp;">Controle total de cronograma e
-                            orçamento</h1>
+                            style="visibility: visible; animation-name: fadeInUp;">Total Segmentation</h1>
                         <p class="wow fadeInUp py-2" data-i18n="ads_total_control_manage_6_1"
-                           style="visibility: visible; animation-name: fadeInUp;">Você tem controle total para gerenciar
-                            a
-                            programação, o orçamento e o status da campanha com facilidade. Inicie, pause ou ajuste
-                            sempre
-                            que precisar.</p>
+                           style="visibility: visible; animation-name: fadeInUp;">No other platform gives you this much control. Location, interests, content type, even devices. You decide every detail.</p>
                     </div>
                     <div class="ad-section-6-ads-right " >
                         <img class="hidden-sm" src="assets/image/schedule-budget.png" style="width: 468px; height: 300px;">
@@ -326,7 +321,7 @@
                     <div class="section-7-card-group">
                         <div class="section-7-card wow fadeInUp" data-wow-delay="0.1s">
                             <div class="section-7-card-header">
-                                <h3 data-i18n="testimonial_quote_advertiser" id="advertiser_mb_h3" style="margin-top: -54px; padding-left: 20px;padding-top: 10px;font-weight: 400;">
+                                <h3 data-i18n="testimonial_quote_advertiser" id="advertiser_mb_h3" style="margin-top: -10px; padding-left: 20px;padding-top: 10px;font-weight: 400;">
                                     “We never thought our screens could drive such
                                     engagement!
                                     Over makes it easy to create a vibrant environment while also bringing in additional
@@ -544,8 +539,8 @@
                   </span>
                                 </button>
                                 <ul class="dropdown-menu">
-                                    <li><span data-lang="BR">Português</span></li>
-                                    <li><span data-lang="EN">English</span></li>
+                                    <li><span data-lang="BR" onclick="changeLang(this)">Português</span></li>
+                                    <li><span data-lang="EN" onclick="changeLang(this)">English</span></li>
                                     <!-- <li><span data-lang="ES">Español</span></li> -->
                                 </ul>
                             </div>
@@ -589,6 +584,18 @@
 <script src="assets/js/script.js"></script>
 <script src="assets/js/swiper.min.js"></script>
 <script>
+
+function changeLang(element) {
+    const selectedLang = element.getAttribute("data-lang");
+    document.documentElement.setAttribute("lang", selectedLang);
+    localStorage.setItem("selectedLang", selectedLang); // Save for future visits
+}
+
+// Apply stored language on page load
+document.addEventListener("DOMContentLoaded", function () {
+    const savedLang = localStorage.getItem("selectedLang") || "EN";
+    document.documentElement.setAttribute("lang", savedLang);
+});
     $('.ads-accordion-item').on('click', function () {
         const stepImages = $('.step-image');
         if (stepImages) {

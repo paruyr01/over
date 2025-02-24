@@ -162,6 +162,9 @@ body.advertise-page {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+html[lang="EN"] .hero-text button {
+    font-size: 14px;
+}
 .hero-text button {
     width: 100%;
     max-width: 173.59px;
@@ -459,6 +462,15 @@ body.advertise-page {
 .accordion-box {
     margin-top: 50px;
 }
+html[lang="EN"]  .Campaign-section button {
+    font-size: 14px !important;
+}
+html[lang="EN"] .section-7 .section-7-card:nth-child(1) h3 {
+    margin-top: 0px !important;
+}
+html[lang="EN"] .section-7 .section-7-card:nth-child(3) h3 {
+    margin-top: 0px !important;
+}
 .Campaign-section button {
     margin-top: 20px;
     font-size: 16px !important;
@@ -569,6 +581,9 @@ max-width:305px !important ;
 }
 .section-7 .section-7-card:nth-child(1) p, .section-7 .section-7-card:nth-child(3) p {
     margin-top: -50px !important;
+}
+html[lang="BR"] .section-7 .section-7-card:nth-child(1) p{
+    margin-top: 0px !important;
 }
 .realtime-6-ads-left > .site-btn{
     border-radius: 3.6px;
