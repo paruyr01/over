@@ -809,8 +809,8 @@
                   </span>
                </button>
                <ul class="dropdown-menu">
-               <li><span data-lang="BR">Português</span></li>
-               <li><span data-lang="EN">English</span></li>
+               <li><span data-lang="BR" onclick="changeLang(this)">Português</span></li>
+               <li><span data-lang="EN" onclick="changeLang(this)">English</span></li>
                <!-- <li><span data-lang="ES">Español</span></li> -->
                </ul>
             </div>
@@ -846,6 +846,18 @@
       <script src="assets/js/custom.js"></script>
       <script src="assets/js/swiper.min.js"></script>
       <script>
+
+function changeLang(element) {
+    const selectedLang = element.getAttribute("data-lang");
+    document.documentElement.setAttribute("lang", selectedLang);
+    localStorage.setItem("selectedLang", selectedLang); // Save for future visits
+}
+
+// Apply stored language on page load
+document.addEventListener("DOMContentLoaded", function () {
+    const savedLang = localStorage.getItem("selectedLang") || "EN";
+    document.documentElement.setAttribute("lang", savedLang);
+});
          var swiper = new Swiper(".text-slider", {
             slidesPerView: 4,
             spaceBetween: 10,

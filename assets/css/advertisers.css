@@ -162,9 +162,9 @@ body.advertise-page {
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-html[lang="EN"] .hero-text button {
+/* html[lang="EN"] .hero-text button {
     font-size: 14px;
-}
+} */
 .hero-text button {
     width: 100%;
     max-width: 173.59px;
@@ -462,9 +462,9 @@ html[lang="EN"] .hero-text button {
 .accordion-box {
     margin-top: 50px;
 }
-html[lang="EN"]  .Campaign-section button {
+/* html[lang="EN"]  .Campaign-section button {
     font-size: 14px !important;
-}
+} */
 html[lang="EN"] .section-7 .section-7-card:nth-child(1) h3 {
     margin-top: 0px !important;
 }

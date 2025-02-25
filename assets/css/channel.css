@@ -249,20 +249,23 @@ body.channel .section-10 .border-shape.shape2{
 .left_image_1 {
     border-radius: 5px !important;
 }
+html[lang="En"] .hero-content span {
+    line-height:75.59px;
+}
 .hero-content span {
     font-size: 64px;
     font-weight: 800;
-    line-height: 64.59px;
+    line-height:64.59px;
     text-align: center;
     background: linear-gradient(0deg, #146EF5 0%, #60EFFF 70.76%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 0rem;
 }
-html[lang="EN"] .hero-content button {
+/* html[lang="EN"] .hero-content button {
     width: 196px;
     font-size: 14px;
-}
+} */
 .hero-content button {
     width: 162px;
     height: 40px;

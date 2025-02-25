@@ -1316,9 +1316,9 @@ button{
 		cursor: default !important;
 		margin-bottom: 25px !important;
 	}
-	html[lang="EN"] .section-2-title .btn-outline {
+	/* html[lang="EN"] .section-2-title .btn-outline {
 		width: 100px !important;
-  }
+  } */
 	.section-2-title h1{
 		font-size: 44px;
 		color: var(--white);

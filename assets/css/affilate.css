@@ -233,7 +233,15 @@
     margin: 0px!important;
     margin-top: 0px!important;
 }
-
+html[lang="BR"] .section-7-card-header {
+    height: 90% !important;
+}
+html[lang="EN"] .section-7 .section-7-card:nth-child(1) h3 {
+    width: 89%;
+}
+html[lang="EN"]  .section-7 .section-7-card:nth-child(3) p {
+    margin-top: -3px;
+}
 .affiliate-body .affiliate-button div {
     font-family: "Inter", sans-serif;
     font-size: 16.27px;
