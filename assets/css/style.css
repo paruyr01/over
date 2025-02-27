@@ -585,7 +585,7 @@ button{
 	align-items: center;
 	justify-content: space-between;
 	transition: .5s;
-	font-family: "Poppins", sans-serif;
+	font-family: "Poppins", sans-serif !important;
   }
 
   .nav-link > a span {
